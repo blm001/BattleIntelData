@@ -1,0 +1,884 @@
+﻿ship_id;Ship;Tier;Class;Nation;Damage Con;Duration;Repair;Repair Duration;Repair %;Smoke;Smoke Duration;Smoke Dispersion Time;Dispersion Radius;Hydro;Hydro Duration;Hydro Range;Radar;Radar Duration;Radar Range;Engine Boost;EB Duration;Speed Increase;DFAA;DFAA Duration;DFAA DPS;MBRB;MBRB Duration;MBRB Effect;TRB;Fighter;Spotter;Hydrophone;Hydrophone Range;Sub Surveillance;SS Range;Enhanced Rudder;Res. Battery
+3248404240;Statenland;8;CA;Netherlands;;5 s;3;28 s;14.0 %;3;20 s;89 s;450 m;N/A;;;N/A;;;4;60 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3249452400;River Gambra;7;CA;Commonw.;;5 s;2;28 s;14.0 %;6;10 s;40 s;600 m;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3250501424;Admiral Reinhard;6;CA;Germany;4;10 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3256759600;Södermanland;10;DD;Europe;;5 s;4;14 s;14.0 %;N/A;;;;N/A;;;N/A;;;4;120 s;16%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3256760112;Lübeck;10;DD;Germany;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;20%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3256792528;Petrozavodsk;10;CA;U.S.S.R.;;5 s;2;28 s;14.0 %;N/A;;;;2;100 s;5.0 km;2;15 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3256792816;Ravenna;10;CA;Italy;;5 s;3;28 s;14.0 %;4;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;3;7.0 km;N/A;N/A
+3256825168;Comodoro;10;BB;Pan-Am.;;20 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3256825584;Amerigo Vespucci;10;BB;Italy;;15 s;4;28 s;14.0 %;3;45 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3256825840;Utah;10;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3256858064;Admiral Orlov;10;CV;U.S.S.R.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3256858416;Otto Lilienthal;10;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3257874224;Prinz Sigismund;9;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;;N/A;N/A;N/A;;N/A;;N/A;N/A
+3258890000;Admiraal;8;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3267278288;Vladimir Monomakh;10;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;30 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3267278608;Noord-Brabant;10;CA;Netherlands;;5 s;3;28 s;14.0 %;3;20 s;89 s;450 m;N/A;;;N/A;;;4;60 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3330225968;Schlieffen;10;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3352180720;Frank Friday;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3352213296;AL Ägir;9;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3352246256;Volunteer State;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3353294640;AL Bismarck;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3353327600;AL Hornet;8;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3354310384;AL Gorizia;7;CA;Italy;;5 s;N/A;;;2;40 s;10 s;510 m;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3361617616;AL Shimakaze;10;DD;Japan;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3361650480;AL Hindenburg;10;CA;Germany;;5 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3362732016;AL Kearsarge;9;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3363780304;Ragnarok;8;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3374266064;Ignis Purgatio;8;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3425613520;Azuma B;9;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3426694960;Odin TE;8;BB;Germany;3;10 s;2;18 s;36.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;2;120 s;40%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3434526416;BA Arona's Whale;10;SS;Japan;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;3;8 s;-50%;N/A;N/A;N/A;5;9.0 km;2;6.0 km;N/A;3
+3435018064;Kléber TE;10;DD;France;;5 s;2;20 s;10.0 %;3;10 s;5 s;510 m;3;15 s;7.0 km;N/A;;;2;60 s;30%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3435083760;BA Montana;10;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3436066800;GQ Johnny;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3436099280;BA Takahashi;9;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;7.0 km;N/A;N/A
+3436099408;BA Utnapishtim's Ship;9;CA;France;;5 s;3;28 s;16.8 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3436131792;BA Hovercraft;9;BB;U.S.S.R.;4;20 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3437147600;Kiberpankov;8;CA;U.S.S.R.;;5 s;N/A;;;4;15 s;40 s;600 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3437180368;Borodino TE;8;BB;U.S.S.R.;;15 s;6;10 s;15.0 %;N/A;;;;N/A;;;6;15 s;12.0 km;N/A;;;N/A;;;6;8 s;-75%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3437180656;BA Binah;8;BB;Italy;;15 s;4;28 s;14.0 %;3;60 s;15 s;900 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3437180720;BA Tirpitz;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3437180912;Alabama B;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3438196528;München B;7;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3445503824;Kléber CLR;10;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;180 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3445536112;Brisbane B;10;CA;Commonw.;;5 s;3;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;3;20 s;12.0 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3445536208;Komissar;10;CA;U.S.S.R.;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3445536720;Defence;10;CA;U.K.;;5 s;3;28 s;16.8 %;5;15 s;40 s;600 m;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3445536752;Austin;10;CA;U.S.A.;;5 s;4;28 s;18.5 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;4;40 s;50%;;15 s;-75%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3445569264;Tempesta Nera;10;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3445569488;Cumberland;10;BB;U.K.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3446585136;Roon CLR;9;CA;Germany;;5 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3499013840;Suzuya VL;9;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;3;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3509499600;Suzuya Golden;9;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;3;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3511629776;Danu;7;BB;U.K.;;15 s;4;28 s;16.8 %;N/A;;;;2;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3519985360;Suzuya;9;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;3;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3522082512;ARP Nachi;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+3522115536;Royal Sovereign;7;BB;U.K.;;15 s;3;14 s;21.0 %;N/A;;;;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;3;6.0 km;N/A;N/A
+3529422672;Amiral Lartigue;10;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3529455600;Wisconsin;10;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3530471216;Blücher;9;CA;Germany;;5 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;3;180 s;15%;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3530504176;Georgia;9;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;15%;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3531519792;Wiesbaden;8;CA;Germany;;5 s;N/A;;;3;15 s;69 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3531519984;Protector;8;CA;U.S.A.;;5 s;3;45 s;45.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3532568272;Eastern Dragon;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+3539384016;I-56 '44;10;SS;Japan;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;3;8 s;-50%;N/A;N/A;N/A;5;9.0 km;2;6.0 km;N/A;3
+3539875632;Georg Hoffmann Golden;10;DD;Germany;;5 s;N/A;;;3;20 s;77 s;450 m;3;120 s;6.0 km;N/A;;;3;180 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3539875824;Hull;10;DD;U.S.A.;;5 s;3;20 s;20.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;15%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3539907792;Zhuge's Inventions;10;CA;Pan-Asia;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3539908304;Kushiro;10;CA;Japan;;5 s;3;28 s;14.0 %;4;30 s;10 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3539908368;Prins van Oranje Golden;10;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3539941360;Rhode Island;10;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;3;40 s;9.0 km;3;180 s;15%;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3540923600;Nanning;9;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540924112;Minegumo;9;DD;Japan;;5 s;N/A;;;3;20 s;93 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540924368;Barfleur;9;DD;U.K.;;5 s;2;10 s;10.0 %;4;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540924400;Johnston;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540956368;Tianjin;9;CA;Pan-Asia;;10 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;5;N/A;;N/A;;N/A;N/A
+3540956592;Almirante Oquendo;9;CA;Spain;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3540956624;Kozma Minin;9;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;25 s;12.0 km;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540956912;Ferrante Gonzaga;9;CA;Italy;;5 s;3;28 s;14.0 %;3;40 s;10 s;510 m;N/A;;;N/A;;;5;40 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540957008;Le Havre;9;CA;France;;5 s;3;28 s;16.8 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3540957168;Cambridge;9;CA;U.S.A.;;5 s;3;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540989232;Niord;9;BB;Europe;;15 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540989264;Valparaíso;9;BB;Pan-Am.;;15 s;6;8 s;21.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540989360;Victoria;9;BB;Spain;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;2;30 s;-33%;N/A;3;4;N/A;;N/A;;N/A;N/A
+3540989392;Zarya Svobody;9;BB;U.S.S.R.;4;20 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3540989648;Hotaka;9;BB;Japan;;10 s;2;45 s;45.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3540989680;Pilus Posterior;9;BB;Italy;;15 s;4;28 s;14.0 %;3;60 s;15 s;900 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3540989936;Indiana;9;BB;U.S.A.;;25 s;4;28 s;18.5 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3541972176;Ship Smasha;8;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3541972432;Provorny;8;DD;U.S.S.R.;;5 s;2;10 s;10.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3541972688;AL Yukikaze;8;DD;Japan;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3541972944;Eskimo;8;DD;U.K.;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3542004944;Narai;8;CA;Pan-Asia;;5 s;2;20 s;40.0 %;2;30 s;70 s;450 m;3;110 s;5.5 km;N/A;;;5;90 s;30%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3542005456;ARP Maya;8;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3542005552;Cross of Dorn;8;CA;Germany;;5 s;N/A;;;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3542005712;Érne;8;CA;U.K.;;5 s;3;20 s;40.0 %;3;15 s;106 s;600 m;N/A;;;3;30 s;9.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3542005744;AL Montpelier;8;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;3;30 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3542038256;Marcantonio Colonna;8;BB;Italy;;15 s;4;28 s;14.0 %;3;60 s;15 s;900 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3542038512;Tennessee;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3542071248;Theseus;8;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3543053680;Gambia;7;CA;Commonw.;;5 s;2;28 s;14.0 %;6;10 s;40 s;600 m;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3543054032;Southern Dragon;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+3543086544;Arkhangelsk;7;BB;U.S.S.R.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3543087056;Rodney;7;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;15%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3544102736;Montcalm;6;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3545183952;HSF Hiei;5;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3549870032;Seal;10;SS;U.K.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;6;6.0 km;;6.0 km;N/A;2
+3549870064;Archerfish;10;SS;U.S.A.;5;15 s;2;40 s;20.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;15%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;;6.0 km;N/A;2
+3550360880;Ragnar;10;DD;Europe;;5 s;2;14 s;14.0 %;N/A;;;;N/A;;;2;30 s;7.5 km;2;60 s;30%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550360912;La Pampa;10;DD;Pan-Am.;;5 s;2;28 s;14.0 %;3;20 s;97 s;450 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550361328;Alberico da Barbiano;10;DD;Italy;;5 s;N/A;;;4;45 s;10 s;450 m;N/A;;;N/A;;;4;120 s;15%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550361392;Georg Hoffmann;10;DD;Germany;;5 s;N/A;;;3;20 s;77 s;450 m;3;120 s;6.0 km;N/A;;;3;180 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550361584;Laffey;10;DD;U.S.A.;;5 s;2;20 s;30.0 %;;80 s;5 s;450 m;N/A;;;N/A;;;N/A;;;4;40 s;200%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550393552;Incheon;10;CA;Pan-Asia;;5 s;3;28 s;14.0 %;3;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550393648;Svea;10;CA;Europe;;5 s;3;14 s;14.0 %;6;10 s;40 s;600 m;N/A;;;4;15 s;9.0 km;3;60 s;30%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550393808;Sevastopol;10;CA;U.S.S.R.;3;10 s;4;60 s;30.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;4;45 s;20%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550394064;Yari;10;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;5;N/A;;N/A;;N/A;N/A
+3550394096;Varese;10;CA;Italy;;5 s;3;45 s;45.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550394160;Hildebrand;10;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550394192;Brennus;10;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550394352;Salem;10;CA;U.S.A.;;5 s;3;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;3;40 s;8.5 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550426480;Irresistible;10;BB;Commonw.;;15 s;4;28 s;14.0 %;3;102 s;10 s;450 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550426576;Sibir;10;BB;U.S.S.R.;;20 s;;100 s;50.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550426832;Yamato Kai;10;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3550426864;Sicilia;10;BB;Italy;;15 s;4;28 s;14.0 %;4;60 s;15 s;900 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3550427120;Oregon;10;BB;U.S.A.;;20 s;5;20 s;20.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;15%;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3550459600;Shinano;10;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3550459856;Ocean;10;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3551409616;Neustrashimy;9;DD;U.S.S.R.;;5 s;2;20 s;30.0 %;2;20 s;97 s;450 m;N/A;;;N/A;;;2;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3551409968;ZF-6 Golden;9;DD;Germany;;5 s;N/A;;;3;20 s;73 s;450 m;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3551410160;Black;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;3;19 s;7.5 km;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3551442384;Vyazma;9;CA;U.S.S.R.;;5 s;4;20 s;20.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;15%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3551442640;ARP Haguro;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+3551474896;Taihang;9;BB;Pan-Asia;;15 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3551475152;AL Sov. Rossiya;9;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3551475440;Pilus Prior;9;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3552457936;Zhu Que;8;DD;Pan-Asia;;5 s;3;28 s;14.0 %;3;30 s;124 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3552458448;HSF Harekaze;8;DD;Japan;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3552490832;Comandante Aguirre;8;CA;Pan-Am.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3552491216;ARP Takao;8;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3256792848;Vrijheid;8;CA;Netherlands;;5 s;2;28 s;14.0 %;3;20 s;89 s;450 m;N/A;;;N/A;;;4;60 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3552491344;Metz;8;CA;France;;5 s;4;20 s;20.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;15%;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3552491472;Sinann;8;CA;U.K.;;5 s;N/A;;;5;15 s;40 s;600 m;2;100 s;5.0 km;3;25 s;9.0 km;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3552491504;Bridgeport;8;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;4;40 s;50%;;80 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3552523472;Xuan Wu;9;BB;Pan-Asia;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3552523984;ARP Hiei;5;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3552524016;AL Littorio;8;BB;Italy;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3552524272;Alabama ST;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3553539792;ARP Ashigara;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+3553539824;Optio;7;CA;Italy;;5 s;N/A;;;2;22 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3553540048;Bóinn;7;CA;U.K.;;5 s;N/A;;;3;15 s;103 s;600 m;3;100 s;4.0 km;3;25 s;8.5 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3553540080;Flint;7;CA;U.S.A.;;5 s;N/A;;;3;30 s;121 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3553572048;Teng She;7;BB;Pan-Asia;;15 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;5;N/A;;N/A;;N/A;N/A
+3553572144;Lugdunum;7;BB;Europe;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3553572560;ARP Haruna;5;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3553572848;California;7;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3554555600;Shinonome;6;DD;Japan;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3554588464;HSF Admiral Graf Spee;6;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3554621136;ARP Kirishima;5;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3555603760;Kalmar;5;DD;Europe;;5 s;3;10 s;10.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3555670000;Texas;5;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3560912592;ARP Yamato;10;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3655218480;Småland;10;DD;Europe;;5 s;3;14 s;14.0 %;N/A;;;;N/A;;;3;20 s;7.5 km;4;60 s;30%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3655218960;Tromp;10;DD;Netherlands;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;4;60 s;25%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3655218992;Z-42;10;DD;Germany;;5 s;N/A;;;6;10 s;40 s;600 m;3;120 s;6.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3655219184;Forrest Sherman;10;DD;U.S.A.;;5 s;N/A;;;2;30 s;130 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3655251408;Smolensk;10;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;2;20 s;89 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3655251664;Kitakami;10;CA;Japan;;5 s;3;28 s;14.0 %;4;30 s;10 s;450 m;N/A;;;N/A;;;3;180 s;15%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3655251920;Gibraltar;10;CA;U.K.;;5 s;3;28 s;14.0 %;3;15 s;96 s;600 m;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3655251952;Puerto Rico;10;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3655284528;Mecklenburg;10;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3655284688;Incomparable;10;BB;U.K.;;15 s;2;20 s;40.0 %;N/A;;;;3;180 s;3.0 km;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3655317296;Max Immelmann;10;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3656333264;Scarlet Thunder;9;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3658397424;Gorizia;7;CA;Italy;;5 s;N/A;;;2;40 s;10 s;510 m;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3659445712;Admiral Makarov;6;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3666786288;Alaska B;9;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3666818864;Pommern B;9;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3666818896;Jean Bart B;9;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;4;20 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3667801296;Loyang B;8;DD;Pan-Asia;;5 s;N/A;;;3;30 s;124 s;450 m;3;110 s;5.5 km;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3667801808;Asashio B;8;DD;Japan;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3667802064;Cossack B;8;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3667834576;Atago B;8;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3667867440;Tirpitz B;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3667867632;Massachusetts B;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3667900112;Kaga B;8;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3667900208;Graf Zeppelin B;8;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3667900400;Saipan B;8;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3668850672;Sims B;7;DD;U.S.A.;;5 s;N/A;;;3;30 s;121 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3668883440;Boise;7;CA;U.S.A.;;5 s;3;20 s;40.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3668916016;Scharnhorst B;7;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3676223184;Yoshino B;10;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3679369200;Atlanta B;7;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;3;25 s;8.5 km;N/A;;;;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3699291600;Lazo B;7;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;5;N/A;;N/A;;N/A;N/A
+3708761808;Iwami B;9;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3709777360;Dmitry Pozharsky;8;CA;U.S.S.R.;;5 s;N/A;;;4;15 s;40 s;600 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3709777872;AL Cheshire;8;CA;U.K.;;5 s;2;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3719247568;Tsurugi;9;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+3720263120;Bagration;8;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3720263632;Nottingham;8;CA;U.K.;;5 s;N/A;;;5;15 s;40 s;600 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3720263664;San Diego;8;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;4;30 s;100%;2;15 s;-33%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3720296272;Picardie;8;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;4;20 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3721344976;Renown '44;7;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;2;100 s;4.0 km;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3729732816;Louchuan;9;BB;Pan-Asia;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3729733328;Daisen;9;BB;Japan;;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;3;N/A;;N/A;;N/A;N/A
+3729733616;Illinois;9;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3730748880;Pyotr Bagration;8;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3730749392;Hampshire;8;CA;U.K.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3730749424;Rochester;8;CA;U.S.A.;;5 s;N/A;;;2;30 s;104 s;450 m;2;100 s;5.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3730782000;Brandenburg B;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3730782032;Flandre;8;BB;France;;15 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3730782192;Constellation;8;BB;U.S.A.;;20 s;3;28 s;14.0 %;N/A;;;;N/A;;;3;30 s;10.0 km;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3730814960;Hornet;8;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3731830736;Collingwood;7;BB;U.K.;;15 s;4;28 s;16.8 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;4;25 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3732879312;Repulse B;6;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3739137488;Smolensk B;10;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;2;20 s;89 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3740153648;ZF-6;9;DD;Germany;;5 s;N/A;;;3;20 s;73 s;450 m;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3740153840;Black B;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;3;19 s;7.5 km;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3740185808;Mengchong;9;CA;Pan-Asia;;5 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3740186416;Admiral Schröder;9;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;3;180 s;15%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3740218576;Sun Yat-Sen;9;BB;Pan-Asia;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3740219088;Iwami;9;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3741202128;HSF Harekaze II;8;DD;Japan;;5 s;N/A;;;3;20 s;69 s;450 m;3;100 s;5.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3741234640;Ochakov;8;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;3;20 s;10.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3741234992;Schill;8;CA;Germany;;5 s;2;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;3;20 s;-50%;N/A;3;4;N/A;;N/A;;N/A;N/A
+3741235152;Belfast '43;8;CA;U.K.;;5 s;N/A;;;5;15 s;40 s;600 m;2;100 s;5.0 km;3;25 s;9.0 km;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3741235184;Congress;8;CA;U.S.A.;;5 s;2;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3741267408;Borodino;8;BB;U.S.S.R.;;15 s;3;28 s;14.0 %;N/A;;;;N/A;;;3;25 s;12.0 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3741267760;Anhalt;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3741267792;Champagne;8;BB;France;;15 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;3;15 s;-50%;N/A;3;4;N/A;;N/A;;N/A;N/A
+3741267952;Alabama VL;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3741300688;Colossus;8;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3741300720;Saipan;8;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3742316496;Duke of York;7;BB;U.K.;;15 s;4;28 s;16.8 %;N/A;;;;2;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3742316528;West Virginia '44;7;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3743332304;Dido;6;CA;U.K.;;5 s;N/A;;;5;15 s;35 s;600 m;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3743364816;Ise;6;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3743365072;Repulse;6;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3744380368;Kirov;5;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3746477520;AL Avrora;3;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3749623504;Yoshino;10;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3750638896;Jäger;9;DD;Europe;;5 s;3;14 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3750639408;Z-44;9;DD;Germany;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3750639568;Somme;9;DD;U.K.;;5 s;2;10 s;10.0 %;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3750639600;Halford;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3750672080;AL Azuma;9;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3750672112;Michelangelo;9;CA;Italy;;5 s;3;28 s;14.0 %;2;40 s;10 s;510 m;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3750672176;Ägir;9;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3750672368;Tulsa;9;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3750704336;Wujing;9;BB;Pan-Asia;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3750704848;Hizen;9;BB;Japan;;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3750704880;Giuseppe Verdi;9;BB;Italy;;15 s;4;28 s;14.0 %;3;60 s;15 s;900 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3750705136;Kearsarge;9;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3751196368;I-56;8;SS;Japan;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;5;9.0 km;N/A;;N/A;2
+3751687376;Fenyang;8;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3751687888;Asashio;8;DD;Japan;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3751687984;Z-35;8;DD;Germany;;5 s;N/A;;;6;10 s;40 s;600 m;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3751720144;Wukong;8;CA;Pan-Asia;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;3;N/A;4;N/A;;N/A;;N/A;N/A
+3751720400;Lazo;7;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;5;N/A;;N/A;;N/A;N/A
+3751720752;Mainz;8;CA;Germany;;5 s;N/A;;;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3751720912;Tiger '59;8;CA;U.K.;;5 s;3;20 s;40.0 %;3;15 s;106 s;600 m;N/A;;;3;30 s;9.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3751720944;Anchorage;8;CA;U.S.A.;;5 s;N/A;;;2;30 s;104 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3751753168;Lenin;8;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3751753520;Brandenburg;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3751753552;Jean Bart;9;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;4;20 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3751753712;Massachusetts;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3751786192;Kaga;8;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3751786288;Graf Zeppelin;8;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3751786448;Ark Royal;6;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3751786480;Enterprise;8;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3752736112;Huron;7;DD;Commonw.;;5 s;2;10 s;10.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3752736720;Cossack;8;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3752769232;Maya;7;CA;Japan;;5 s;2;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;2;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3752769264;Francesco Ferruccio;7;CA;Italy;;5 s;N/A;;;2;22 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3752769328;Weimar;7;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;3;180 s;15%;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3752802096;AL Prinz Heinrich;7;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3752802256;Nelson;7;BB;U.K.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3752802288;Florida;7;BB;U.S.A.;;20 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3753785136;Karl von Schönberg;6;DD;Germany;;5 s;3;10 s;10.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3753817456;Mysore;6;CA;Commonw.;;5 s;3;28 s;14.0 %;3;102 s;10 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3753817904;Leipzig;6;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3753817936;Dupleix;6;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;3;180 s;15%;3;40 s;50%;4;25 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3753818064;London;6;CA;U.K.;;5 s;2;10 s;10.0 %;3;15 s;99 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3753850320;Novorossiysk;6;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3754866128;Mikoyan;5;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3756963280;Varyag;3;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3759585072;U-4501;10;SS;Germany;3;15 s;2;40 s;20.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;8.0 km;;6.0 km;N/A;2
+3759585264;Gato;10;SS;U.S.A.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;9.0 km;;6.0 km;2;N/A
+3760075984;Lüshun;10;DD;Pan-Asia;;5 s;3;60 s;30.0 %;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760076080;Friesland;9;DD;Europe;;5 s;N/A;;;3;30 s;127 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760076144;Vampire II;10;DD;Commonw.;;5 s;N/A;;;3;102 s;10 s;450 m;3;100 s;5.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760076496;Hayate;10;DD;Japan;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760076752;Druid;10;DD;U.K.;;5 s;2;10 s;10.0 %;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760076784;Somers;10;DD;U.S.A.;;5 s;N/A;;;3;30 s;130 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760108912;Brisbane;10;CA;Commonw.;;5 s;3;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;3;20 s;12.0 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760109008;Stalingrad;10;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;3;20 s;12.0 km;N/A;;;3;60 s;25%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760109264;Azuma;9;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3760109296;Napoli;10;CA;Italy;;5 s;3;28 s;14.0 %;2;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3760109392;Colbert;10;CA;France;;5 s;4;28 s;18.5 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760109520;Plymouth;10;CA;U.K.;;5 s;3;28 s;14.0 %;3;15 s;113 s;600 m;3;100 s;5.0 km;3;40 s;9.0 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760109552;Alaska;9;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3760141776;Slava;10;BB;U.S.S.R.;;15 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760142032;Shikishima;10;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3760142160;Bourgogne;10;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;15%;N/A;;;4;20 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760142288;Thunderer;10;BB;U.K.;;15 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760142320;Ohio;10;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3760174896;Werner Voss;10;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3760175056;Malta;10;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3760175088;Franklin D. Roosevelt;10;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3761124656;Velos;9;DD;Europe;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761125104;Paolo Emilio;9;DD;Italy;;5 s;N/A;;;5;35 s;10 s;510 m;N/A;;;N/A;;;5;50 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761125136;Groningen;9;DD;Netherlands;;5 s;N/A;;;3;30 s;127 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761125360;Benham;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761157328;Dalian;9;CA;Pan-Asia;;5 s;4;28 s;14.0 %;4;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761157488;Hector;9;CA;Commonw.;;5 s;3;20 s;40.0 %;3;102 s;10 s;450 m;3;180 s;3.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761157584;Kronshtadt;9;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;3;25 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3761157904;Van Speijk;9;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761157936;Siegfried;9;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3761157968;Carnot;9;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3761158128;Vallejo;9;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;5;N/A;;N/A;;N/A;N/A
+3761190096;Bajie;9;BB;Pan-Asia;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3761190352;Navarin;9;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761190608;Musashi;9;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3761190640;Marco Polo;9;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3761190704;Pommern;9;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761190864;Marlborough;9;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761190896;Missouri;9;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;3;35 s;9.5 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761681872;S-189;8;SS;U.S.S.R.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;7.0 km;;9.0 km;N/A;N/A
+3761682384;Alliance;8;SS;U.K.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;5;6.0 km;;6.0 km;N/A;N/A
+3762173136;Loyang;8;DD;Pan-Asia;;5 s;N/A;;;3;30 s;124 s;450 m;3;110 s;5.5 km;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762173232;Orkan;8;DD;Europe;;5 s;3;10 s;10.0 %;N/A;;;;N/A;;;3;20 s;7.5 km;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762173744;Z-39;7;DD;Germany;;5 s;N/A;;;3;20 s;69 s;450 m;3;100 s;5.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762173936;Kidd;8;DD;U.S.A.;;5 s;3;28 s;14.0 %;3;30 s;124 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762205904;Irian;8;CA;Pan-Asia;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762206032;Almirante Grau;8;CA;Pan-Am.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762206128;Numancia;8;CA;Spain;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3762206160;Mikhail Kutuzov;8;CA;U.S.S.R.;;5 s;N/A;;;2;20 s;89 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762206480;De Zeven Provinciën;8;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762206512;Prinz Eugen;8;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3762206544;Bayard;8;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762206672;Cheshire;8;CA;U.K.;;5 s;2;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762206704;Wichita;8;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;3;30 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3762238800;Atlântico;8;BB;Pan-Am.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762238928;Poltava;7;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3762239184;Kii;8;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3762239216;Roma;8;BB;Italy;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3762239280;Odin;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3762239312;Gascogne;8;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3762239440;Vanguard;8;BB;U.K.;;15 s;3;14 s;21.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762239472;Alabama;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3762271440;Sanzang;8;CV;Pan-Asia;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3762271696;Chkalov;8;CV;U.S.S.R.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3762271984;Aquila;8;CV;Italy;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3762272208;Indomitable;8;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3763221872;Haida;7;DD;Commonw.;;5 s;N/A;;;3;102 s;10 s;450 m;3;180 s;3.5 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763221968;Leningrad;7;DD;U.S.S.R.;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763222256;FR25;7;DD;Italy;;5 s;N/A;;;4;30 s;10 s;450 m;N/A;;;N/A;;;3;120 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763254608;Nueve de Julio;7;CA;Pan-Am.;;5 s;3;20 s;40.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763254992;Tokachi;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;3;3;N/A;N/A;;N/A;;N/A;N/A
+3763255024;Duca degli Abruzzi;7;CA;Italy;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3763255088;München;7;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3763255120;Toulon;7;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;3;180 s;20%;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3763255248;Belfast;7;CA;U.K.;;5 s;N/A;;;3;15 s;103 s;600 m;3;100 s;4.0 km;3;25 s;8.5 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763255280;Indianapolis;7;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;3;25 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3763287408;Yukon;7;BB;Commonw.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3763287760;Ashitaka;7;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763287856;Scharnhorst;7;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3763287888;Strasbourg;7;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;4;20 s;-50%;N/A;3;4;N/A;;N/A;;N/A;N/A
+3763288016;Hood;7;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763288048;W. Virginia '41;6;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3764270288;Anshan;6;DD;Pan-Asia;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764270416;Juruá;6;DD;Pan-Am.;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764270832;Leone;6;DD;Italy;;5 s;N/A;;;3;30 s;118 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764270896;T-61;6;DD;Germany;;5 s;N/A;;;3;20 s;61 s;450 m;3;100 s;4.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764270928;Aigle;6;DD;France;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764271056;Gallant;6;DD;U.K.;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764271088;Monaghan;6;DD;U.S.A.;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764303056;Huanghe;6;CA;Pan-Asia;;5 s;N/A;;;3;102 s;10 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764303152;Elli;6;CA;Europe;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764303216;Perth;6;CA;Commonw.;;5 s;N/A;;;3;102 s;10 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3764303280;Canarias;6;CA;Spain;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;3;180 s;15%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764303312;Molotov;6;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3764303600;Duca d'Aosta;6;CA;Italy;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3764303664;Admiral Graf Spee;6;CA;Germany;;5 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3764303696;De Grasse;6;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;3;180 s;15%;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3764336336;Mutsu;6;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3764336432;Prinz Eitel Friedrich;6;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3764336464;Dunkerque;6;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3764336624;Arizona;6;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3764369200;Erich Loewenhardt;6;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3764369232;Béarn;6;CV;France;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;6;N/A;N/A;;N/A;;N/A;N/A
+3765319120;Okhotnik;5;DD;U.S.S.R.;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3765319664;Hill;5;DD;U.S.A.;;5 s;N/A;;;3;30 s;115 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3765351888;Krasny Krym;5;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3765352144;Yahagi;5;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3765352176;Genova;5;CA;Italy;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3765352400;Exeter;5;CA;U.K.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3765352432;Rattlehead;5;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3765384656;Oktyabrskaya Revolutsiya;5;BB;U.S.S.R.;4;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3765384944;Giulio Cesare;5;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3765385168;Agincourt;5;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3765385200;Oklahoma;5;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3766368080;Siroco;5;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3766433072;Viribus Unitis;5;BB;Europe;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3767416176;Vampire;3;DD;Commonw.;;5 s;N/A;;;3;30 s;109 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3767416784;Campbeltown;3;DD;U.K.;;5 s;N/A;;;3;30 s;109 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3767448784;Ning Hai;3;CA;Pan-Asia;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3767449040;Oleg;3;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3767449296;Katori;3;CA;Japan;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3767449584;Charleston;3;CA;U.S.A.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3767482160;König Albert;3;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3767482320;Dreadnought;3;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3768465392;Smith;2;DD;U.S.A.;;5 s;N/A;;;3;30 s;106 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3768497488;Almirante Abreu;2;CA;Pan-Am.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3768497968;Emden;2;CA;Germany;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3864933840;Delny;10;DD;U.S.S.R.;;5 s;3;28 s;14.0 %;4;30 s;100 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3865982416;Tashkent;9;DD;U.S.S.R.;;5 s;3;28 s;14.0 %;4;30 s;100 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3969824208;Petropavlovsk;10;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;15 s;12.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3969857328;Preussen;10;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3971888592;Kiev;8;DD;U.S.S.R.;;5 s;3;28 s;14.0 %;4;30 s;100 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4065212112;Kitakaze;9;DD;Japan;;5 s;N/A;;;3;20 s;93 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+4069438928;Kotovsky;5;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4074157872;U-2501;10;SS;Germany;3;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;8.0 km;;9.0 km;N/A;2
+4074158064;Balao;10;SS;U.S.A.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;9.0 km;;6.0 km;2;N/A
+4074649040;Grozovoi;10;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;2;20 s;97 s;450 m;N/A;;;N/A;;;2;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4074649296;Harugumo;10;DD;Japan;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+4074649392;Elbing;10;DD;Germany;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4074649424;Marceau;10;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;180 s;20%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4074681808;Alexander Nevsky;10;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;30 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4074682064;Yodo;10;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;7.0 km;N/A;N/A
+4074682192;Marseille;10;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4074682320;Goliath;10;CA;U.K.;;5 s;2;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4074682352;Worcester;10;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;40 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4074714832;Bungo;10;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;5;N/A;;N/A;;N/A;N/A
+4074715120;Louisiana;10;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4074747856;Audacious;10;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4075697456;Lambros Katsonis;9;DD;Europe;;5 s;N/A;;;3;20 s;93 s;450 m;N/A;;;4;10 s;9.0 km;4;90 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4075697968;Felix Schultz;9;DD;Germany;;5 s;N/A;;;3;20 s;93 s;450 m;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4075730384;Riga;9;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;15 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4075730640;Takahashi;9;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;7.0 km;N/A;N/A
+4075730768;Brest;9;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4075730896;Drake;9;CA;U.K.;;5 s;2;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4075730928;Seattle;9;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4075763408;Adatara;9;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;5;N/A;;N/A;;N/A;N/A
+4075763504;Prinz Rupprecht;9;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4075763664;Duncan;9;BB;U.K.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4075763696;Delaware;9;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4076255024;U-190;8;SS;Germany;3;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;7.0 km;;9.0 km;N/A;2
+4076255216;Salmon;8;SS;U.S.A.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;8.0 km;;6.0 km;2;N/A
+4076745936;Siliwangi;8;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076746032;Split;8;DD;Europe;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;4;10 s;9.0 km;4;90 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076746192;Ognevoi;8;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;2;20 s;89 s;450 m;N/A;;;N/A;;;2;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076746544;Gustav-Julius Maerker;8;DD;Germany;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076778960;Tallinn;8;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;3;15 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076779216;Shimanto;8;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+4076779344;Cherbourg;8;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4076779472;Albemarle;8;CA;U.K.;;5 s;2;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4076779504;Cleveland;8;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;3;27 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4076811984;Yumihari;8;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;5;N/A;;N/A;;N/A;N/A
+4076812080;Zieten;8;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076812240;Hawke;8;BB;U.K.;;15 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076812272;Nebraska;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4077794608;Grom;7;DD;Europe;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;4;90 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4077794768;Minsk;7;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4077795024;Shiratsuyu;7;DD;Japan;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+4077795120;Z-31;7;DD;Germany;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4077827792;Omono;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+4077828048;Surrey;7;CA;U.K.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4077828080;Helena;7;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4077860656;Prinz Heinrich;7;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4077860816;Rooke;7;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4078352176;U-69;6;SS;Germany;3;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;7.0 km;;9.0 km;N/A;2
+4078352368;Cachalot;6;SS;U.S.A.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;8.0 km;;6.0 km;2;N/A
+4078843184;Stord;6;DD;Europe;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;4;90 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4078843344;Gnevny;6;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4078843600;Hatsuharu;6;DD;Japan;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4078876368;Gokase;6;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;5.0 km;N/A;N/A
+4078876624;Devonshire;6;CA;U.K.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4078876656;Dallas;6;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4078909232;Mackensen;6;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;110 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4078909392;Renown;6;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4079891760;Muavenet;5;DD;Europe;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;4;90 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4079891920;Podvoisky;5;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4079924944;Agano;5;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;3;5.0 km;N/A;N/A
+4079925200;Hawkins;5;CA;U.K.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4079957808;Derfflinger;5;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4079957968;Tiger;5;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4081006384;Moltke;4;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4081006544;Queen Mary;4;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4081039312;Hermes;4;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4082054960;Von der Tann;3;BB;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4082055120;Indefatigable;3;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178457808;Kunming;11;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;3;25 s;7.5 km;3;120 s;8%;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178457904;Dalarna;11;DD;Europe;;5 s;3;14 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178458064;Zorkiy;11;DD;U.S.S.R.;;5 s;3;28 s;14.0 %;4;30 s;100 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178458320;Yamagiri;11;DD;Japan;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178458416;Z-57;11;DD;Germany;;5 s;N/A;;;3;20 s;81 s;450 m;3;120 s;7.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178458608;Joshua Humphreys;11;DD;U.S.A.;;5 s;N/A;;;3;30 s;130 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178490832;Novosibirsk;11;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;15 s;12.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178491120;Piemonte;11;CA;Italy;;5 s;3;28 s;14.0 %;2;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;3;7.0 km;N/A;N/A
+4178491184;Clausewitz;11;CA;Germany;;5 s;4;28 s;14.0 %;N/A;;;;3;120 s;7.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4178491216;Condé;11;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178491344;Edgar;11;CA;U.K.;;5 s;3;20 s;40.0 %;3;20 s;120 s;600 m;3;100 s;5.0 km;3;40 s;10.0 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178491376;Annapolis;11;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178523600;Admiral Ushakov;11;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178523856;Satsuma;11;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4178523952;Hannover;11;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;120 s;7.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4178523984;Patrie;11;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;15%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178524112;Devastation;11;BB;U.K.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178524144;Maine;11;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4178556624;Sekiryu;11;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4178556880;Eagle;11;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4178556912;United States;11;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4179015120;K-1;10;SS;U.S.S.R.;4;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;7.0 km;;9.0 km;N/A;N/A
+4179015632;Thrasher;10;SS;U.K.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;6;6.0 km;;6.0 km;N/A;N/A
+4179506384;Yueyang;10;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;3;25 s;7.5 km;3;120 s;8%;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179506480;Halland;10;DD;Europe;;5 s;3;14 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179506640;Khabarovsk;10;DD;U.S.S.R.;;5 s;3;20 s;20.0 %;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179506928;Attilio Regolo;10;DD;Italy;;5 s;N/A;;;6;40 s;10 s;450 m;N/A;;;N/A;;;6;60 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179506992;Z-52;10;DD;Germany;;5 s;N/A;;;3;20 s;77 s;450 m;3;120 s;6.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179507024;Kléber;10;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;180 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179507152;Daring;10;DD;U.K.;;5 s;2;10 s;10.0 %;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179539152;Jinan;10;CA;Pan-Asia;;5 s;3;28 s;14.0 %;3;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179539376;Castilla;10;CA;Spain;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4179539408;Moskva;10;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;30 s;12.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179539696;Venezia;10;CA;Italy;;5 s;3;28 s;14.0 %;2;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;3;7.0 km;N/A;N/A
+4179539728;Gouden Leeuw;10;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179539760;Hindenburg;10;CA;Germany;;5 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4179539792;Henri IV;10;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179539920;Minotaur;10;CA;U.K.;;5 s;3;20 s;40.0 %;3;15 s;113 s;600 m;3;100 s;5.0 km;3;40 s;10.0 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179572176;Kremlin;10;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179572464;Cristoforo Colombo;10;BB;Italy;;15 s;4;28 s;14.0 %;3;45 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4179572528;Grosser Kurfürst;10;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4179572560;République;10;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179572688;Conqueror;10;BB;U.K.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179572720;Vermont;10;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4179604944;Admiral Nakhimov;10;CV;U.S.S.R.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4179605296;Manfred von Richthofen;10;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4179605488;Midway;10;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4180554960;Chung Mu;9;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;3;22 s;7.5 km;3;120 s;8%;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180555056;Östergötland;9;DD;Europe;;5 s;3;14 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180555504;Adriatico;9;DD;Italy;;5 s;N/A;;;6;40 s;10 s;450 m;N/A;;;N/A;;;6;60 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180555568;Z-46;9;DD;Germany;;5 s;N/A;;;3;20 s;73 s;450 m;3;100 s;5.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180555600;Mogador;9;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;180 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180555728;Jutland;9;DD;U.K.;;5 s;2;10 s;10.0 %;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180587728;Sejong;9;CA;Pan-Asia;;5 s;3;28 s;14.0 %;3;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180587856;Santander;9;CA;Pan-Am.;;5 s;4;20 s;24.0 %;N/A;;;;4;100 s;3.0 km;4;25 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4180587952;Andalucía;9;CA;Spain;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4180587984;Dmitri Donskoi;9;CA;U.S.S.R.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;30 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180588272;Brindisi;9;CA;Italy;;5 s;3;28 s;14.0 %;2;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;3;7.0 km;N/A;N/A
+4180588304;Johan de Witt;9;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180588336;Roon;9;CA;Germany;;5 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4180588368;Saint-Louis;9;CA;France;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;3;4;N/A;;N/A;;N/A;N/A
+4180588496;Neptune;9;CA;U.K.;;5 s;3;20 s;40.0 %;3;15 s;110 s;600 m;3;100 s;5.0 km;3;35 s;10.0 km;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4180588528;Buffalo;9;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;30 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4180620752;Sovetsky Soyuz;9;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4180621040;Lepanto;9;BB;Italy;;15 s;4;28 s;14.0 %;3;45 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4180621104;Friedrich der Grosse;9;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4180621136;Alsace;9;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4180621264;Lion;9;BB;U.K.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4180621296;Minnesota;9;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4181112272;L-20;8;SS;U.S.S.R.;4;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;7.0 km;;9.0 km;N/A;N/A
+4181112784;Sturdy;8;SS;U.K.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;5;6.0 km;;6.0 km;N/A;N/A
+4181603536;Hsienyang;8;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;3;20 s;7.5 km;3;120 s;8%;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181603632;Öland;8;DD;Europe;;5 s;3;14 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181604048;Akizuki;8;DD;Japan;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181604080;Vittorio Cuniberti;8;DD;Italy;;5 s;N/A;;;3;25 s;10 s;450 m;N/A;;;N/A;;;6;40 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181604144;Z-23;8;DD;Germany;;5 s;N/A;;;3;20 s;69 s;450 m;3;100 s;5.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181604176;Le Fantasque;8;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;180 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181604304;Lightning;8;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181636304;Harbin;8;CA;Pan-Asia;;5 s;3;28 s;14.0 %;3;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181636432;Ignacio Allende;8;CA;Pan-Am.;;5 s;4;20 s;24.0 %;N/A;;;;4;100 s;3.0 km;4;25 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4181636528;Cataluña;8;CA;Spain;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4181636560;Chapayev;8;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;3;20 s;12.0 km;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181636848;Amalfi;8;CA;Italy;;5 s;N/A;;;2;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;3;6.0 km;N/A;N/A
+4181636880;Haarlem;8;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181636912;Admiral Hipper;8;CA;Germany;;5 s;N/A;;;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4181636944;Charles Martel;8;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;3;180 s;20%;3;40 s;50%;4;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4181637072;Edinburgh;8;CA;U.K.;;5 s;3;20 s;40.0 %;3;15 s;99 s;600 m;3;100 s;5.0 km;3;30 s;10.0 km;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4181637104;Baltimore;8;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;3;25 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4181669328;Vladivostok;8;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4181669616;Vittorio Veneto;8;BB;Italy;;15 s;4;28 s;14.0 %;3;45 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4181669680;Bismarck;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4181669712;Richelieu;8;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181669840;Monarch;8;BB;U.K.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4181669872;Kansas;8;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4181702096;Pobeda;8;CV;U.S.S.R.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4181702448;August von Parseval;8;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4181702608;Implacable;8;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4181702640;Lexington;8;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4182652112;Gadjah Mada;7;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182652208;Skåne;7;DD;Europe;;5 s;3;10 s;10.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182652368;Udaloi;9;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;2;20 s;93 s;450 m;N/A;;;N/A;;;2;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182652624;Akatsuki;7;DD;Japan;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182652656;Luca Tarigo;7;DD;Italy;;5 s;N/A;;;3;25 s;10 s;450 m;N/A;;;N/A;;;6;40 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182652720;Leberecht Maass;7;DD;Germany;;5 s;N/A;;;3;20 s;65 s;450 m;3;100 s;4.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182652752;Vauquelin;7;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182652880;Jervis;7;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182684880;Chumphon;7;CA;Pan-Asia;;5 s;N/A;;;3;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;1;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182685008;Coronel Bolognesi;7;CA;Pan-Am.;;5 s;4;20 s;24.0 %;N/A;;;;4;100 s;3.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182685104;Asturias;7;CA;Spain;;5 s;2;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4182685136;Shchors;7;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4182685424;Zara;7;CA;Italy;;5 s;N/A;;;2;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;3;6.0 km;N/A;N/A
+4182685456;Eendracht;7;CA;Netherlands;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4182685488;Yorck;7;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4182685520;Algérie;7;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;3;180 s;15%;3;40 s;50%;4;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4182685648;Fiji;7;CA;U.K.;;5 s;3;28 s;14.0 %;3;15 s;96 s;600 m;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4182685680;New Orleans;7;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4182717904;Sinop;7;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4182718192;Francesco Caracciolo;7;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182718256;Gneisenau;7;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4182718288;Lyon;7;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4182718416;King George V;7;BB;U.K.;;15 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4183209424;S-1;6;SS;U.S.S.R.;4;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;7.0 km;;9.0 km;N/A;N/A
+4183209936;Undine;6;SS;U.K.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;4;6.0 km;;6.0 km;N/A;N/A
+4183700688;Fushun;6;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183700784;Västerås;6;DD;Europe;;5 s;3;10 s;10.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183701200;Fubuki;6;DD;Japan;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183701232;Aviere;6;DD;Italy;;5 s;N/A;;;3;25 s;10 s;450 m;N/A;;;N/A;;;4;20 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183701296;Ernst Gaede;6;DD;Germany;;5 s;N/A;;;3;20 s;61 s;450 m;3;100 s;4.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183701328;Guépard;6;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183701456;Icarus;6;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183733456;Rahmat;6;CA;Pan-Asia;;5 s;N/A;;;3;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183733584;Almirante Cochrane;6;CA;Pan-Am.;;5 s;4;20 s;24.0 %;N/A;;;;4;100 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4183733680;Baleares;6;CA;Spain;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183733712;Budyonny;6;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4183734000;Trento;6;CA;Italy;;5 s;N/A;;;2;25 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;3;5.0 km;N/A;N/A
+4183734032;Kijkduin;6;CA;Netherlands;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4183734064;Nürnberg;6;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4183734096;La Galissonnière;6;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;3;180 s;15%;3;40 s;50%;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183734224;Leander;6;CA;U.K.;;5 s;3;28 s;14.0 %;3;15 s;96 s;600 m;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4183734256;Pensacola;6;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;4;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4183766480;Izmail;6;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183766768;Andrea Doria;6;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183766832;Bayern;6;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4183766864;Normandie;6;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4183766992;Queen Elizabeth;6;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4183799248;Serov;6;CV;U.S.S.R.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4183799600;Weser;6;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4183799760;Furious;6;CV;U.K.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4183799792;Ranger;6;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4184749264;Jianwei;5;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184749360;Visby;5;DD;Europe;;5 s;3;10 s;10.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184749776;Mutsuki;5;DD;Japan;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184749808;Maestrale;5;DD;Italy;;5 s;N/A;;;3;25 s;10 s;450 m;N/A;;;N/A;;;3;15 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184749872;T-22;5;DD;Germany;;5 s;N/A;;;3;20 s;57 s;450 m;3;70 s;4.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184749904;Jaguar;5;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184750032;Acasta;5;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184782032;Chungking;5;CA;Pan-Asia;;5 s;N/A;;;3;30 s;70 s;450 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184782256;Galicia;5;CA;Spain;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184782576;Raimondo Montecuccoli;5;CA;Italy;;5 s;N/A;;;2;25 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;3;5.0 km;N/A;N/A
+4184782608;Celebes;5;CA;Netherlands;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4184782640;Königsberg;5;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4184782672;Émile Bertin;5;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4184782800;Emerald;5;CA;U.K.;;5 s;3;28 s;14.0 %;3;15 s;96 s;600 m;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4184815056;Pyotr Velikiy;5;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184815344;Conte di Cavour;5;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184815408;König;5;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4184815440;Bretagne;5;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4184815568;Iron Duke;5;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4185797840;Shenyang;4;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185797936;Klas Horn;4;DD;Europe;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185798096;Izyaslav;4;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185798384;Turbine;4;DD;Italy;;5 s;N/A;;;3;25 s;10 s;450 m;N/A;;;N/A;;;3;15 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185798448;V-170;4;DD;Germany;;5 s;N/A;;;3;20 s;53 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185798480;Bourrasque;4;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185798608;Wakeful;4;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185830736;Córdoba;4;CA;Pan-Am.;;5 s;4;20 s;10.0 %;N/A;;;;4;100 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185830864;Svietlana;4;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185831152;Alberto di Giussano;4;CA;Italy;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4185831184;De Ruyter;4;CA;Netherlands;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4185831216;Karlsruhe;4;CA;Germany;;5 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185831248;Duguay-Trouin;4;CA;France;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4185831376;Danae;4;CA;U.K.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185863632;Gangut;4;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185863920;Dante Alighieri;4;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185863984;Kaiser;4;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185864016;Courbet;4;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185864144;Orion;4;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185896400;Komsomolets;4;CV;U.S.S.R.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4185896752;Rhein;4;CV;Germany;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4185896944;Langley;4;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4186846416;Phra Ruang;3;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186846512;Romulus;3;DD;Europe;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186846672;Derzki;3;DD;U.S.S.R.;;5 s;2;28 s;14.0 %;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186846960;Nazario Sauro;3;DD;Italy;;5 s;N/A;;;3;25 s;10 s;450 m;N/A;;;N/A;;;3;15 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186847024;G-101;3;DD;Germany;;5 s;N/A;;;3;20 s;49 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186847056;Fusilier;3;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186847184;Valkyrie;3;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879312;Vicente Guerrero;3;CA;Pan-Am.;;5 s;4;20 s;10.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879408;Navarra;3;CA;Spain;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879440;Bogatyr;3;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879728;Taranto;3;CA;Italy;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879760;Java;3;CA;Netherlands;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879792;Kolberg;3;CA;Germany;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879824;Friant;3;CA;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186879952;Caledon;3;CA;U.K.;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186912208;Knyaz Suvorov;3;BB;U.S.S.R.;4;10 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186912560;Nassau;3;BB;Germany;;15 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186912592;Turenne;3;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4186912720;Bellerophon;3;BB;U.K.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187894992;Longjiang;2;DD;Pan-Asia;;5 s;N/A;;;5;30 s;70 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187895088;Tátra;2;DD;Europe;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187895248;Storozhevoi;2;DD;U.S.S.R.;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187895536;Curtatone;2;DD;Italy;;5 s;N/A;;;3;25 s;10 s;450 m;N/A;;;N/A;;;3;15 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187895600;V-25;2;DD;Germany;;5 s;N/A;;;3;20 s;45 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187895632;Enseigne Gabolde;2;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187895760;Medea;2;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187927888;Almirante Barroso;2;CA;Pan-Am.;;5 s;4;10 s;5.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187927984;Méndez Núñez;2;CA;Spain;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187928016;Novik;2;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187928304;Nino Bixio;2;CA;Italy;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187928336;Gelderland;2;CA;Netherlands;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187928400;Jurien de la Gravière;2;CA;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4187928528;Weymouth;2;CA;U.K.;;5 s;3;10 s;5.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976336;Chengan;1;CA;Pan-Asia;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976432;Gryf;1;CA;Europe;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976464;Hércules;1;CA;Pan-Am.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976560;Júpiter;1;CA;Spain;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976592;Orlan;1;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976880;Eritrea;1;CA;Italy;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976912;Van Kinsbergen;1;CA;Netherlands;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188976976;Bougainville;1;CA;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4188977104;Black Swan;1;CA;U.K.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4247697392;Marblehead Lima;5;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4248745968;Marblehead;5;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4252907504;Burrows;10;DD;U.S.A.;;5 s;N/A;;;;200 s;5 s;450 m;N/A;;;N/A;;;3;120 s;10%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4253956080;Christopher;9;DD;U.S.A.;;5 s;N/A;;;;180 s;5 s;450 m;N/A;;;N/A;;;3;120 s;10%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4255004656;Osborne;8;DD;U.S.A.;;5 s;N/A;;;;160 s;5 s;450 m;N/A;;;N/A;;;3;120 s;10%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4255037136;Atago;8;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4256053232;Hughes;7;DD;U.S.A.;;5 s;N/A;;;;140 s;5 s;450 m;N/A;;;N/A;;;3;120 s;10%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4256085712;Hashidate;1;CA;Japan;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4258182864;Chikuma;2;CA;Japan;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4259264496;New Mexico;6;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4264441840;Sims;7;DD;U.S.A.;;5 s;N/A;;;3;30 s;121 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4265588720;Yorktown;8;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4266538992;Wickes;3;DD;U.S.A.;;5 s;N/A;;;3;30 s;109 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4267587280;Kamikaze R;5;DD;Japan;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4267620048;Iwaki Alpha;4;CA;Japan;;5 s;N/A;;;3;15 s;80 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4267685872;Independence;6;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4268635856;Kamikaze;5;DD;Japan;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4269684432;Wakatake;3;DD;Japan;;5 s;N/A;;;3;20 s;69 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4269717488;Phoenix;4;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4272830448;Fletcher;9;DD;U.S.A.;;5 s;N/A;;;3;30 s;127 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4272895696;Izumo;9;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4273911760;Monmouth;10;CA;U.K.;;5 s;2;20 s;40.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4273911792;Des Moines;10;CA;U.S.A.;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;3;35 s;10.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4273977328;Essex;10;CV;U.S.A.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4274927440;Orage;9;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;5;90 s;30%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4274927600;Clemson;4;DD;U.S.A.;;5 s;N/A;;;3;30 s;112 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4274959728;Encounter;9;CA;Commonw.;;5 s;3;28 s;14.0 %;3;102 s;10 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;3;8.0 km;N/A;N/A
+4274960144;Menno van Coehoorn;9;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4274960176;Manteuffel;9;CA;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4274992464;Los Andes;9;BB;Pan-Am.;;20 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4275976016;L'Aventurier;8;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;5;90 s;30%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4276008304;Auckland;8;CA;Commonw.;;5 s;3;28 s;14.0 %;3;102 s;10 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;3;7.0 km;N/A;N/A
+4276008656;Tone;8;CA;Japan;;5 s;4;28 s;14.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4276008720;Jaarsveld;8;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4276008752;Knesebeck;8;CA;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4276041040;Ipiranga;8;BB;Pan-Am.;;20 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4276041424;Yamato;10;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4276041712;Iowa;9;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4277056880;Uganda;7;CA;Commonw.;;5 s;N/A;;;3;102 s;10 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;3;7.0 km;N/A;N/A
+4277057328;Admiral Scheer;7;CA;Germany;4;10 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4277090288;Montana;10;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4278073168;Duchaffault;6;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;5;50 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4278105456;Hobart;6;CA;Commonw.;;5 s;N/A;;;3;102 s;10 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;3;6.0 km;N/A;N/A
+4278105904;Deutschland;6;CA;Germany;4;10 s;N/A;;;N/A;;;;3;110 s;5.5 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4279121744;L'Adroit;5;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;5;50 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4279154032;Delhi;5;CA;Commonw.;;5 s;N/A;;;3;102 s;10 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;3;6.0 km;N/A;N/A
+4280170192;Tachibana Lima;2;DD;Japan;;5 s;N/A;;;3;20 s;65 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4280170480;Nicholas;5;DD;U.S.A.;;5 s;N/A;;;3;30 s;115 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4280202608;Dunedin;4;CA;Commonw.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4281219056;Gearing;10;DD;U.S.A.;;5 s;N/A;;;3;30 s;130 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4281251184;Caradoc;3;CA;Commonw.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4281251536;Kuma;4;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4281284304;Amagi;8;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4281284592;Arkansas Beta;4;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4282267344;Shimakaze;10;DD;Japan;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4282299760;Port Jackson;2;CA;Commonw.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4282300112;Ibuki;9;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;3;7.0 km;N/A;N/A
+4282333168;North Carolina;8;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4283348976;Jacksonville;11;CA;U.S.A.;;5 s;4;28 s;18.5 %;N/A;;;;3;100 s;5.0 km;3;40 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4283381456;Mikasa;2;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4283381488;Affondatore;11;BB;Italy;;15 s;4;28 s;14.0 %;3;60 s;15 s;900 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4284364624;Cassard;10;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;5;90 s;30%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4284396912;Cerberus;10;CA;Commonw.;;5 s;3;28 s;14.0 %;3;102 s;10 s;450 m;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;3;8.0 km;N/A;N/A
+4284397008;Diana Lima;2;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4284397328;Utrecht;10;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4284397360;Prinz Adalbert;10;CA;Germany;4;10 s;3;28 s;14.0 %;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4284429648;Libertad;10;BB;Pan-Am.;;20 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4284430032;Nagato;7;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4285445840;Mogami;8;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+4286461936;Benson;8;DD;U.S.A.;;5 s;N/A;;;3;30 s;124 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4286527184;Ishizuchi;4;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4286527472;Colorado;7;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4287542992;Aoba;6;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;5.0 km;N/A;N/A
+4288559088;Mahan;7;DD;U.S.A.;;5 s;N/A;;;3;30 s;121 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4288591856;Atlanta;7;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;3;25 s;8.5 km;N/A;;;;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4288624624;New York;5;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4289607664;Farragut;6;DD;U.S.A.;;5 s;N/A;;;3;30 s;118 s;450 m;N/A;;;N/A;;;3;120 s;8%;4;40 s;100%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4289640144;Furutaka;5;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;3;5.0 km;N/A;N/A
+4289640432;Omaha;5;CA;U.S.A.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4290655952;Minekaze;5;DD;Japan;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4290721776;Wyoming;4;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4291704528;Isokaze;4;DD;Japan;;5 s;N/A;;;3;20 s;73 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4291737040;Murmansk;5;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4291737584;Albany;2;CA;U.S.A.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4292753104;Umikaze;2;DD;Japan;;5 s;N/A;;;3;20 s;65 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4292753392;Sampson;2;DD;U.S.A.;;5 s;N/A;;;3;30 s;106 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4292785616;Diana;2;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4292785968;Dresden;2;CA;Germany;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4292786160;Chester;2;CA;U.S.A.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4292818736;Tirpitz;8;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4292818896;Warspite;6;BB;U.K.;;5 s;4;28 s;16.8 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4293801424;Gremyashchy;5;DD;U.S.S.R.;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293801680;Tachibana;2;DD;Japan;;5 s;N/A;;;3;20 s;65 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293834096;Sutlej;1;CA;Commonw.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293834192;Aurora;3;CA;U.S.S.R.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293834544;Hermelin;1;CA;Germany;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293834736;Erie;1;CA;U.S.A.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293866960;Imperator Nikolai I;4;BB;U.S.S.R.;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293867216;Kawachi;3;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4293867504;South Carolina;3;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4185830832;Almirante Cervera;4;CA;Spain;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760076208;Álvaro de Bazán;10;DD;Spain;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3555669712;ARP Kongo;5;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3555636944;ARP Myoko;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+3340154864;Balao 2;10;SS;U.S.A.;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;9.0 km;;6.0 km;2;N/A
+3769513264;Blyskawica;7;DD;Europe;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3552458032;Blyskawica '44;8;DD;Europe;;5 s;N/A;;;N/A;;;;3;100 s;5.0 km;N/A;;;4;60 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540923696;Blyskawica '52;9;DD;Europe;;5 s;2;14 s;14.0 %;N/A;;;;N/A;;;3;10 s;9.0 km;2;180 s;20%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3540956880;Chikuma II;9;CA;Japan;;5 s;4;28 s;14.0 %;3;20 s;93 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3530471120;Chikuma II Golden;9;CA;Japan;;5 s;4;28 s;14.0 %;3;20 s;93 s;450 m;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3667899856;Chkalov B;8;CV;U.S.S.R.;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3249485808;Colorado 2;7;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3556653040;DD 214;4;DD;U.S.A.;;5 s;N/A;;;3;30 s;112 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3669964624;Dunkerque B;6;BB;France;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4277024464;Fujin;5;DD;Japan;;5 s;N/A;;;3;20 s;77 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4288624336;Fuso;6;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4074648880;Gdansk;10;DD;Europe;;5 s;N/A;;;3;20 s;97 s;450 m;N/A;;;4;10 s;9.0 km;4;90 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4179605200;Hakuryu;10;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4185896656;Hosho;4;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+3752802000;Hyuga;7;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;3;15 s;-50%;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3331274736;Iowa 2;9;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3543021520;Jupiter '42;7;DD;U.K.;;5 s;N/A;;;6;10 s;40 s;600 m;3;180 s;3.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4076746448;Kagero;8;DD;Japan;;5 s;N/A;;;3;20 s;89 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3761190192;Karl XIV Johan;9;BB;Europe;;15 s;4;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3666819056;Kearsarge B;9;BB;U.S.A.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4287575760;Kongo;5;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4184782160;La Argentina;5;CA;Pan-Am.;;5 s;4;20 s;10.0 %;N/A;;;;4;100 s;3.0 km;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+4277024592;Le Hardi;7;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;5;60 s;25%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3762173776;Le Terrible;8;DD;France;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;3;120 s;20%;N/A;;;4;15 s;-50%;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3667834672;Mainz B;8;CA;Germany;;5 s;N/A;;;N/A;;;;3;120 s;6.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3330226160;Montana 2;10;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4291770064;Myogi;4;BB;Japan;;10 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+4286494416;Myoko;7;CA;Japan;;5 s;N/A;;;N/A;;;;3;100 s;4.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;N/A;N/A;;3;6.0 km;N/A;N/A
+3676223216;Napoli B;10;CA;Italy;;5 s;3;28 s;14.0 %;2;40 s;10 s;510 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3248437232;North Carolina 2;8;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3447666672;North Carolina CLR;8;BB;U.S.A.;;20 s;4;28 s;18.5 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3544102864;Orion '44;6;CA;U.K.;;5 s;3;20 s;40.0 %;N/A;;;;3;100 s;4.0 km;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550394128;Prins van Oranje;10;CA;Netherlands;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3765384528;Rio de Janeiro;5;BB;Pan-Am.;;20 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3760142064;Ruggiero di Lauria;10;BB;Italy;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+4183799504;Ryujo;6;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4179539280;San Martín;10;CA;Pan-Am.;;5 s;4;20 s;30.0 %;N/A;;;;4;100 s;3.0 km;4;25 s;9.0 km;N/A;;;4;40 s;50%;N/A;;;N/A;N/A;4;N/A;;N/A;;N/A;N/A
+3543086896;Scharnhorst '43;7;BB;Germany;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;180 s;15%;N/A;;;N/A;;;N/A;3;N/A;N/A;;N/A;;N/A;N/A
+3669898960;Shinonome B;6;DD;Japan;;5 s;N/A;;;3;20 s;81 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4181702352;Shokaku;8;CV;Japan;;30 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;4;N/A;N/A;;N/A;;N/A;N/A
+4290689008;St. Louis;3;CA;U.S.A.;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+4074715088;St. Vincent;10;BB;U.K.;;15 s;3;20 s;40.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;3;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3363747792;STAR Edinburgh;8;CA;U.K.;;5 s;3;20 s;40.0 %;3;15 s;99 s;600 m;3;100 s;5.0 km;3;30 s;10.0 km;N/A;;;N/A;;;N/A;;;N/A;3;4;N/A;;N/A;;N/A;N/A
+3362666192;STAR Kitakaze;9;DD;Japan;;5 s;N/A;;;3;20 s;93 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+3543020848;Stord '43;7;DD;Europe;;5 s;2;10 s;20.0 %;2;20 s;61 s;450 m;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3752736208;Tashkent '39;7;DD;U.S.S.R.;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;2;N/A;N/A;N/A;;N/A;;N/A;N/A
+4279154384;Tenryu;3;CA;Japan;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3550426896;Willem de Eerste;10;BB;Netherlands;;15 s;4;28 s;14.0 %;N/A;;;;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3543577808;Xin Zhong Guo 14;6;SS;Pan-Asia;3;15 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;;;N/A;N/A;N/A;;7.0 km;2;6.0 km;N/A;2
+4290688720;Yubari;4;CA;Japan;;5 s;N/A;;;N/A;;;;N/A;;;N/A;;;N/A;;;2;40 s;50%;N/A;;;N/A;N/A;N/A;N/A;;N/A;;N/A;N/A
+3763222224;Yudachi;7;DD;Japan;;5 s;N/A;;;3;20 s;85 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+4075697872;Yugumo;9;DD;Japan;;5 s;N/A;;;3;20 s;93 s;450 m;N/A;;;N/A;;;3;120 s;8%;N/A;;;N/A;;;3;N/A;N/A;N/A;;N/A;;N/A;N/A
+4259231440;Zao;10;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;3;7.0 km;N/A;N/A
+3361650384;Zao CLR;10;CA;Japan;;5 s;3;28 s;14.0 %;N/A;;;;3;100 s;5.0 km;N/A;;;N/A;;;3;40 s;50%;N/A;;;N/A;3;4;N/A;;3;7.0 km;N/A;N/A
