@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations>
+  <location id="LOC001">
+    <name>Forward Operating Base Alpha</name>
+    <coordinates>
+      <latitude>40.7128</latitude>
+      <longitude>-74.0060</longitude>
+      <elevation>15</elevation>
+    </coordinates>
+    <type>military_base</type>
+    <status>active</status>
+    <capacity>500</capacity>
+    <defenses>
+      <perimeter>concrete_walls</perimeter>
+      <air_defense>patriot_system</air_defense>
+      <surveillance>radar</surveillance>
+    </defenses>
+  </location>
+  <location id="LOC002">
+    <name>Checkpoint Bravo</name>
+    <coordinates>
+      <latitude>40.7589</latitude>
+      <longitude>-73.9851</longitude>
+      <elevation>8</elevation>
+    </coordinates>
+    <type>checkpoint</type>
+    <status>active</status>
+    <capacity>20</capacity>
+    <defenses>
+      <perimeter>barriers</perimeter>
+      <surveillance>cameras</surveillance>
+    </defenses>
+  </location>
+  <location id="LOC003">
+    <name>Supply Depot Charlie</name>
+    <coordinates>
+      <latitude>40.7505</latitude>
+      <longitude>-73.9934</longitude>
+      <elevation>12</elevation>
+    </coordinates>
+    <type>supply_depot</type>
+    <status>active</status>
+    <capacity>200</capacity>
+    <supplies>
+      <ammunition>high</ammunition>
+      <fuel>medium</fuel>
+      <food>high</food>
+      <medical>medium</medical>
+    </supplies>
+  </location>
+</locations>
