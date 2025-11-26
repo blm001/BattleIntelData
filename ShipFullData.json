@@ -1,8 +1,8 @@
 {
   "schema": "ship-full-data-v2",
   "source": "C:\\Users\\Administrator\\WOWS\\blacwow - bi\\BattleIntelShare\\ShipParams.json",
-  "baseGeneratedAt": "2025-11-25T19:38:13.5019229Z",
-  "generatedAt": "2025-11-25T20:32:30.6655348Z",
+  "baseGeneratedAt": "2025-11-25T13:26:44.1702822Z",
+  "generatedAt": "2025-11-26T07:00:51.7995908Z",
   "count": 904,
   "ships": [
     {
@@ -15078,6 +15078,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -15153,7 +15164,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 1,
         "Consumables.Smoke Generator": 0,
@@ -15163,10 +15174,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.284,
+        "Survivabilty": 0.33,
         "AntiAir": 0.434,
-        "Survivabilty_N": 0.371,
-        "Survivabilty_ClassN": 0.505
+        "Survivabilty_N": 0.54,
+        "Survivabilty_ClassN": 0.735
       }
     },
     {
@@ -15604,6 +15615,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         }
@@ -15661,18 +15681,18 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 1,
-        "FirePower": 0.389,
+        "FirePower": 0.409,
         "TorpPower": 0.526,
         "ASW": 0.52,
-        "FirePower_N": 0.681,
-        "FirePower_ClassN": 0.688
+        "FirePower_N": 0.749,
+        "FirePower_ClassN": 0.761
       },
       "Defense": {
         "Gen.Health": 0.285,
@@ -31456,6 +31476,17 @@
               "Action Time": "25 s",
               "Ship Detection Range": "9.0 km",
               "Cooldown Time": "120 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -31550,7 +31581,7 @@
         "AntiAir.Sector time": 0,
         "AntiAir.Sector %": 1,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -31560,10 +31591,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.268,
+        "Survivabilty": 0.313,
         "AntiAir": 0.303,
-        "Survivabilty_N": 0.313,
-        "Survivabilty_ClassN": 0.235
+        "Survivabilty_N": 0.478,
+        "Survivabilty_ClassN": 0.476
       }
     },
     {
@@ -37330,6 +37361,16 @@
               "Description": "Increases the intensity of AA fire. Uses: 4 Action time: 40 s Continuous AA damage: \u002B50 % Flak damage: \u002B300 % Cooldown time: 80 s",
               "Action Time": "40 sContinuous AA damage: \u002B50 %Flak damage: \u002B300 %",
               "Cooldown Time": "80 s"
+            },
+            {
+              "Name": "Hydroacoustic Search",
+              "CanonicalType": "HydroacousticSearch",
+              "Charges": "3",
+              "Description": "Increases the range of assured acquisition of enemy ships and torpedoes, including those within smoke screens. Uses: 3 Action time: 100 s Ship detection range: 5.0 km Torpedo detection range: 3.5 km Cooldown time: 120 s",
+              "Action Time": "100 s",
+              "Ship Detection Range": "5.0 km",
+              "Torpedo Detection Range": "3.5 km",
+              "Cooldown Time": "120 s"
             }
           ]
         }
@@ -37383,11 +37424,11 @@
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
-        "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.337,
+        "Consumables.Hydroacoustic Search": 1,
+        "FirePower": 0.362,
         "ASW": 0.52,
-        "FirePower_N": 0.505,
-        "FirePower_ClassN": 0.496
+        "FirePower_N": 0.59,
+        "FirePower_ClassN": 0.588
       },
       "Defense": {
         "Gen.Health": 0.286,
@@ -51721,6 +51762,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         }
@@ -51778,18 +51828,18 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 1,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.391,
+        "FirePower": 0.411,
         "TorpPower": 0.458,
         "ASW": 0.573,
-        "FirePower_N": 0.688,
-        "FirePower_ClassN": 0.738
+        "FirePower_N": 0.756,
+        "FirePower_ClassN": 0.811
       },
       "Defense": {
         "Gen.Health": 0.45,
@@ -53447,6 +53497,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -53522,7 +53583,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 1,
         "Consumables.Smoke Generator": 0,
@@ -53532,10 +53593,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.284,
+        "Survivabilty": 0.33,
         "AntiAir": 0.434,
-        "Survivabilty_N": 0.371,
-        "Survivabilty_ClassN": 0.505
+        "Survivabilty_N": 0.54,
+        "Survivabilty_ClassN": 0.735
       }
     },
     {
@@ -65645,6 +65706,15 @@
               "Cooldown Time": "160 s"
             },
             {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
+            },
+            {
               "Name": "Fighter",
               "CanonicalType": "Fighter",
               "Charges": "3",
@@ -65708,18 +65778,18 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 1,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 1,
-        "FirePower": 0.419,
+        "FirePower": 0.445,
         "TorpPower": 0.513,
         "ASW": 0.479,
-        "FirePower_N": 0.783,
-        "FirePower_ClassN": 0.798
+        "FirePower_N": 0.871,
+        "FirePower_ClassN": 0.893
       },
       "Defense": {
         "Gen.Health": 0.244,
@@ -65913,6 +65983,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -65999,7 +66080,7 @@
         "AntiAir.Sector time": 0,
         "AntiAir.Sector %": 1,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -66009,10 +66090,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.255,
+        "Survivabilty": 0.3,
         "AntiAir": 0.441,
-        "Survivabilty_N": 0.265,
-        "Survivabilty_ClassN": 0.166
+        "Survivabilty_N": 0.43,
+        "Survivabilty_ClassN": 0.406
       }
     },
     {
@@ -72423,6 +72504,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -72508,7 +72600,7 @@
         "AntiAir.Sector %": 0,
         "AntiAir.DFAA %": 0.143,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -72518,10 +72610,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.211,
+        "Survivabilty": 0.256,
         "AntiAir": 0.404,
-        "Survivabilty_N": 0.103,
-        "Survivabilty_ClassN": 0.14
+        "Survivabilty_N": 0.268,
+        "Survivabilty_ClassN": 0.365
       }
     },
     {
@@ -80962,6 +81054,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -81046,7 +81149,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 1,
         "Consumables.Smoke Generator": 0,
@@ -81056,10 +81159,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.273,
+        "Survivabilty": 0.318,
         "AntiAir": 0.398,
-        "Survivabilty_N": 0.331,
-        "Survivabilty_ClassN": 0.45
+        "Survivabilty_N": 0.496,
+        "Survivabilty_ClassN": 0.675
       }
     },
     {
@@ -87291,6 +87394,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -87376,7 +87490,7 @@
         "AntiAir.Sector %": 1,
         "AntiAir.DFAA %": 0.143,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -87386,10 +87500,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.27,
+        "Survivabilty": 0.315,
         "AntiAir": 0.332,
-        "Survivabilty_N": 0.32,
-        "Survivabilty_ClassN": 0.246
+        "Survivabilty_N": 0.485,
+        "Survivabilty_ClassN": 0.487
       }
     },
     {
@@ -98986,6 +99100,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 4 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "4",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -99081,7 +99206,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -99091,10 +99216,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 1,
-        "Survivabilty": 0.333,
+        "Survivabilty": 0.379,
         "AntiAir": 0.476,
-        "Survivabilty_N": 0.551,
-        "Survivabilty_ClassN": 0.75
+        "Survivabilty_N": 0.721,
+        "Survivabilty_ClassN": 0.98
       }
     },
     {
@@ -99674,6 +99799,17 @@
               "Cooldown Time": "240 s"
             },
             {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
+            },
+            {
               "Name": "Defensive AA Fire",
               "CanonicalType": "DefensiveAAFire",
               "Charges": "4",
@@ -99765,7 +99901,7 @@
         "AntiAir.Sector %": 0,
         "AntiAir.DFAA %": 0.143,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -99775,10 +99911,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.274,
+        "Survivabilty": 0.319,
         "AntiAir": 0.478,
-        "Survivabilty_N": 0.335,
-        "Survivabilty_ClassN": 0.455
+        "Survivabilty_N": 0.5,
+        "Survivabilty_ClassN": 0.68
       }
     },
     {
@@ -110539,6 +110675,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         }
@@ -110586,17 +110731,17 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.348,
+        "FirePower": 0.373,
         "ASW": 0.573,
-        "FirePower_N": 0.542,
-        "FirePower_ClassN": 0.582
+        "FirePower_N": 0.627,
+        "FirePower_ClassN": 0.673
       },
       "Defense": {
         "Gen.Health": 0.478,
@@ -114148,6 +114293,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 2 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "2",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -114234,7 +114390,7 @@
         "AntiAir.Sector time": 0,
         "AntiAir.Sector %": 1,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -114244,10 +114400,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.249,
+        "Survivabilty": 0.294,
         "AntiAir": 0.369,
-        "Survivabilty_N": 0.243,
-        "Survivabilty_ClassN": 0.134
+        "Survivabilty_N": 0.408,
+        "Survivabilty_ClassN": 0.374
       }
     },
     {
@@ -120552,6 +120708,14 @@
               "Ship Detection Range": "5.0 km",
               "Torpedo Detection Range": "3.5 km",
               "Cooldown Time": "120 s"
+            },
+            {
+              "Name": "Defensive AA Fire",
+              "CanonicalType": "DefensiveAAFire",
+              "Charges": "3",
+              "Description": "Increases the intensity of AA fire. Uses: 3 Action time: 40 s Continuous AA damage: \u002B50 % Flak damage: \u002B300 % Cooldown time: 80 s",
+              "Action Time": "40 sContinuous AA damage: \u002B50 %Flak damage: \u002B300 %",
+              "Cooldown Time": "80 s"
             }
           ]
         },
@@ -120566,6 +120730,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 4 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "4",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -120662,7 +120837,7 @@
         "AntiAir.Sector %": 1,
         "AntiAir.DFAA %": 0.143,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 1,
         "Consumables.Smoke Generator": 0,
@@ -120672,10 +120847,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.319,
+        "Survivabilty": 0.364,
         "AntiAir": 0.445,
-        "Survivabilty_N": 0.5,
-        "Survivabilty_ClassN": 0.508
+        "Survivabilty_N": 0.665,
+        "Survivabilty_ClassN": 0.749
       }
     },
     {
@@ -126641,6 +126816,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -126716,7 +126902,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 1,
         "Consumables.Smoke Generator": 0,
@@ -126726,10 +126912,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.288,
+        "Survivabilty": 0.333,
         "AntiAir": 0.422,
-        "Survivabilty_N": 0.386,
-        "Survivabilty_ClassN": 0.525
+        "Survivabilty_N": 0.551,
+        "Survivabilty_ClassN": 0.75
       }
     },
     {
@@ -137915,6 +138101,14 @@
               "Ship Detection Range": "5.0 km",
               "Torpedo Detection Range": "3.5 km",
               "Cooldown Time": "120 s"
+            },
+            {
+              "Name": "Defensive AA Fire",
+              "CanonicalType": "DefensiveAAFire",
+              "Charges": "3",
+              "Description": "Increases the intensity of AA fire. Uses: 3 Action time: 40 s Continuous AA damage: \u002B50 % Flak damage: \u002B300 % Cooldown time: 80 s",
+              "Action Time": "40 sContinuous AA damage: \u002B50 %Flak damage: \u002B300 %",
+              "Cooldown Time": "80 s"
             }
           ]
         },
@@ -139988,6 +140182,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         }
@@ -140035,17 +140238,17 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.353,
+        "FirePower": 0.378,
         "ASW": 0.573,
-        "FirePower_N": 0.559,
-        "FirePower_ClassN": 0.6
+        "FirePower_N": 0.644,
+        "FirePower_ClassN": 0.691
       },
       "Defense": {
         "Gen.Health": 0.549,
@@ -163662,6 +163865,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -163746,7 +163960,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 1,
         "Consumables.Smoke Generator": 0,
@@ -163756,10 +163970,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.273,
+        "Survivabilty": 0.318,
         "AntiAir": 0.398,
-        "Survivabilty_N": 0.331,
-        "Survivabilty_ClassN": 0.45
+        "Survivabilty_N": 0.496,
+        "Survivabilty_ClassN": 0.675
       }
     },
     {
@@ -172764,6 +172978,14 @@
               "Ship Detection Range": "4.0 km",
               "Torpedo Detection Range": "3.0 km",
               "Cooldown Time": "120 s"
+            },
+            {
+              "Name": "Defensive AA Fire",
+              "CanonicalType": "DefensiveAAFire",
+              "Charges": "3",
+              "Description": "Increases the intensity of AA fire. Uses: 3 Action time: 40 s Continuous AA damage: \u002B50 % Flak damage: \u002B300 % Cooldown time: 80 s",
+              "Action Time": "40 sContinuous AA damage: \u002B50 %Flak damage: \u002B300 %",
+              "Cooldown Time": "80 s"
             }
           ]
         }
@@ -174336,6 +174558,15 @@
               "Cooldown Time": "120 s"
             },
             {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
+            },
+            {
               "Name": "Fighter",
               "CanonicalType": "Fighter",
               "Charges": "3",
@@ -174392,17 +174623,17 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 1,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.414,
+        "FirePower": 0.439,
         "ASW": 0.638,
-        "FirePower_N": 0.766,
-        "FirePower_ClassN": 0.822
+        "FirePower_N": 0.851,
+        "FirePower_ClassN": 0.913
       },
       "Defense": {
         "Gen.Health": 0.532,
@@ -177647,6 +177878,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -177731,7 +177973,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -177741,10 +177983,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 1,
-        "Survivabilty": 0.283,
+        "Survivabilty": 0.328,
         "AntiAir": 0.439,
-        "Survivabilty_N": 0.368,
-        "Survivabilty_ClassN": 0.5
+        "Survivabilty_N": 0.533,
+        "Survivabilty_ClassN": 0.725
       }
     },
     {
@@ -183020,6 +183262,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         },
@@ -183092,18 +183343,18 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 1,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 1,
-        "FirePower": 0.416,
+        "FirePower": 0.436,
         "TorpPower": 0.456,
         "ASW": 0.52,
-        "FirePower_N": 0.773,
-        "FirePower_ClassN": 0.787
+        "FirePower_N": 0.841,
+        "FirePower_ClassN": 0.86
       },
       "Defense": {
         "Gen.Health": 0.302,
@@ -183339,6 +183590,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         },
@@ -183411,18 +183671,18 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 1,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 1,
-        "FirePower": 0.416,
+        "FirePower": 0.436,
         "TorpPower": 0.456,
         "ASW": 0.52,
-        "FirePower_N": 0.773,
-        "FirePower_ClassN": 0.787
+        "FirePower_N": 0.841,
+        "FirePower_ClassN": 0.86
       },
       "Defense": {
         "Gen.Health": 0.302,
@@ -189972,6 +190232,17 @@
               "Action Time": "25 s",
               "Ship Detection Range": "9.0 km",
               "Cooldown Time": "120 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -190066,7 +190337,7 @@
         "AntiAir.Sector time": 0,
         "AntiAir.Sector %": 1,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -190076,10 +190347,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.268,
+        "Survivabilty": 0.313,
         "AntiAir": 0.303,
-        "Survivabilty_N": 0.313,
-        "Survivabilty_ClassN": 0.235
+        "Survivabilty_N": 0.478,
+        "Survivabilty_ClassN": 0.476
       }
     },
     {
@@ -194858,6 +195129,15 @@
               "Cooldown Time": "160 s"
             },
             {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
+            },
+            {
               "Name": "Fighter",
               "CanonicalType": "Fighter",
               "Charges": "3",
@@ -194921,18 +195201,18 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 1,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 1,
-        "FirePower": 0.419,
+        "FirePower": 0.445,
         "TorpPower": 0.513,
         "ASW": 0.479,
-        "FirePower_N": 0.783,
-        "FirePower_ClassN": 0.798
+        "FirePower_N": 0.871,
+        "FirePower_ClassN": 0.893
       },
       "Defense": {
         "Gen.Health": 0.244,
@@ -196382,6 +196662,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         }
@@ -196429,17 +196718,17 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 1,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.383,
+        "FirePower": 0.408,
         "ASW": 0.517,
-        "FirePower_N": 0.661,
-        "FirePower_ClassN": 0.709
+        "FirePower_N": 0.746,
+        "FirePower_ClassN": 0.8
       },
       "Defense": {
         "Gen.Health": 0.368,
@@ -210266,6 +210555,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         }
@@ -210313,17 +210611,17 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.385,
+        "FirePower": 0.41,
         "ASW": 0.66,
-        "FirePower_N": 0.668,
-        "FirePower_ClassN": 0.716
+        "FirePower_N": 0.753,
+        "FirePower_ClassN": 0.807
       },
       "Defense": {
         "Gen.Health": 0.752,
@@ -214645,6 +214943,15 @@
               "Patrol Radius": "3.0 km",
               "Reaction Time": "5.0 s",
               "Cooldown Time": "90 s"
+            },
+            {
+              "Name": "Spotting Aircraft",
+              "CanonicalType": "SpottingAircraft",
+              "Charges": "4",
+              "Description": "Extends main battery firing range. Uses: 4 Action time: 100 s Main battery range: \u002B20 % Cooldown time: 240 s",
+              "Action Time": "100 s",
+              "Main Battery Range": "\u002B20 %",
+              "Cooldown Time": "240 s"
             }
           ]
         }
@@ -214692,17 +214999,17 @@
         "Consumables.High-Precision Spotter": 0,
         "Consumables.Submarine Surveillance": 0,
         "Consumables.Torpedo Reload Booster": 0,
-        "Consumables.Spotting Aircraft": 0,
+        "Consumables.Spotting Aircraft": 1,
         "Consumables.Surveillance Radar": 0,
         "Consumables.Main Battery Reload Booster": 0,
         "Consumables.Hydrophone": 0,
         "Consumables.Short-Range Hydroacoustic Search": 0,
         "Consumables.Rapid Takeoff Spotter": 0,
         "Consumables.Hydroacoustic Search": 0,
-        "FirePower": 0.379,
+        "FirePower": 0.404,
         "ASW": 0.638,
-        "FirePower_N": 0.647,
-        "FirePower_ClassN": 0.695
+        "FirePower_N": 0.732,
+        "FirePower_ClassN": 0.785
       },
       "Defense": {
         "Gen.Health": 0.752,
@@ -216107,6 +216414,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -216182,7 +216500,7 @@
         "AntiAir.Sector time": 1,
         "AntiAir.Sector %": 0,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 1,
         "Consumables.Smoke Generator": 0,
@@ -216192,10 +216510,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.276,
+        "Survivabilty": 0.322,
         "AntiAir": 0.347,
-        "Survivabilty_N": 0.342,
-        "Survivabilty_ClassN": 0.465
+        "Survivabilty_N": 0.511,
+        "Survivabilty_ClassN": 0.695
       }
     },
     {
@@ -217961,6 +218279,14 @@
               "Ship Detection Range": "5.0 km",
               "Torpedo Detection Range": "3.5 km",
               "Cooldown Time": "120 s"
+            },
+            {
+              "Name": "Defensive AA Fire",
+              "CanonicalType": "DefensiveAAFire",
+              "Charges": "3",
+              "Description": "Increases the intensity of AA fire. Uses: 3 Action time: 40 s Continuous AA damage: \u002B50 % Flak damage: \u002B300 % Cooldown time: 80 s",
+              "Action Time": "40 sContinuous AA damage: \u002B50 %Flak damage: \u002B300 %",
+              "Cooldown Time": "80 s"
             }
           ]
         }
@@ -219210,6 +219536,17 @@
               "Action Time": "60 s",
               "Main Battery Range": "\u002B30 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -219306,7 +219643,7 @@
         "AntiAir.Sector %": 1,
         "AntiAir.DFAA %": 0.143,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -219316,10 +219653,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 1,
-        "Survivabilty": 0.292,
+        "Survivabilty": 0.337,
         "AntiAir": 0.314,
-        "Survivabilty_N": 0.401,
-        "Survivabilty_ClassN": 0.364
+        "Survivabilty_N": 0.566,
+        "Survivabilty_ClassN": 0.604
       }
     },
     {
@@ -219985,6 +220322,17 @@
               "Action Time": "100 s",
               "Main Battery Range": "\u002B20 %",
               "Cooldown Time": "240 s"
+            },
+            {
+              "Name": "Fighter",
+              "CanonicalType": "Fighter",
+              "Charges": "3",
+              "Description": "Follows the ship and automatically attacks enemy aircraft. Uses: 3 Action time: 60 s Number of planes: 3 Patrol radius: 3.0 km Reaction time: 5.0 s Cooldown time: 90 s",
+              "Action Time": "60 s",
+              "Number of Planes": "3",
+              "Patrol Radius": "3.0 km",
+              "Reaction Time": "5.0 s",
+              "Cooldown Time": "90 s"
             }
           ]
         }
@@ -220070,7 +220418,7 @@
         "AntiAir.Sector %": 0,
         "AntiAir.DFAA %": 0.143,
         "Consumables.Damage Control Party": 1,
-        "Consumables.Fighter": 0,
+        "Consumables.Fighter": 1,
         "Consumables.Fast Damage Control Team": 0,
         "Consumables.Exhaust Smoke Generator": 0,
         "Consumables.Smoke Generator": 0,
@@ -220080,10 +220428,10 @@
         "Consumables.Crawling Smoke Generator": 0,
         "Consumables.Enhanced Rudder Gears": 0,
         "Consumables.Engine Boost": 0,
-        "Survivabilty": 0.237,
+        "Survivabilty": 0.283,
         "AntiAir": 0.415,
-        "Survivabilty_N": 0.199,
-        "Survivabilty_ClassN": 0.27
+        "Survivabilty_N": 0.368,
+        "Survivabilty_ClassN": 0.5
       }
     },
     {
