@@ -1,6 +1,6 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleCapture'
-MOD_VERSION = '1.6.0'
+MOD_VERSION = '1.6.1'
 
 # BattleCapture mod
 # Purpose: capture who died and when during a battle.
@@ -39,6 +39,7 @@ _players = {}      # vid -> { vehicleId, playerName, teamId, shipName, subtype }
 _dead_seen = {}    # vid -> True
 _deaths = []       # ordered death events
 _events = []       # ordered lifecycle events for diagnostics
+_initial_scan_done = False  # True after first onBattleShown scan; deaths only recorded after this
 _lifecycle = {
 	'battleShownTs': None,
 	'quitTs': None,
@@ -250,6 +251,7 @@ def _refresh_ship_info_from_all_ships():
 
 def _scan_players_for_deaths():
 	"""Update roster and append new death events for newly dead players."""
+	global _initial_scan_done
 	try:
 		players_info = battle.getPlayersInfo()
 		if not players_info:
@@ -285,6 +287,12 @@ def _scan_players_for_deaths():
 					if row.get('teamId') is None and team_id is not None:
 						row['teamId'] = team_id
 
+				# Skip death recording on the very first scan (onBattleShown).
+				# At that point elapsed=0 and no real deaths have occurred yet;
+				# we only build the roster so subsequent polls have a baseline.
+				if not _initial_scan_done:
+					continue
+
 				if (not is_alive) and (vid not in _dead_seen):
 					_dead_seen[vid] = True
 					row = _players.get(vid, {})
@@ -307,6 +315,7 @@ def _scan_players_for_deaths():
 						str(ev.get('playerName')), str(vid), elapsed))
 			except:
 				pass
+		_initial_scan_done = True
 	except:
 		pass
 
@@ -408,7 +417,7 @@ def _write_output(trigger_name):
 
 
 def _reset_state():
-	global _started, _battle_start_ts, _battle_output_file, _players, _dead_seen, _deaths, _events
+	global _started, _battle_start_ts, _battle_output_file, _players, _dead_seen, _deaths, _events, _initial_scan_done
 	_started = False
 	_battle_start_ts = 0
 	_battle_output_file = None
@@ -416,6 +425,7 @@ def _reset_state():
 	_dead_seen = {}
 	_deaths = []
 	_events = []
+	_initial_scan_done = False
 	_lifecycle['battleShownTs'] = None
 	_lifecycle['quitTs'] = None
 	_lifecycle['endTs'] = None
