@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4179015408,
+    "key": "PISS110_Calvi",
+    "nation": "Italy",
+    "class": "Submarine",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 10500.0,
+      "range_km": 10.5,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PIGM2006_120mm_Cannone_OTO",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 25.0,
+          "horiz_sector_deg": [
+            -155.0,
+            155.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA167_120MM_50_1926_HE",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.0,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.4215,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
