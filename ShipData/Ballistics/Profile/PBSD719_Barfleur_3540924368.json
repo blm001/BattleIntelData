@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540924368,
+    "key": "PBSD719_Barfleur",
+    "nation": "United_Kingdom",
+    "class": "Destroyer",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11580.0,
+      "range_km": 11.58,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM087_4_5in_45_Mk4_2barrels",
+          "caliber_mm": 113.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 20.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA162_114MM_MII_HE_BARFLEUR",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 113.0,
+              "mass_kg": 24.95,
+              "muzzle_velocity_ms": 746.0,
+              "air_drag": 0.329,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PBPA163_114MM_SAP_55LB_BARFLEUR",
+              "ammo_type": "AP",
+              "damage": 2100.0,
+              "caliber_mm": 113.0,
+              "mass_kg": 25.0,
+              "muzzle_velocity_ms": 746.0,
+              "air_drag": 0.3296,
+              "krupp": 1600.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 19.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5000.0,
+      "range_km": 5.0,
+      "guns": [
+        {
+          "gun_key": "PBGS2010_QF_4in_40_Mk_XIX",
+          "caliber_mm": 102.0,
+          "barrels_per_turret": 1,
+          "reload_s": 3.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -155.0,
+            155.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA164_102MM_HE_35LBS_BARFLEUR",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 102.0,
+              "mass_kg": 15.88,
+              "muzzle_velocity_ms": 811.0,
+              "air_drag": 0.33,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
