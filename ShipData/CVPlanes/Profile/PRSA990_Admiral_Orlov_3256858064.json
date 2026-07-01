@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:22Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3256858064,
+    "key": "PRSA990_Admiral_Orlov",
+    "nation": "Russia",
+    "class": "AirCarrier",
+    "tier": 10
+  },
+  "air_wing": [
+    {
+      "squadron_type": "Fighter",
+      "tier_slot": 1,
+      "plane_key": "PRAF905_ORLOV_TOP",
+      "planes_in_squadron": 8,
+      "attacks_per_strike": 4,
+      "bombs_per_attack": 1,
+      "plane_hp": 1090,
+      "speed_max_raw": 1.2385,
+      "speed_move_kph": 168.0,
+      "payload": {
+        "key": "PRPR004_NAKHIMOV_STOCK",
+        "ammo_type": "HE",
+        "damage": 4050.0,
+        "pen_mm": 40.9,
+        "fire_chance_pct": 22.0,
+        "splash_radius_m": 200.0
+      }
+    },
+    {
+      "squadron_type": "SkipBomber",
+      "tier_slot": 1,
+      "plane_key": "PRAL904_ORLOV_TOP",
+      "planes_in_squadron": 7,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1310,
+      "speed_max_raw": 1.292,
+      "speed_move_kph": 125.0,
+      "payload": {
+        "key": "PRPS006_A_NAKHIMOV_TOP",
+        "ammo_type": "HE",
+        "damage": 8700.0,
+        "pen_mm": 54.7,
+        "fire_chance_pct": 49.0,
+        "splash_radius_m": 200.0
+      }
+    },
+    {
+      "squadron_type": "TorpedoBomber",
+      "tier_slot": 1,
+      "plane_key": "PRAB904_ORLOV_TOP",
+      "planes_in_squadron": 7,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1470,
+      "speed_max_raw": 1.3038,
+      "speed_move_kph": 124.0,
+      "payload": {
+        "key": "PRPT047_NAKHIMOV_TOP",
+        "ammo_type": "torpedo",
+        "damage": 13800.0,
+        "speed_knots": 41.0,
+        "range_km": 0.2,
+        "flood_chance_pct": 45.0,
+        "arming_time_s": 7.5
+      }
+    }
+  ]
+}
