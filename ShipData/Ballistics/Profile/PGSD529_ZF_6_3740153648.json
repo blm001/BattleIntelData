@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3740153648,
+    "key": "PGSD529_ZF_6",
+    "nation": "Germany",
+    "class": "Destroyer",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11860.0,
+      "range_km": 11.86,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PGGM120_128mm_61_LDrh_LC_44",
+          "caliber_mm": 128.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.8,
+          "rotation_speed_deg_s": 18.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA105_128MM_HE_ZF6",
+              "ammo_type": "HE",
+              "damage": 1450.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 26.0,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.3035,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            },
+            "AP": {
+              "key": "PGPA106_128MM_AP_ZF6",
+              "ammo_type": "AP",
+              "damage": 2950.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 26.0,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.3035,
+              "krupp": 1640.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 10.0
+            }
+          }
+        },
+        {
+          "gun_key": "PGGM121_128mm_61_Tbts_LC_44",
+          "caliber_mm": 128.0,
+          "barrels_per_turret": 1,
+          "reload_s": 3.8,
+          "rotation_speed_deg_s": 18.0,
+          "horiz_sector_deg": [
+            -165.0,
+            165.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA105_128MM_HE_ZF6",
+              "ammo_type": "HE",
+              "damage": 1450.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 26.0,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.3035,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            },
+            "AP": {
+              "key": "PGPA106_128MM_AP_ZF6",
+              "ammo_type": "AP",
+              "damage": 2950.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 26.0,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.3035,
+              "krupp": 1640.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
