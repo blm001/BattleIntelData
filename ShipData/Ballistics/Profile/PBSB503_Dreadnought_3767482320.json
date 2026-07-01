@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3767482320,
+    "key": "PBSB503_Dreadnought",
+    "nation": "United_Kingdom",
+    "class": "Battleship",
+    "tier": 3
+  },
+  "artillery": {
+    "main": {
+      "range_m": 13680.0,
+      "range_km": 13.68,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM104_12in45_MkX",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -130.0,
+            130.0
+          ],
+          "vert_sector_deg": [
+            -3.0,
+            13.5
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA076_305MM_HE_DREAD",
+              "ammo_type": "HE",
+              "damage": 4700.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 386.0,
+              "muzzle_velocity_ms": 831.0,
+              "air_drag": 0.4391,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 32.0
+            },
+            "AP": {
+              "key": "PBPA075_305MM_AP_DREAD",
+              "ammo_type": "AP",
+              "damage": 7300.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 389.8,
+              "muzzle_velocity_ms": 831.0,
+              "air_drag": 0.4391,
+              "krupp": 2187.0,
+              "fuse_time_s": 0.015,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 3200.0,
+      "range_km": 3.2,
+      "guns": [
+        {
+          "gun_key": "PBGS103_3in50_QF_12pdr_18cwt",
+          "caliber_mm": 76.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -160.0,
+            10.0
+          ],
+          "vert_sector_deg": [
+            -3.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA073_76MM_HE_MK27M1",
+              "ammo_type": "HE",
+              "damage": 1100.0,
+              "caliber_mm": 76.0,
+              "mass_kg": 5.9,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.47,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 4.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
