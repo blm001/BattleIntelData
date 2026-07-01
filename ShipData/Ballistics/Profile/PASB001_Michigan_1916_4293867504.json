@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4293867504,
+    "key": "PASB001_Michigan_1916",
+    "nation": "USA",
+    "class": "Battleship",
+    "tier": 3
+  },
+  "artillery": {
+    "main": {
+      "range_m": 14240.0,
+      "range_km": 14.24,
+      "sigma": 2.1,
+      "guns": [
+        {
+          "gun_key": "PAGM052_12in45_Mk5",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA026_Shell_305mm_HE_C",
+              "ammo_type": "HE",
+              "damage": 3700.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 394.6,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.435,
+              "krupp": 450.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 20.0
+            },
+            "AP": {
+              "key": "PAPA025_Shell_305mm_AP_AP",
+              "ammo_type": "AP",
+              "damage": 7300.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 394.6,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.435,
+              "krupp": 2408.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 3200.0,
+      "range_km": 3.2,
+      "guns": [
+        {
+          "gun_key": "PAGS045_3in50_Mk4",
+          "caliber_mm": 76.2,
+          "barrels_per_turret": 1,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -65.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA024_Shell_76mm_HE_C",
+              "ammo_type": "HE",
+              "damage": 1100.0,
+              "caliber_mm": 76.0,
+              "mass_kg": 5.9,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.47,
+              "krupp": 1200.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 4.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
