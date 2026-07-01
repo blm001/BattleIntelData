@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4179506640,
+    "key": "PRSD110_Pr_24_Khabarovsk",
+    "nation": "Russia",
+    "class": "Destroyer",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11240.0,
+      "range_km": 11.24,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PRGM047_130mm_B2U",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 20.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA064_130MM_HE_KHABAROVSK",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.4,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2549,
+              "krupp": 52.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PRPA065_130MM_AP_KHABAROVSK",
+              "ammo_type": "AP",
+              "damage": 2600.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.5,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2549,
+              "krupp": 1720.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 22.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
