@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3530470608,
+    "key": "PZSC729_Baotou",
+    "nation": "Pan_Asia",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17610.0,
+      "range_km": 17.61,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PZGM2030_180mm_65_CM_48",
+          "caliber_mm": 180.0,
+          "barrels_per_turret": 2,
+          "reload_s": 8.4,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            50.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA081_180MM_HE_BAOTOU",
+              "ammo_type": "HE",
+              "damage": 2550.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.243,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PZPA082_180MM_AP_BAOTOU",
+              "ammo_type": "AP",
+              "damage": 4450.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.243,
+              "krupp": 2400.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 30.0,
+              "ricochet_at_deg": 50.0,
+              "always_ricochet_at_deg": 65.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PZGS2029_100mm_twin_CM_52",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA023_100MM_OF55",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.6,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.2954,
+              "krupp": 6.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
