@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4184815440,
+    "key": "PFSB105_Bretagne",
+    "nation": "France",
+    "class": "Battleship",
+    "tier": 5
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16500.0,
+      "range_km": 16.5,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM058_340_45_Mle_1912",
+          "caliber_mm": 340.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -142.0,
+            142.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            23.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA035_340MM_45_1912_HE",
+              "ammo_type": "HE",
+              "damage": 4450.0,
+              "caliber_mm": 340.0,
+              "mass_kg": 431.8,
+              "muzzle_velocity_ms": 921.0,
+              "air_drag": 0.4009,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 26.0
+            },
+            "AP": {
+              "key": "PFPA034_340MM_45_1912_AP",
+              "ammo_type": "AP",
+              "damage": 9000.0,
+              "caliber_mm": 340.0,
+              "mass_kg": 585.0,
+              "muzzle_velocity_ms": 780.0,
+              "air_drag": 0.4009,
+              "krupp": 2350.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 57.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PFGS062_138_6mm_55",
+          "caliber_mm": 139.0,
+          "barrels_per_turret": 1,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -117.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA040_139MM_55_1910_HE",
+              "ammo_type": "HE",
+              "damage": 2000.0,
+              "caliber_mm": 139.0,
+              "mass_kg": 31.5,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.3762,
+              "krupp": 360.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
