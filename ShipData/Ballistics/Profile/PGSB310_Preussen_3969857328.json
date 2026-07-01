@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3969857328,
+    "key": "PGSB310_Preussen",
+    "nation": "Germany",
+    "class": "Battleship",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 20600.0,
+      "range_km": 20.6,
+      "sigma": 1.8,
+      "guns": [
+        {
+          "gun_key": "PGGM130_457mm_52_SK_C34",
+          "caliber_mm": 457.0,
+          "barrels_per_turret": 2,
+          "reload_s": 24.0,
+          "rotation_speed_deg_s": 4.5,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA126_457MM_HE_PREUSSEN",
+              "ammo_type": "HE",
+              "damage": 5450.0,
+              "caliber_mm": 457.0,
+              "mass_kg": 1464.0,
+              "muzzle_velocity_ms": 810.0,
+              "air_drag": 0.282,
+              "krupp": 240.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 45.0
+            },
+            "AP": {
+              "key": "PGPA127_457MM_AP_PREUSSEN",
+              "ammo_type": "AP",
+              "damage": 15000.0,
+              "caliber_mm": 457.0,
+              "mass_kg": 1464.0,
+              "muzzle_velocity_ms": 810.0,
+              "air_drag": 0.282,
+              "krupp": 2300.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 76.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 8300.0,
+      "range_km": 8.3,
+      "guns": [
+        {
+          "gun_key": "PGGS123_127mm_61_twin",
+          "caliber_mm": 128.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -148.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA059_128MM_HE_SPR_GR_KZ",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 26.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.3128,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        },
+        {
+          "gun_key": "PGGS002_150mm_SKC_28_RF",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            160.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA003_150mm_HE_HE_N_F",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.3,
+              "muzzle_velocity_ms": 875.0,
+              "air_drag": 0.33,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
