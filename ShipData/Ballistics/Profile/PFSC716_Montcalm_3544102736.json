@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3544102736,
+    "key": "PFSC716_Montcalm",
+    "nation": "France",
+    "class": "Cruiser",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18000.0,
+      "range_km": 18.0,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM010_152_55_Mle_1930",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 8.6,
+          "rotation_speed_deg_s": 12.0,
+          "horiz_sector_deg": [
+            -137.0,
+            137.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA513_152MM_55_HE_MONTCALM",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.3051,
+              "krupp": 1.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PFPA514_152MM_55_AP_MONTCALM",
+              "ammo_type": "AP",
+              "damage": 3200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 56.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.2933,
+              "krupp": 2184.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PFGM011_152_55_Mle_1930_RF",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 8.6,
+          "rotation_speed_deg_s": 12.0,
+          "horiz_sector_deg": [
+            -141.0,
+            141.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA513_152MM_55_HE_MONTCALM",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.3051,
+              "krupp": 1.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PFPA514_152MM_55_AP_MONTCALM",
+              "ammo_type": "AP",
+              "damage": 3200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 56.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.2933,
+              "krupp": 2184.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PFGM039_152_55_Mle_1930_RF2",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 8.6,
+          "rotation_speed_deg_s": 12.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA513_152MM_55_HE_MONTCALM",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.3051,
+              "krupp": 1.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PFPA514_152MM_55_AP_MONTCALM",
+              "ammo_type": "AP",
+              "damage": 3200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 56.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.2933,
+              "krupp": 2184.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PFGS012_90_50_Mle_1930",
+          "caliber_mm": 90.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -165.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA010_90MM_50_1926_HE",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 90.0,
+              "mass_kg": 9.51,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3135,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
