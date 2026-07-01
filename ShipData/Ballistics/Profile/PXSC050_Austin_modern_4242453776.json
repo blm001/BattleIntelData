@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4242453776,
+    "key": "PXSC050_Austin_modern",
+    "nation": "Events",
+    "class": "Cruiser",
+    "tier": 11
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16000.0,
+      "range_km": 16.0,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PAGM127_5in54_Mark42",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 8.0,
+          "rotation_speed_deg_s": 40.0,
+          "horiz_sector_deg": [
+            -155.0,
+            155.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            85.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PXPA180_127MM_AP",
+              "ammo_type": "AP",
+              "damage": 2750.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 700.0,
+              "muzzle_velocity_ms": 1500.0,
+              "air_drag": 0.28,
+              "krupp": 2650.0,
+              "fuse_time_s": 0.0067,
+              "arming_threshold_mm": 5.0,
+              "ricochet_at_deg": 80.0,
+              "always_ricochet_at_deg": 85.0,
+              "normalization_deg": 30.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
