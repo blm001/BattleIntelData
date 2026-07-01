@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3742316528,
+    "key": "PASB527_West_Virginia_1944",
+    "nation": "USA",
+    "class": "Battleship",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17120.0,
+      "range_km": 17.12,
+      "sigma": 1.8,
+      "guns": [
+        {
+          "gun_key": "PAGM226_16in45_Mk1",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -143.0,
+            143.0
+          ],
+          "vert_sector_deg": [
+            3.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA155_406MM_HE_WVIRGINIA_44",
+              "ammo_type": "HE",
+              "damage": 5700.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 861.8,
+              "muzzle_velocity_ms": 803.0,
+              "air_drag": 0.465,
+              "krupp": 250.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 36.0
+            },
+            "AP": {
+              "key": "PAPA156_406MM_AP_WVIRGINIA_44",
+              "ammo_type": "AP",
+              "damage": 12400.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1016.0,
+              "muzzle_velocity_ms": 768.0,
+              "air_drag": 0.49,
+              "krupp": 2700.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6300.0,
+      "range_km": 6.3,
+      "guns": [
+        {
+          "gun_key": "PAGS010_5in38_Mk32_Mod12",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 2.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -150.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA018_Main_127mm_HE_C_Mk_32",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 24.5,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.347,
+              "krupp": 1350.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
