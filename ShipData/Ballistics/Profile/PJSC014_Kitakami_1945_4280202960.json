@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4280202960,
+    "key": "PJSC014_Kitakami_1945",
+    "nation": "Japan",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 13080.0,
+      "range_km": 13.08,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PJGM035_140mm50_Type_3Year",
+          "caliber_mm": 140.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 8.5,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA105_140MM_HE_KITAKAMI",
+              "ammo_type": "HE",
+              "damage": 2700.0,
+              "caliber_mm": 140.0,
+              "mass_kg": 38.0,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.34,
+              "krupp": 360.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            },
+            "AP": {
+              "key": "PJPA106_140MM_AP_KITAKAMI",
+              "ammo_type": "AP",
+              "damage": 2700.0,
+              "caliber_mm": 140.0,
+              "mass_kg": 38.0,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3696,
+              "krupp": 1794.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 23.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
