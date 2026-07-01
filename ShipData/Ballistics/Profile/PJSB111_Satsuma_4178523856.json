@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4178523856,
+    "key": "PJSB111_Satsuma",
+    "nation": "Japan",
+    "class": "Battleship",
+    "tier": 11
+  },
+  "artillery": {
+    "main": {
+      "range_m": 27000.0,
+      "range_km": 27.0,
+      "sigma": 2.1,
+      "guns": [
+        {
+          "gun_key": "PJGM187_510mm_45",
+          "caliber_mm": 510.0,
+          "barrels_per_turret": 2,
+          "reload_s": 35.0,
+          "rotation_speed_deg_s": 3.0,
+          "horiz_sector_deg": [
+            -146.0,
+            146.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA117_510MM_HE_SATSUMA",
+              "ammo_type": "HE",
+              "damage": 8100.0,
+              "caliber_mm": 510.0,
+              "mass_kg": 2620.0,
+              "muzzle_velocity_ms": 765.0,
+              "air_drag": 0.2964,
+              "krupp": 240.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 40.0
+            },
+            "AP": {
+              "key": "PJPA118_510MM_AP_SATSUMA",
+              "ammo_type": "AP",
+              "damage": 19400.0,
+              "caliber_mm": 510.0,
+              "mass_kg": 2620.0,
+              "muzzle_velocity_ms": 765.0,
+              "air_drag": 0.2964,
+              "krupp": 1800.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 85.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7300.0,
+      "range_km": 7.3,
+      "guns": [
+        {
+          "gun_key": "PJGS200_100mm65_Type_98_Satsuma",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -150.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA040_Shell_100mm_HE_C_Type_98",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.331,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS199_100mm65_Type98_Satsuma",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            155.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA040_Shell_100mm_HE_C_Type_98",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.331,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS198_203mm50_Type_E_RF",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 12.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -155.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA116_203MM_50_HE_SG",
+              "ammo_type": "HE",
+              "damage": 3300.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.85,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.337,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
