@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540923696,
+    "key": "PWSD719_Blyskawica_1952",
+    "nation": "Europe",
+    "class": "Destroyer",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12700.0,
+      "range_km": 12.7,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PWGM2024_4in45_QF_Mk_XIX_BLYSKAWICA_1952",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.2,
+          "rotation_speed_deg_s": 18.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -3.0,
+            32.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA169_100MM_HE_BLYSKAWICA_1952",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.0,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.2748,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            },
+            "AP": {
+              "key": "PWPA168_100MM_AP_BLYSKAWICA_1952",
+              "ammo_type": "AP",
+              "damage": 1700.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.0,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.2748,
+              "krupp": 2184.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 17.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
