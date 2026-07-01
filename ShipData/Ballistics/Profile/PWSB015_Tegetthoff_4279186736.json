@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4279186736,
+    "key": "PWSB015_Tegetthoff",
+    "nation": "Europe",
+    "class": "Battleship",
+    "tier": 5
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15100.0,
+      "range_km": 15.1,
+      "sigma": 1.7,
+      "guns": [
+        {
+          "gun_key": "PWGM2043_305_45_K10_Skoda",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 3,
+          "reload_s": 27.0,
+          "rotation_speed_deg_s": 4.5,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -4.0,
+            20
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA170_305MM_HE_TEGETTHOFF",
+              "ammo_type": "HE",
+              "damage": 4000.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 385.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.38,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 16.0
+            },
+            "AP": {
+              "key": "PWPA171_305MM_AP_TEGETTHOFF",
+              "ammo_type": "AP",
+              "damage": 7900.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 385.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.38,
+              "krupp": 2900.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
