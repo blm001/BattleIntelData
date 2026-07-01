@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3753850320,
+    "key": "PRSB516_Novorossiysk",
+    "nation": "Russia",
+    "class": "Battleship",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17470.0,
+      "range_km": 17.47,
+      "sigma": 1.5,
+      "guns": [
+        {
+          "gun_key": "PRGM180_320mm44_barrels_3_M1934",
+          "caliber_mm": 320.0,
+          "barrels_per_turret": 3,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            1.5,
+            27.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA136_320MM_HE_NOVOROS",
+              "ammo_type": "HE",
+              "damage": 4800.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 485.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.3786,
+              "krupp": 385.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 35.0
+            },
+            "AP": {
+              "key": "PRPA137_320MM_AP_NOVOROS",
+              "ammo_type": "AP",
+              "damage": 9250.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 525.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.4098,
+              "krupp": 2600.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 53.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGM181_320mm44_barrels_2_M1934",
+          "caliber_mm": 320.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            27.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA136_320MM_HE_NOVOROS",
+              "ammo_type": "HE",
+              "damage": 4800.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 485.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.3786,
+              "krupp": 385.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 35.0
+            },
+            "AP": {
+              "key": "PRPA137_320MM_AP_NOVOROS",
+              "ammo_type": "AP",
+              "damage": 9250.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 525.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.4098,
+              "krupp": 2600.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 53.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PRGS072_100mm_50_Minizini",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -156.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            78.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA026_100MM_HE_P_28",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.8,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.2886,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGS182_120mm50_barrels_2_M1933",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -150.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -10.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA138_120MM_HE_ANSALDO1926",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 23.15,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3812,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGS183_120mm50_barrels_2_M1933_RM2",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -170.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -10.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA138_120MM_HE_ANSALDO1926",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 23.15,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3812,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
