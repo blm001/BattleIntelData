@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4165907728,
+    "key": "PXSC123_Salem_Startrek",
+    "nation": "Events",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15830.0,
+      "range_km": 15.83,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PXGM102_8in55_Triple_Mk16_SALEM_STARTREK",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 6,
+          "rotation_speed_deg_s": 20.0,
+          "horiz_sector_deg": [
+            -149.0,
+            149.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            41.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PXPA149_152mm_CS_SALEM_STARTREK",
+              "ammo_type": "CS",
+              "damage": 580.0,
+              "caliber_mm": 460.0,
+              "mass_kg": 700.0,
+              "muzzle_velocity_ms": 1425.0,
+              "air_drag": 0.2,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 85.0,
+              "always_ricochet_at_deg": 90.0,
+              "normalization_deg": 85.0,
+              "pen_mm": 32.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7300.0,
+      "range_km": 7.3,
+      "guns": [
+        {
+          "gun_key": "PXGS020_5in38_SALEM_STARTREK",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -143.0,
+            143.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            85.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PXPA163_102mm_HE_SALEM_STARTREK",
+              "ammo_type": "AP",
+              "damage": 380.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 350.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 1.0,
+              "krupp": 95.0,
+              "fuse_time_s": 0.005,
+              "arming_threshold_mm": 30.0,
+              "ricochet_at_deg": 80.0,
+              "always_ricochet_at_deg": 85.0,
+              "normalization_deg": 80.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
