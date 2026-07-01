@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3749623248,
+    "key": "PRSC520_Stalingrad",
+    "nation": "Russia",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 20350.0,
+      "range_km": 20.35,
+      "sigma": 2.25,
+      "guns": [
+        {
+          "gun_key": "PRGM118_305mm_61_SM31",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 3,
+          "reload_s": 20.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            1.0,
+            40.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PRPA188_305MM_AP_STALINGRAD_2",
+              "ammo_type": "AP",
+              "damage": 9200.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 467.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.2831,
+              "krupp": 2700.0,
+              "fuse_time_s": 0.022,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7300.0,
+      "range_km": 7.3,
+      "guns": [
+        {
+          "gun_key": "PRGS070_130mm_BL_109A",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -137.0,
+            137.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            83.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA028_130MM_HE_OF_42",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.4,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.291,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
