@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4293801232,
+    "key": "PXSD001_VanHellsink",
+    "nation": "Events",
+    "class": "Destroyer",
+    "tier": 3
+  },
+  "artillery": {
+    "main": {
+      "range_m": 9410.0,
+      "range_km": 9.41,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PXGM021_120mm45_Type_HaGun",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 18.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            33.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA015_120MM_HE_HELLSINK",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 20.3,
+              "muzzle_velocity_ms": 825.0,
+              "air_drag": 0.331,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            },
+            "AP": {
+              "key": "PXPA014_120MM_AP_HELLSINK",
+              "ammo_type": "AP",
+              "damage": 1500.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 20.3,
+              "muzzle_velocity_ms": 825.0,
+              "air_drag": 0.331,
+              "krupp": 1750.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 20.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
