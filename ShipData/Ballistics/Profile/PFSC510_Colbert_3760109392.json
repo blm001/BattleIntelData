@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3760109392,
+    "key": "PFSC510_Colbert",
+    "nation": "France",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 13800.0,
+      "range_km": 13.8,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM082_127mm_54_5_1948",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.4,
+          "rotation_speed_deg_s": 30.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA064_127MM_54_1948_HE_MG",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 31.5,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3079,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            },
+            "AP": {
+              "key": "PFPA065_127MM_54_1948_AP_MG",
+              "ammo_type": "AP",
+              "damage": 2600.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 32.5,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3079,
+              "krupp": 2200.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
