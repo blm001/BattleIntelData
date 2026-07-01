@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3655284688,
+    "key": "PBSB610_Incomparable",
+    "nation": "United_Kingdom",
+    "class": "Battleship",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17570.0,
+      "range_km": 17.57,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM120_20in45_Mark_1_twin",
+          "caliber_mm": 508.0,
+          "barrels_per_turret": 2,
+          "reload_s": 28.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA105_508MM_HE_INCOMPARABLE",
+              "ammo_type": "HE",
+              "damage": 7400.0,
+              "caliber_mm": 508.0,
+              "mass_kg": 2053.0,
+              "muzzle_velocity_ms": 751.0,
+              "air_drag": 0.39,
+              "krupp": 240.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 55.0
+            },
+            "AP": {
+              "key": "PBPA106_508MM_AP_INCOMPARABLE",
+              "ammo_type": "AP",
+              "damage": 19500.0,
+              "caliber_mm": 508.0,
+              "mass_kg": 2053.0,
+              "muzzle_velocity_ms": 751.0,
+              "air_drag": 0.39,
+              "krupp": 2438.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 85.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7000.0,
+      "range_km": 7.0,
+      "guns": [
+        {
+          "gun_key": "PBGS006_4in45_QF_Mk_XIX",
+          "caliber_mm": 102.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -160.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA004_102mm_HE_HE_35lbs",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 102.0,
+              "mass_kg": 15.88,
+              "muzzle_velocity_ms": 811.0,
+              "air_drag": 0.33,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
