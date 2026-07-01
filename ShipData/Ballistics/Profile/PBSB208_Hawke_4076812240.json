@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4076812240,
+    "key": "PBSB208_Hawke",
+    "nation": "United_Kingdom",
+    "class": "Battleship",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17100.0,
+      "range_km": 17.1,
+      "sigma": 1.6,
+      "guns": [
+        {
+          "gun_key": "PBGM148_16in_45_Vickers_A_triple",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 3,
+          "reload_s": 31.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA128_406MM_MIV_HE_BC",
+              "ammo_type": "HE",
+              "damage": 5950.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 929.0,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.3114,
+              "krupp": 250.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 45.0
+            },
+            "AP": {
+              "key": "PBPA129_406MM_MIV_AP_BC",
+              "ammo_type": "AP",
+              "damage": 12600.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1080.0,
+              "muzzle_velocity_ms": 747.0,
+              "air_drag": 0.2353,
+              "krupp": 2527.0,
+              "fuse_time_s": 0.015,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
