@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540957136,
+    "key": "PBSC719_Aberdeen",
+    "nation": "United_Kingdom",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15760.0,
+      "range_km": 15.76,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PBGM024_6in50_QF_Mk_V",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 38.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PBPA173_152MM_AP_ABERDEEN",
+              "ammo_type": "AP",
+              "damage": 3200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 58.85,
+              "muzzle_velocity_ms": 768.0,
+              "air_drag": 0.3475,
+              "krupp": 2672.0,
+              "fuse_time_s": 0.005,
+              "arming_threshold_mm": 12.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
