@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3741267952,
+    "key": "PASB528_Alabama_VL",
+    "nation": "USA",
+    "class": "Battleship",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 21100.0,
+      "range_km": 21.1,
+      "sigma": 1.9,
+      "guns": [
+        {
+          "gun_key": "PAGM012_16in45_Mk6",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 3,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 4.5,
+          "horiz_sector_deg": [
+            -149.0,
+            149.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA132_406MM_HE_ALABAMA_VL",
+              "ammo_type": "HE",
+              "damage": 5700.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 862.0,
+              "muzzle_velocity_ms": 803.0,
+              "air_drag": 0.3452,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 36.0
+            },
+            "AP": {
+              "key": "PAPA133_406MM_AP_ALABAMA_VL",
+              "ammo_type": "AP",
+              "damage": 13100.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1225.0,
+              "muzzle_velocity_ms": 701.0,
+              "air_drag": 0.352,
+              "krupp": 2598.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6600.0,
+      "range_km": 6.6,
+      "guns": [
+        {
+          "gun_key": "PAGS010_5in38_Mk32_Mod12",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -158.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA018_Main_127mm_HE_C_Mk_32",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 24.5,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.347,
+              "krupp": 1350.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
