@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3762205904,
+    "key": "PZSC508_Irian",
+    "nation": "Pan_Asia",
+    "class": "Cruiser",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17500.0,
+      "range_km": 17.5,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PZGM001_152mm_57_MK_5",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 8.0,
+          "rotation_speed_deg_s": 7.2,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA024_152MM_OFU35_IRIAN",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.321,
+              "krupp": 6.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PZPA023_152MM_B35_IRIAN",
+              "ammo_type": "AP",
+              "damage": 3300.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.321,
+              "krupp": 2216.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6600.0,
+      "range_km": 6.6,
+      "guns": [
+        {
+          "gun_key": "PZGS053_100mm_70_SM_5_1S",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -155.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA020_100MM_OF55",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.6,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.2954,
+              "krupp": 6.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
