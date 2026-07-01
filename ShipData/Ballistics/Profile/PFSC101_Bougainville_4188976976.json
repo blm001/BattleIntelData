@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4188976976,
+    "key": "PFSC101_Bougainville",
+    "nation": "France",
+    "class": "Cruiser",
+    "tier": 1
+  },
+  "artillery": {
+    "main": {
+      "range_m": 9479.0,
+      "range_km": 9.48,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM025_138_6mm_40_Mle_1927",
+          "caliber_mm": 139.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.8,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -124.0,
+            124.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            28.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA005_138MM_40_1923_HE",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 139.0,
+              "mass_kg": 40.2,
+              "muzzle_velocity_ms": 700.0,
+              "air_drag": 0.2998,
+              "krupp": 360.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
