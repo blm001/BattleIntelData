@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4183766768,
+    "key": "PISB106_Andrea_Doria",
+    "nation": "Italy",
+    "class": "Battleship",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15640.0,
+      "range_km": 15.64,
+      "sigma": 1.6,
+      "guns": [
+        {
+          "gun_key": "PIGM076_320mm_44_3barrels_M1936",
+          "caliber_mm": 320.0,
+          "barrels_per_turret": 3,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            27.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA047_320MM_CS_Model1936",
+              "ammo_type": "CS",
+              "damage": 10250.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 485.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.408,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 70.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 82.7
+            },
+            "AP": {
+              "key": "PIPA005_320MM_AP_Model1936",
+              "ammo_type": "AP",
+              "damage": 9700.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 525.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.4098,
+              "krupp": 2600.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 53.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGM075_320mm_44_2barrels_M1936",
+          "caliber_mm": 320.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            27.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA047_320MM_CS_Model1936",
+              "ammo_type": "CS",
+              "damage": 10250.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 485.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.408,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 70.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 82.7
+            },
+            "AP": {
+              "key": "PIPA005_320MM_AP_Model1936",
+              "ammo_type": "AP",
+              "damage": 9700.0,
+              "caliber_mm": 320.0,
+              "mass_kg": 525.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.4098,
+              "krupp": 2600.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 53.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
