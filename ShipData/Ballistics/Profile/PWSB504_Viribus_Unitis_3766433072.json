@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3766433072,
+    "key": "PWSB504_Viribus_Unitis",
+    "nation": "Europe",
+    "class": "Battleship",
+    "tier": 5
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16000.0,
+      "range_km": 16.0,
+      "sigma": 1.9,
+      "guns": [
+        {
+          "gun_key": "PWGM006_305_45_K10_Skoda",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 3,
+          "reload_s": 29.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -4.0,
+            20
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA003_305MM_HE_VIRIBUS",
+              "ammo_type": "HE",
+              "damage": 4200.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 450.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.435,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 23.0
+            },
+            "AP": {
+              "key": "PWPA004_305MM_AP_VIRIBUS",
+              "ammo_type": "AP",
+              "damage": 8500.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 450.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.435,
+              "krupp": 2800.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4300.0,
+      "range_km": 4.3,
+      "guns": [
+        {
+          "gun_key": "PWGS007_150_50_K10_Skoda",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 1,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -130.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA005_150MM_HE_K10",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.5,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.3577,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
