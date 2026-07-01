@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4277057328,
+    "key": "PGSC017_Admiral_Scheer",
+    "nation": "Germany",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 14910.0,
+      "range_km": 14.91,
+      "sigma": 2.15,
+      "guns": [
+        {
+          "gun_key": "PGGM094_280mm54_5_C34_Shee",
+          "caliber_mm": 283.0,
+          "barrels_per_turret": 3,
+          "reload_s": 20.5,
+          "rotation_speed_deg_s": 6.5,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA156_283MM_HE_ADMIRAL_SCHEER",
+              "ammo_type": "HE",
+              "damage": 3200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 910.0,
+              "air_drag": 0.2752,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 20.0
+            },
+            "AP": {
+              "key": "PGPA157_283MM_AP_ADMIRAL_SCHEER",
+              "ammo_type": "AP",
+              "damage": 8400.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 910.0,
+              "air_drag": 0.2752,
+              "krupp": 2432.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 47.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6300.0,
+      "range_km": 6.3,
+      "guns": [
+        {
+          "gun_key": "PGGS2009_150mm_SK_C28_MPL35",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.7,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -150.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            35.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA195_150mm_HE_HE_N_F_GERCBLOW",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.3,
+              "muzzle_velocity_ms": 875.0,
+              "air_drag": 0.5101,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        },
+        {
+          "gun_key": "PGGS2006_150mm_SK_C28_MPL35_Blastbag",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.7,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -155.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            35.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA195_150mm_HE_HE_N_F_GERCBLOW",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.3,
+              "muzzle_velocity_ms": 875.0,
+              "air_drag": 0.5101,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        },
+        {
+          "gun_key": "PGGS018_88mm_ZwillingsFlak",
+          "caliber_mm": 88.0,
+          "barrels_per_turret": 2,
+          "reload_s": 2.2,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -133.0,
+            133.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA196_88MM_HE_SPR_GR_GERCBLOW",
+              "ammo_type": "HE",
+              "damage": 1000.0,
+              "caliber_mm": 88.0,
+              "mass_kg": 9.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3294,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 4.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
