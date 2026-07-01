@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3667900112,
+    "key": "PJSA598_Black_Kaga",
+    "nation": "Japan",
+    "class": "AirCarrier",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "sigma": 0,
+      "guns": []
+    },
+    "secondary": {
+      "range_m": 4500.0,
+      "range_km": 4.5,
+      "guns": [
+        {
+          "gun_key": "PJGS009_127mm40_Type_89",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -89.0,
+            66.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA216_Shell_127mm_HE_C_Type_0_KAGA",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 27.15,
+              "muzzle_velocity_ms": 915.0,
+              "air_drag": 0.2308,
+              "krupp": 500.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS039_200mm50_Type3",
+          "caliber_mm": 200.0,
+          "barrels_per_turret": 1,
+          "reload_s": 15.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -3.0,
+            128.0
+          ],
+          "vert_sector_deg": [
+            -5.0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA034_Shell_200mm_HE_Common_Type_4_Secondary",
+              "ammo_type": "HE",
+              "damage": 3300.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.318,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS003_127mm40_Type89_Mod_A",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -79.0,
+            78.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA216_Shell_127mm_HE_C_Type_0_KAGA",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 27.15,
+              "muzzle_velocity_ms": 915.0,
+              "air_drag": 0.2308,
+              "krupp": 500.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
