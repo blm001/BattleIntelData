@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4188976560,
+    "key": "PSSC101_Jupiter",
+    "nation": "Spain",
+    "class": "Cruiser",
+    "tier": 1
+  },
+  "artillery": {
+    "main": {
+      "range_m": 9075.0,
+      "range_km": 9.07,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PSGM030_120mm45_Vickers_F_R",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.5,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            33.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PSPA017_120MM_45_HE_1926",
+              "ammo_type": "HE",
+              "damage": 850.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.68,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3927,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
