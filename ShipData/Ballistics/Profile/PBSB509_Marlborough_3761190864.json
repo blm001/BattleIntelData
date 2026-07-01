@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3761190864,
+    "key": "PBSB509_Marlborough",
+    "nation": "United_Kingdom",
+    "class": "Battleship",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 20860.0,
+      "range_km": 20.86,
+      "sigma": 1.45,
+      "guns": [
+        {
+          "gun_key": "PBGM056_14in45_BL_MkVII_Quadro",
+          "caliber_mm": 356.0,
+          "barrels_per_turret": 4,
+          "reload_s": 25.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -133.0,
+            133.0
+          ],
+          "vert_sector_deg": [
+            1.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA109_356MM_HE_MARLB",
+              "ammo_type": "HE",
+              "damage": 5500.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 721.0,
+              "muzzle_velocity_ms": 757.0,
+              "air_drag": 0.3142,
+              "krupp": 385.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 28.0
+            },
+            "AP": {
+              "key": "PBPA110_356MM_AP_MARLB",
+              "ammo_type": "AP",
+              "damage": 10500.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 721.0,
+              "muzzle_velocity_ms": 757.0,
+              "air_drag": 0.3142,
+              "krupp": 2295.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 59.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PBGS065_5_25in_50_RP10_Mk_Istar",
+          "caliber_mm": 133.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.67,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -135.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA041_134MM_MI_HE",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 133.0,
+              "mass_kg": 36.3,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.3209,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
