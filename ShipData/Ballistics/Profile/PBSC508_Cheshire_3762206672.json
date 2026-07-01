@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3762206672,
+    "key": "PBSC508_Cheshire",
+    "nation": "United_Kingdom",
+    "class": "Cruiser",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16100.0,
+      "range_km": 16.1,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PBGM039_234mm50_Mk_XII_Twin",
+          "caliber_mm": 234.0,
+          "barrels_per_turret": 2,
+          "reload_s": 12.5,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA091_234MM_HE_CHESHIRE",
+              "ammo_type": "HE",
+              "damage": 3850.0,
+              "caliber_mm": 234.0,
+              "mass_kg": 185.3,
+              "muzzle_velocity_ms": 841.0,
+              "air_drag": 0.36,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 24.0
+            },
+            "AP": {
+              "key": "PBPA092_234MM_AP_CHESHIRE",
+              "ammo_type": "AP",
+              "damage": 5750.0,
+              "caliber_mm": 234.0,
+              "mass_kg": 185.3,
+              "muzzle_velocity_ms": 841.0,
+              "air_drag": 0.36,
+              "krupp": 2950.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 39.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 65.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6600.0,
+      "range_km": 6.6,
+      "guns": [
+        {
+          "gun_key": "PBGS034_4_5in45_MK_5",
+          "caliber_mm": 113.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -162.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA019_114MM_HE_MK16",
+              "ammo_type": "HE",
+              "damage": 1600.0,
+              "caliber_mm": 113.0,
+              "mass_kg": 25.0,
+              "muzzle_velocity_ms": 746.0,
+              "air_drag": 0.3296,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
