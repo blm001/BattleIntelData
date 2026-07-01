@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3659445712,
+    "key": "PRSC606_Admiral_Makarov",
+    "nation": "Russia",
+    "class": "Cruiser",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16310.0,
+      "range_km": 16.31,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PRGM113_149mm60_DrhTr_SK_C25",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 3,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 7.6,
+          "horiz_sector_deg": [
+            -141.0,
+            141.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA068_150MM_HE_MAKAROV",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.5,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.3307,
+              "krupp": 32.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PRPA067_150MM_AP_MAKAROV",
+              "ammo_type": "AP",
+              "damage": 3900.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.5,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.3307,
+              "krupp": 1862.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PRGS115_88mm_ZwillingsFlak",
+          "caliber_mm": 88.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -170.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA066_88MM_HE_SPR_GR",
+              "ammo_type": "HE",
+              "damage": 1100.0,
+              "caliber_mm": 88.0,
+              "mass_kg": 9.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3068,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
