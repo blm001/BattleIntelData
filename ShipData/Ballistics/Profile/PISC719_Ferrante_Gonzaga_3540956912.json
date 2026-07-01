@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540956912,
+    "key": "PISC719_Ferrante_Gonzaga",
+    "nation": "Italy",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 13800.0,
+      "range_km": 13.8,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PIGM2000_135_45_Models_1938_AA",
+          "caliber_mm": 135.0,
+          "barrels_per_turret": 3,
+          "reload_s": 7.7,
+          "rotation_speed_deg_s": 19.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA095_135MM_HE_FERRANTE_GONZAGA",
+              "ammo_type": "HE",
+              "damage": 1950.0,
+              "caliber_mm": 135.0,
+              "mass_kg": 32.7,
+              "muzzle_velocity_ms": 875.0,
+              "air_drag": 0.29,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            },
+            "CS": {
+              "key": "PIPA096_135MM_CS_FERRANTE_GONZAGA",
+              "ammo_type": "CS",
+              "damage": 3050.0,
+              "caliber_mm": 135.0,
+              "mass_kg": 32.7,
+              "muzzle_velocity_ms": 875.0,
+              "air_drag": 0.29,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 70.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 38.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
