@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540956368,
+    "key": "PZSC719_Tianjin",
+    "nation": "Pan_Asia",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 19283.0,
+      "range_km": 19.28,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PZGM133_220mm_60_3_Tower",
+          "caliber_mm": 220.0,
+          "barrels_per_turret": 3,
+          "reload_s": 15.0,
+          "rotation_speed_deg_s": 6.5,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA071_220MM_HE_B43_TIANJIN",
+              "ammo_type": "HE",
+              "damage": 3050.0,
+              "caliber_mm": 220.0,
+              "mass_kg": 190.1,
+              "muzzle_velocity_ms": 995.0,
+              "air_drag": 0.325,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 14.0
+            },
+            "AP": {
+              "key": "PZPA070_220MM_AP_B43_TIANJIN",
+              "ammo_type": "AP",
+              "damage": 6050.0,
+              "caliber_mm": 220.0,
+              "mass_kg": 190.1,
+              "muzzle_velocity_ms": 995.0,
+              "air_drag": 0.325,
+              "krupp": 2625.0,
+              "fuse_time_s": 0.022,
+              "arming_threshold_mm": 37.0,
+              "ricochet_at_deg": 50.0,
+              "always_ricochet_at_deg": 65.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PZGS137_130mm_60_BL_101_B",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA100_130MM_HE_OF_46_B2U_SG",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.4,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2549,
+              "krupp": 52.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
