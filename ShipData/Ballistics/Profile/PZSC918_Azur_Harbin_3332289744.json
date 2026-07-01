@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3332289744,
+    "key": "PZSC918_Azur_Harbin",
+    "nation": "Pan_Asia",
+    "class": "Cruiser",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 13182.0,
+      "range_km": 13.18,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PZGM082_130mm_50_MK18",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.2,
+          "rotation_speed_deg_s": 25.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA072_130MM_HE_HARBIN",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.4,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.341,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            },
+            "AP": {
+              "key": "PZPA073_130MM_AP_HARBIN",
+              "ammo_type": "AP",
+              "damage": 2500.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.5,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.341,
+              "krupp": 1500.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 22.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
