@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4184815056,
+    "key": "PRSB105_Pyotr_Velikiy",
+    "nation": "Russia",
+    "class": "Battleship",
+    "tier": 5
+  },
+  "artillery": {
+    "main": {
+      "range_m": 14550.0,
+      "range_km": 14.55,
+      "sigma": 1.8,
+      "guns": [
+        {
+          "gun_key": "PRGM139_356mm_52_1913",
+          "caliber_mm": 356.0,
+          "barrels_per_turret": 2,
+          "reload_s": 33.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -154.0,
+            154.0
+          ],
+          "vert_sector_deg": [
+            0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA072_356MM_HE_1913",
+              "ammo_type": "HE",
+              "damage": 4950.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 747.8,
+              "muzzle_velocity_ms": 731.5,
+              "air_drag": 0.4753,
+              "krupp": 385.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 38.0
+            },
+            "AP": {
+              "key": "PRPA073_356MM_AP_1911",
+              "ammo_type": "AP",
+              "damage": 9950.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 747.8,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.371,
+              "krupp": 2350.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 59.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4300.0,
+      "range_km": 4.3,
+      "guns": [
+        {
+          "gun_key": "PRGS044_130mm_55",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 1,
+          "reload_s": 12.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -115.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA016_130_HE_1911",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 36.86,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.4143,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
