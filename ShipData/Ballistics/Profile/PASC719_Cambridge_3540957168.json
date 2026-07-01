@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540957168,
+    "key": "PASC719_Cambridge",
+    "nation": "USA",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16100.0,
+      "range_km": 16.1,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PAGM207_12in50_Mk8_Twin",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 2,
+          "reload_s": 12.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -151.0,
+            151.0
+          ],
+          "vert_sector_deg": [
+            3.0,
+            41.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA176_305MM_HE_CAMBRIDGE",
+              "ammo_type": "HE",
+              "damage": 4300.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 462.3,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3343,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 27.0
+            },
+            "AP": {
+              "key": "PAPA177_305MM_AP_CAMBRIDGE",
+              "ammo_type": "AP",
+              "damage": 8900.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 517.0,
+              "muzzle_velocity_ms": 762.0,
+              "air_drag": 0.3343,
+              "krupp": 2470.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PAGS010_5in38_Mk32_Mod12",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA018_Main_127mm_HE_C_Mk_32",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 24.5,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.347,
+              "krupp": 1350.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
