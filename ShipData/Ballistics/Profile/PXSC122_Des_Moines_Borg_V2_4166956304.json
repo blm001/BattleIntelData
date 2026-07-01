@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4166956304,
+    "key": "PXSC122_Des_Moines_Borg_V2",
+    "nation": "Events",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15830.0,
+      "range_km": 15.83,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PAGM025_8in55_Triple_Mk16",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -149.0,
+            149.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            41.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA002_Shell_203mm_HE_HC_Mk_25",
+              "ammo_type": "HE",
+              "damage": 2800.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 118.0,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.333,
+              "krupp": 630.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 14.0
+            },
+            "AP": {
+              "key": "PAPA012_Shell_203mm_AP_AP_Mk_21",
+              "ammo_type": "AP",
+              "damage": 5000.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 152.0,
+              "muzzle_velocity_ms": 762.0,
+              "air_drag": 0.356,
+              "krupp": 2919.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7300.0,
+      "range_km": 7.3,
+      "guns": [
+        {
+          "gun_key": "PXGS101_5in38_DES_MOINES_BORG_V2",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -146.0,
+            146.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA211_127mm_HE_DES_MOINES_BORG_V2",
+              "ammo_type": "HE",
+              "damage": 900.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 24.5,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.347,
+              "krupp": 1350.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
