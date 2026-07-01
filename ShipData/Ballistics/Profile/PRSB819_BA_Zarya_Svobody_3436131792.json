@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3436131792,
+    "key": "PRSB819_BA_Zarya_Svobody",
+    "nation": "Russia",
+    "class": "Battleship",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18900.0,
+      "range_km": 18.9,
+      "sigma": 1.7,
+      "guns": [
+        {
+          "gun_key": "PRGM135_406mm_45_v2",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 3,
+          "reload_s": 31.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA199_406MM_HE_ZARYA_SVOBODY",
+              "ammo_type": "HE",
+              "damage": 5850.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1196.4,
+              "muzzle_velocity_ms": 793.0,
+              "air_drag": 0.289,
+              "krupp": 250.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 41.0
+            },
+            "AP": {
+              "key": "PRPA198_406MM_AP_ZARYA_SVOBODY",
+              "ammo_type": "AP",
+              "damage": 13500.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1196.4,
+              "muzzle_velocity_ms": 793.0,
+              "air_drag": 0.289,
+              "krupp": 2430.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PRGS133_100mm_56_MZ_14_Right",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.75,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -155.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA195_100MM_HE_SG_ZARYA_SVOBODY",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.8,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.2858,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGS141_152mm_57",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 8.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            160.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA196_152MM_HE_SG_ZARYA_SVOBODY",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.321,
+              "krupp": 6.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGS132_100mm_56_MZ_14_Left",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.75,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            155.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA195_100MM_HE_SG_ZARYA_SVOBODY",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.8,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.2858,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
