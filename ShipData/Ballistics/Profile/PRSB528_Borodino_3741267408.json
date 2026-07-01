@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3741267408,
+    "key": "PRSB528_Borodino",
+    "nation": "Russia",
+    "class": "Battleship",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 19570.0,
+      "range_km": 19.57,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PRGM164_406mm_50_Mk1",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 3,
+          "reload_s": 31.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA105_406MM_HE_BORODINO",
+              "ammo_type": "HE",
+              "damage": 5800.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1108.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.3045,
+              "krupp": 250.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 40.0
+            },
+            "AP": {
+              "key": "PRPA106_406MM_AP_BORODINO",
+              "ammo_type": "AP",
+              "damage": 13250.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1108.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.247,
+              "krupp": 2300.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6600.0,
+      "range_km": 6.6,
+      "guns": [
+        {
+          "gun_key": "PRGS149_180mm_65_CM_48",
+          "caliber_mm": 180.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -158.0,
+            158.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA107_180MM_HE_BORODINO",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.243,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
