@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3761157488,
+    "key": "PUSC509_Hector",
+    "nation": "Commonwealth",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15570.0,
+      "range_km": 15.57,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PBGM161_5_25in_50_RP10_Mk_Istar",
+          "caliber_mm": 133.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.7,
+          "rotation_speed_deg_s": 20.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            60.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PUPA017_133MM_HE_HECTOR",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 133.0,
+              "mass_kg": 36.3,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.3209,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PUPA018_133MM_AP_HECTOR",
+              "ammo_type": "AP",
+              "damage": 2550.0,
+              "caliber_mm": 133.0,
+              "mass_kg": 36.3,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.3209,
+              "krupp": 2882.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 22.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
