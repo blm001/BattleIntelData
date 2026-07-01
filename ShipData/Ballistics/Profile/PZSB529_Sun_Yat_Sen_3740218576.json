@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3740218576,
+    "key": "PZSB529_Sun_Yat_Sen",
+    "nation": "Pan_Asia",
+    "class": "Battleship",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 19180.0,
+      "range_km": 19.18,
+      "sigma": 1.9,
+      "guns": [
+        {
+          "gun_key": "PZGM122_457mm_48_B45_twin",
+          "caliber_mm": 457.0,
+          "barrels_per_turret": 2,
+          "reload_s": 26.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -152.0,
+            152.0
+          ],
+          "vert_sector_deg": [
+            2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA055_457MM_HE",
+              "ammo_type": "HE",
+              "damage": 6500.0,
+              "caliber_mm": 457.0,
+              "mass_kg": 1373.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.24,
+              "krupp": 240.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 45.0
+            },
+            "AP": {
+              "key": "PZPA056_457MM_AP",
+              "ammo_type": "AP",
+              "damage": 14500.0,
+              "caliber_mm": 457.0,
+              "mass_kg": 1373.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.256,
+              "krupp": 2500.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 76.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PZGS120_152mm_57_BL_120",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -160.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA057_152MM_OFU35_SG",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.321,
+              "krupp": 6.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
