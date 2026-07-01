@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540956624,
+    "key": "PRSC719_Kozma_Minin",
+    "nation": "Russia",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18500.0,
+      "range_km": 18.5,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PRGM2000_203mm_C34",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 9.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -153.0,
+            153.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            37.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA150_203MM_HE_KOZMA_MININ",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.2974,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PRPA151_203MM_AP_KOZMA_MININ",
+              "ammo_type": "AP",
+              "damage": 5900.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.2974,
+              "krupp": 2409.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGM2001_203mm_C34_RF",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 9.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -153.0,
+            153.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            37.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA150_203MM_HE_KOZMA_MININ",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.2974,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PRPA151_203MM_AP_KOZMA_MININ",
+              "ammo_type": "AP",
+              "damage": 5900.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.2974,
+              "krupp": 2409.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PRGS058_100mm_70_SM_5_1S",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -130.0,
+            130.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA023_100MM_OF55",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.6,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.2954,
+              "krupp": 6.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
