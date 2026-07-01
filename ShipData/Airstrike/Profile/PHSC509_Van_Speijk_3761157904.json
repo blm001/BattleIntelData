@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:19Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3761157904,
+    "key": "PHSC509_Van_Speijk",
+    "nation": "Netherlands",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "airstrike": {
+    "charges": 1,
+    "reload_s": 130.0,
+    "min_range_m": 1500,
+    "max_range_m": 15000,
+    "max_range_km": 15.0,
+    "time_to_target_s": 4.0,
+    "plane": {
+      "plane_key": "PHAD014_VAN_SPEIJK_AS",
+      "planes_in_squadron": 12,
+      "attacks_per_strike": 6,
+      "bombs_per_attack": 1,
+      "plane_hp": 2110,
+      "speed_max_raw": 1.2672,
+      "speed_move_kph": 212.0,
+      "payload": {
+        "key": "PHPB023_PuW_140kg_AS_HE",
+        "ammo_type": "HE",
+        "damage": 6100.0,
+        "splash_damage": 1100.0,
+        "splash_radius_m": 200.0,
+        "pen_mm": 36.0,
+        "fire_chance_pct": 35.0,
+        "flood_chance": false,
+        "fuse_time_s": 0.03,
+        "arming_threshold_mm": 25.0
+      }
+    }
+  }
+}
