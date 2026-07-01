@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:19Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3549869840,
+    "key": "PHSS710_Tonijn",
+    "nation": "Netherlands",
+    "class": "Submarine",
+    "tier": 10
+  },
+  "airstrike": {
+    "charges": 2,
+    "reload_s": 110.0,
+    "min_range_m": 1500,
+    "max_range_m": 10000,
+    "max_range_km": 10.0,
+    "time_to_target_s": 4.0,
+    "plane": {
+      "plane_key": "PHAD024_Tonijn_AS",
+      "planes_in_squadron": 12,
+      "attacks_per_strike": 5,
+      "bombs_per_attack": 1,
+      "plane_hp": 2160,
+      "speed_max_raw": 1.2672,
+      "speed_move_kph": 158.0,
+      "payload": {
+        "key": "PHPB034_PuW_160kg_AS_HE",
+        "ammo_type": "HE",
+        "damage": 6800.0,
+        "splash_damage": 1200.0,
+        "splash_radius_m": 200.0,
+        "pen_mm": 37.0,
+        "fire_chance_pct": 39.0,
+        "flood_chance": false,
+        "fuse_time_s": 0.03,
+        "arming_threshold_mm": 25.0
+      }
+    }
+  }
+}
