@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:22Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3760175088,
+    "key": "PASA510_Roosevelt",
+    "nation": "USA",
+    "class": "AirCarrier",
+    "tier": 10
+  },
+  "air_wing": [
+    {
+      "squadron_type": "DiveBomber",
+      "tier_slot": 1,
+      "plane_key": "PAAD610_Roosevelt_stock",
+      "planes_in_squadron": 14,
+      "attacks_per_strike": 4,
+      "bombs_per_attack": 1,
+      "plane_hp": 3525,
+      "speed_max_raw": 1.2939,
+      "speed_move_kph": 119.0,
+      "payload": {
+        "key": "PAPB510_ROSEVELT_STOCK",
+        "ammo_type": "HE",
+        "damage": 10600.0,
+        "pen_mm": 63.8,
+        "fire_chance_pct": 60.0,
+        "splash_radius_m": 200.0
+      }
+    },
+    {
+      "squadron_type": "Fighter",
+      "tier_slot": 1,
+      "plane_key": "PAAF510_Roosevelt_stock",
+      "planes_in_squadron": 14,
+      "attacks_per_strike": 26,
+      "bombs_per_attack": 1,
+      "plane_hp": 3040,
+      "speed_max_raw": 1.3216,
+      "speed_move_kph": 124.0,
+      "payload": {
+        "key": "PAPR510_ROOSEVELT_STOCK",
+        "ammo_type": "HE",
+        "damage": 1650.0,
+        "pen_mm": 32.2,
+        "fire_chance_pct": 5.0,
+        "splash_radius_m": 200.0
+      }
+    },
+    {
+      "squadron_type": "TorpedoBomber",
+      "tier_slot": 1,
+      "plane_key": "PAAB610_Roosevelt_stock",
+      "planes_in_squadron": 14,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 4,
+      "plane_hp": 3505,
+      "speed_max_raw": 1.2939,
+      "speed_move_kph": 119.0,
+      "payload": {
+        "key": "PAPT510_ROOSEVELT_STOCK",
+        "ammo_type": "torpedo",
+        "damage": 10000.0,
+        "speed_knots": 35.0,
+        "range_km": 0.13,
+        "flood_chance_pct": 33.0,
+        "arming_time_s": 5.8
+      }
+    }
+  ]
+}
