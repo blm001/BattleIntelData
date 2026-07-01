@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3543021520,
+    "key": "PBSD717_Jupiter_1942",
+    "nation": "United_Kingdom",
+    "class": "Destroyer",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12078.0,
+      "range_km": 12.08,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM079_120mm_45_QF_CP_MkXIX_Twin",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.5,
+          "rotation_speed_deg_s": 15.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PBPA147_120MM_QFMIX_AP_JUPITER",
+              "ammo_type": "AP",
+              "damage": 2500.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 33.38,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.4356,
+              "krupp": 1750.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 12.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
