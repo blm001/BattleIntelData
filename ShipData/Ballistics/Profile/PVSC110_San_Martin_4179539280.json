@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4179539280,
+    "key": "PVSC110_San_Martin",
+    "nation": "Pan_America",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15510.0,
+      "range_km": 15.51,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PVGM028_6in_47_Mk16_triple",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 25.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            78.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PVPA018_152MM_AP_130LBS_MK35",
+              "ammo_type": "AP",
+              "damage": 3400.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 59.0,
+              "muzzle_velocity_ms": 812.0,
+              "air_drag": 0.28,
+              "krupp": 2692.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PVGM034_6in47_MK16",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 25.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            78.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PVPA018_152MM_AP_130LBS_MK35",
+              "ammo_type": "AP",
+              "damage": 3400.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 59.0,
+              "muzzle_velocity_ms": 812.0,
+              "air_drag": 0.28,
+              "krupp": 2692.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
