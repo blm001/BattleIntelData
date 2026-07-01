@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4278105360,
+    "key": "PXSC016_Monster_Cruiser",
+    "nation": "Events",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 10000.0,
+      "range_km": 10.0,
+      "sigma": 0.27,
+      "guns": [
+        {
+          "gun_key": "PXGM135_Monster_Gun",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.5,
+          "rotation_speed_deg_s": 360.0,
+          "horiz_sector_deg": [
+            0.0,
+            60.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            43.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA111_HE_MONSTER_CRUISER",
+              "ammo_type": "HE",
+              "damage": 14500.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 10.0,
+              "muzzle_velocity_ms": 750.0,
+              "air_drag": 1.5e-17,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
