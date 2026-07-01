@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3764303280,
+    "key": "PSSC506_Canarias",
+    "nation": "Spain",
+    "class": "Cruiser",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16150.0,
+      "range_km": 16.15,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PSGM001_203mm50_BL_Model_1924_Mark_D",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 12.0,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -149.0,
+            149.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            50.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PSPA002_203MM_AP_CANARIAS",
+              "ammo_type": "AP",
+              "damage": 3800.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 85.0,
+              "muzzle_velocity_ms": 814.0,
+              "air_drag": 0.25,
+              "krupp": 3330.0,
+              "fuse_time_s": 0.005,
+              "arming_threshold_mm": 12.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PSGS002_120mm45_Mark_F",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 3.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -170.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PSPA003_120MM_F_HE_SG",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.68,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3927,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
