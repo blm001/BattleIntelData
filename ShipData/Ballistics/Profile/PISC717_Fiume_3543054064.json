@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3543054064,
+    "key": "PISC717_Fiume",
+    "nation": "Italy",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16510.0,
+      "range_km": 16.51,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PIGM055_203mm_53_1927",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 13.2,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA117_203MM_53_HE_FIUME",
+              "ammo_type": "HE",
+              "damage": 2850.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.3,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.29,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 15.0
+            },
+            "AP": {
+              "key": "PIPA118_203MM_53_AP_FIUME",
+              "ammo_type": "AP",
+              "damage": 4800.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.3,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.29,
+              "krupp": 2450.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PIGS003_100mm_50_Mod_OTO",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -180.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA003_100MM_47_HE",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.8,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3744,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
