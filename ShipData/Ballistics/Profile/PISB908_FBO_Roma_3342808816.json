@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3342808816,
+    "key": "PISB908_FBO_Roma",
+    "nation": "Italy",
+    "class": "Battleship",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18120.0,
+      "range_km": 18.12,
+      "sigma": 1.8,
+      "guns": [
+        {
+          "gun_key": "PIGM010_381mm50_barrels_3_M1939_Life_Boat",
+          "caliber_mm": 381.0,
+          "barrels_per_turret": 3,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -142.0,
+            142.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            36.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA013_381MM_50_HE_ROMA",
+              "ammo_type": "HE",
+              "damage": 5100.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 824.3,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.275,
+              "krupp": 1.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 24.0
+            },
+            "AP": {
+              "key": "PIPA012_381MM_50_AP_ROMA",
+              "ammo_type": "AP",
+              "damage": 12000.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 884.8,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.2954,
+              "krupp": 2434.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 64.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGM011_381mm50_barrels_3_M1939_Tower",
+          "caliber_mm": 381.0,
+          "barrels_per_turret": 3,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -141.0,
+            141.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            36.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA013_381MM_50_HE_ROMA",
+              "ammo_type": "HE",
+              "damage": 5100.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 824.3,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.275,
+              "krupp": 1.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 24.0
+            },
+            "AP": {
+              "key": "PIPA012_381MM_50_AP_ROMA",
+              "ammo_type": "AP",
+              "damage": 12000.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 884.8,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.2954,
+              "krupp": 2434.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 64.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGM012_381mm50_barrels_3_M1939_Gun_Deck",
+          "caliber_mm": 381.0,
+          "barrels_per_turret": 3,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -148.5,
+            148.5
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            36.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA013_381MM_50_HE_ROMA",
+              "ammo_type": "HE",
+              "damage": 5100.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 824.3,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.275,
+              "krupp": 1.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 24.0
+            },
+            "AP": {
+              "key": "PIPA012_381MM_50_AP_ROMA",
+              "ammo_type": "AP",
+              "damage": 12000.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 884.8,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.2954,
+              "krupp": 2434.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 64.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6600.0,
+      "range_km": 6.6,
+      "guns": [
+        {
+          "gun_key": "PIGS014_152mm55_barrels_3_M1936_L",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 12.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -164.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA017_152MM_55_1936_HE",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 44.3,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3246,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS017_90mm50_barrels_1_M1939",
+          "caliber_mm": 90.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -147.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA011_90MM_50_1939_HE",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 90.0,
+              "mass_kg": 10.1,
+              "muzzle_velocity_ms": 860.0,
+              "air_drag": 0.414,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS023_152mm55_barrels_3_M1936_R",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 12.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            138.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA017_152MM_55_1936_HE",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 44.3,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3246,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
