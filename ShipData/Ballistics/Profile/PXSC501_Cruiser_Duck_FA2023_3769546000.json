@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3769546000,
+    "key": "PXSC501_Cruiser_Duck_FA2023",
+    "nation": "Events",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 8500.0,
+      "range_km": 8.5,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PXGM277_Duck_Gun",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 4,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 80.0,
+          "horiz_sector_deg": [
+            -120.0,
+            120.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA307_152MM_DUCK_HE",
+              "ammo_type": "HE",
+              "damage": 2795.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.7,
+              "muzzle_velocity_ms": 1500.0,
+              "air_drag": 0.4036,
+              "krupp": 6.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
