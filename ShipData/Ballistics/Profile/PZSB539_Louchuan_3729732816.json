@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3729732816,
+    "key": "PZSB539_Louchuan",
+    "nation": "Pan_Asia",
+    "class": "Battleship",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 21130.0,
+      "range_km": 21.13,
+      "sigma": 1.85,
+      "guns": [
+        {
+          "gun_key": "PZGM138_16_5in_45_MkII_Cubic",
+          "caliber_mm": 419.0,
+          "barrels_per_turret": 3,
+          "reload_s": 29.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -143.0,
+            143.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA066_419MM_HE_LOUCHUAN",
+              "ammo_type": "HE",
+              "damage": 7200.0,
+              "caliber_mm": 419.0,
+              "mass_kg": 995.0,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.31,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 48.0
+            },
+            "AP": {
+              "key": "PZPA067_419MM_AP_LOUCHUAN",
+              "ammo_type": "AP",
+              "damage": 13000.0,
+              "caliber_mm": 419.0,
+              "mass_kg": 1157.0,
+              "muzzle_velocity_ms": 747.0,
+              "air_drag": 0.2353,
+              "krupp": 2548.0,
+              "fuse_time_s": 0.015,
+              "arming_threshold_mm": 70.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PZGM140_16_5in_45_MkII_Rounded",
+          "caliber_mm": 419.0,
+          "barrels_per_turret": 3,
+          "reload_s": 29.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -133.0,
+            133.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA066_419MM_HE_LOUCHUAN",
+              "ammo_type": "HE",
+              "damage": 7200.0,
+              "caliber_mm": 419.0,
+              "mass_kg": 995.0,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.31,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 48.0
+            },
+            "AP": {
+              "key": "PZPA067_419MM_AP_LOUCHUAN",
+              "ammo_type": "AP",
+              "damage": 13000.0,
+              "caliber_mm": 419.0,
+              "mass_kg": 1157.0,
+              "muzzle_velocity_ms": 747.0,
+              "air_drag": 0.2353,
+              "krupp": 2548.0,
+              "fuse_time_s": 0.015,
+              "arming_threshold_mm": 70.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PZGS097_5_25in_50_QF_MK_I",
+          "caliber_mm": 133.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.67,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -135.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA068_134MM_MI_HE",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 133.0,
+              "mass_kg": 36.3,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.3209,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
