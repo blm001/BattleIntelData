@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:56Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3541972176,
+    "key": "PZSD718_Warhammer_Ork",
+    "nation": "Pan_Asia",
+    "class": "Destroyer",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12460.0,
+      "range_km": 12.46,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PZGM071_100mm65_Type98",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.4,
+          "rotation_speed_deg_s": 16.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA037_100MM_HE_WH_ORK",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.3137,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PZPA038_100MM_AP_WH_ORK",
+              "ammo_type": "AP",
+              "damage": 2050.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 19.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.3837,
+              "krupp": 1754.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 17.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
