@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4288624624,
+    "key": "PASB006_New_York_1934",
+    "nation": "USA",
+    "class": "Battleship",
+    "tier": 5
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16400.0,
+      "range_km": 16.4,
+      "sigma": 1.9,
+      "guns": [
+        {
+          "gun_key": "PAGM125_14in_45_Mk8",
+          "caliber_mm": 356.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.5,
+          "rotation_speed_deg_s": 3.5,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA216_Shell_356mm_HE_HC_Mk_22_NEWYORK",
+              "ammo_type": "HE",
+              "damage": 4750.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 578.34,
+              "muzzle_velocity_ms": 861.0,
+              "air_drag": 0.325,
+              "krupp": 395.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 30.0
+            },
+            "AP": {
+              "key": "PAPA217_Shell_356mm_AP_AP_Mk_16_NEWYORK",
+              "ammo_type": "AP",
+              "damage": 9800.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 680.4,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.332,
+              "krupp": 2604.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 59.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4300.0,
+      "range_km": 4.3,
+      "guns": [
+        {
+          "gun_key": "PAGS029_5in51_Mk_7",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -50.0,
+            45.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            10.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA008_Shell_127mm_HE_HC_Mk_39",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 22.7,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.36,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
