@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3342776048,
+    "key": "PISC908_East_Amalfi",
+    "nation": "Italy",
+    "class": "Cruiser",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 14680.0,
+      "range_km": 14.68,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PIGM026_203mm55_barrels_3",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 16.0,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -146.0,
+            146.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA031_203MM_55_1924_CS",
+              "ammo_type": "CS",
+              "damage": 5200.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 110.5,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.234,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 70.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 54.9
+            },
+            "AP": {
+              "key": "PIPA030_203MM_55_1924_AP",
+              "ammo_type": "AP",
+              "damage": 4800.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.3,
+              "muzzle_velocity_ms": 910.0,
+              "air_drag": 0.237,
+              "krupp": 2500.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6600.0,
+      "range_km": 6.6,
+      "guns": [
+        {
+          "gun_key": "PIGS017_90mm50_barrels_1_M1939",
+          "caliber_mm": 90.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -120.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA011_90MM_50_1939_HE",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 90.0,
+              "mass_kg": 10.1,
+              "muzzle_velocity_ms": 860.0,
+              "air_drag": 0.414,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
