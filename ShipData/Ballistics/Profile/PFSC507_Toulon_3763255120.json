@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3763255120,
+    "key": "PFSC507_Toulon",
+    "nation": "France",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16770.0,
+      "range_km": 16.77,
+      "sigma": 1.9,
+      "guns": [
+        {
+          "gun_key": "PFGM130_305mm_45_Quad",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 4,
+          "reload_s": 28.0,
+          "rotation_speed_deg_s": 4.5,
+          "horiz_sector_deg": [
+            -146.0,
+            146.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            23.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA088_305MM_45_1910_HE_TOULON",
+              "ammo_type": "HE",
+              "damage": 4050.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 308.0,
+              "muzzle_velocity_ms": 905.0,
+              "air_drag": 0.4,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PFPA087_305MM_45_1910_AP_TOULON",
+              "ammo_type": "AP",
+              "damage": 8000.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 395.0,
+              "muzzle_velocity_ms": 798.0,
+              "air_drag": 0.35,
+              "krupp": 2500.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6300.0,
+      "range_km": 6.3,
+      "guns": [
+        {
+          "gun_key": "PFGS024_100mm_45_Mle_1930",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -150.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA016_100MM_45_1930_HE",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.5,
+              "muzzle_velocity_ms": 780.0,
+              "air_drag": 0.3143,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PFGS132_155mm_50_Mle_1920_Triple_Mle_1927_RF",
+          "caliber_mm": 155.0,
+          "barrels_per_turret": 3,
+          "reload_s": 9.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -144.0,
+            144.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA079_155MM_50_1920_HE_SG",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 155.0,
+              "mass_kg": 59.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.3401,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            }
+          }
+        },
+        {
+          "gun_key": "PFGS131_155mm_50_Mle_1920_Triple_Mle_1927",
+          "caliber_mm": 155.0,
+          "barrels_per_turret": 3,
+          "reload_s": 9.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -141.0,
+            141.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA079_155MM_50_1920_HE_SG",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 155.0,
+              "mass_kg": 59.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.3401,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
