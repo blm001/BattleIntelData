@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4187928400,
+    "key": "PFSC102_Jurien",
+    "nation": "France",
+    "class": "Cruiser",
+    "tier": 2
+  },
+  "artillery": {
+    "main": {
+      "range_m": 9330.0,
+      "range_km": 9.33,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM020_164mm_Ernest_Renan",
+          "caliber_mm": 165.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.2,
+          "rotation_speed_deg_s": 12.0,
+          "horiz_sector_deg": [
+            -146.0,
+            146.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA007_165MM_45_1893_HE",
+              "ammo_type": "HE",
+              "damage": 1850.0,
+              "caliber_mm": 165.0,
+              "mass_kg": 54.2,
+              "muzzle_velocity_ms": 770.0,
+              "air_drag": 0.22,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
