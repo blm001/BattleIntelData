@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3760076208,
+    "key": "PSSD510_Alvaro_de_Bazan",
+    "nation": "Spain",
+    "class": "Destroyer",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12620.0,
+      "range_km": 12.62,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PSGM007_135_45_OTO_1937",
+          "caliber_mm": 135.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PSPA004_135MM_HE_BAZAN_IT",
+              "ammo_type": "HE",
+              "damage": 1950.0,
+              "caliber_mm": 135.0,
+              "mass_kg": 32.7,
+              "muzzle_velocity_ms": 825.0,
+              "air_drag": 0.25,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            },
+            "AP": {
+              "key": "PSPA005_135MM_AP_BAZAN_IT",
+              "ammo_type": "AP",
+              "damage": 2500.0,
+              "caliber_mm": 135.0,
+              "mass_kg": 32.7,
+              "muzzle_velocity_ms": 825.0,
+              "air_drag": 0.25,
+              "krupp": 2200.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 23.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
