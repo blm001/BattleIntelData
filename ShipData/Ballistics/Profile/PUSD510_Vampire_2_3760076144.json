@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3760076144,
+    "key": "PUSD510_Vampire_2",
+    "nation": "Commonwealth",
+    "class": "Destroyer",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12780.0,
+      "range_km": 12.78,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM102_4_5in45_MK_5",
+          "caliber_mm": 113.0,
+          "barrels_per_turret": 2,
+          "reload_s": 2.5,
+          "rotation_speed_deg_s": 25.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -4.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PUPA011_114MM_HE_VAMPIRE_2",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 113.0,
+              "mass_kg": 24.95,
+              "muzzle_velocity_ms": 746.0,
+              "air_drag": 0.329,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PUPA012_114MM_AP_VAMPIRE_2",
+              "ammo_type": "AP",
+              "damage": 2100.0,
+              "caliber_mm": 113.0,
+              "mass_kg": 25.0,
+              "muzzle_velocity_ms": 746.0,
+              "air_drag": 0.3296,
+              "krupp": 1600.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 19.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
