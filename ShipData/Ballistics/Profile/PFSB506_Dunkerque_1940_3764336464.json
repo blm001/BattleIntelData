@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3764336464,
+    "key": "PFSB506_Dunkerque_1940",
+    "nation": "France",
+    "class": "Battleship",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18210.0,
+      "range_km": 18.21,
+      "sigma": 1.7,
+      "guns": [
+        {
+          "gun_key": "PFGM001_330_52_Mle_1931",
+          "caliber_mm": 330.0,
+          "barrels_per_turret": 4,
+          "reload_s": 26.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -156.0,
+            156.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            35.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA002_330MM_HE_D",
+              "ammo_type": "HE",
+              "damage": 4800.0,
+              "caliber_mm": 330.0,
+              "mass_kg": 552.0,
+              "muzzle_velocity_ms": 885.0,
+              "air_drag": 0.2926,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 35.0
+            },
+            "AP": {
+              "key": "PFPA001_330MM_AP_D",
+              "ammo_type": "AP",
+              "damage": 9700.0,
+              "caliber_mm": 330.0,
+              "mass_kg": 560.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.2801,
+              "krupp": 2428.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 55.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PFGM007_330_52_Mle_1931_prem",
+          "caliber_mm": 330.0,
+          "barrels_per_turret": 4,
+          "reload_s": 26.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -148.0,
+            148.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            35.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA002_330MM_HE_D",
+              "ammo_type": "HE",
+              "damage": 4800.0,
+              "caliber_mm": 330.0,
+              "mass_kg": 552.0,
+              "muzzle_velocity_ms": 885.0,
+              "air_drag": 0.2926,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 35.0
+            },
+            "AP": {
+              "key": "PFPA001_330MM_AP_D",
+              "ammo_type": "AP",
+              "damage": 9700.0,
+              "caliber_mm": 330.0,
+              "mass_kg": 560.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.2801,
+              "krupp": 2428.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 55.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PFGS003_130_45_Mle_1932_twin",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -170.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA003_130MM_HE_MLE1935",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 29.5,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.3152,
+              "krupp": 445.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        },
+        {
+          "gun_key": "PFGS002_130_45_Mle_1932_quad",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 4,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            159.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA003_130MM_HE_MLE1935",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 29.5,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.3152,
+              "krupp": 445.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        },
+        {
+          "gun_key": "PFGS008_130_45_Mle_1932_quad_prem",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 4,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -137.0,
+            137.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA003_130MM_HE_MLE1935",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 29.5,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.3152,
+              "krupp": 445.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
