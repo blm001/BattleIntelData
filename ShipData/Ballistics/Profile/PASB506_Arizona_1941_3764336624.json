@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3764336624,
+    "key": "PASB506_Arizona_1941",
+    "nation": "USA",
+    "class": "Battleship",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16000.0,
+      "range_km": 16.0,
+      "sigma": 1.8,
+      "guns": [
+        {
+          "gun_key": "PAGM162_14in45_Triple",
+          "caliber_mm": 356.0,
+          "barrels_per_turret": 3,
+          "reload_s": 35.0,
+          "rotation_speed_deg_s": 3.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA063_SHELL_356MM_HE_MK_22_ARIZONA",
+              "ammo_type": "HE",
+              "damage": 5000.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 578.34,
+              "muzzle_velocity_ms": 834.0,
+              "air_drag": 0.325,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 30.0
+            },
+            "AP": {
+              "key": "PAPA062_SHELL_356MM_AP_MK_16_ARIZONA",
+              "ammo_type": "AP",
+              "damage": 10300.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 680.4,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.332,
+              "krupp": 2604.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 59.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PAGM163_14in45_Triple",
+          "caliber_mm": 356.0,
+          "barrels_per_turret": 3,
+          "reload_s": 35.0,
+          "rotation_speed_deg_s": 3.0,
+          "horiz_sector_deg": [
+            -148.0,
+            148.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA063_SHELL_356MM_HE_MK_22_ARIZONA",
+              "ammo_type": "HE",
+              "damage": 5000.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 578.34,
+              "muzzle_velocity_ms": 834.0,
+              "air_drag": 0.325,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 30.0
+            },
+            "AP": {
+              "key": "PAPA062_SHELL_356MM_AP_MK_16_ARIZONA",
+              "ammo_type": "AP",
+              "damage": 10300.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 680.4,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.332,
+              "krupp": 2604.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 59.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PAGS029_5in51_Mk_7",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -117.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA008_Shell_127mm_HE_HC_Mk_39",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 22.7,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.36,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PAGS007_5in25_Mk19_Mod6",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -72.0,
+            66.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA003_Shell_127mm_HE_HC_Mk_36",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 24.43,
+              "muzzle_velocity_ms": 657.0,
+              "air_drag": 0.361,
+              "krupp": 445.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
