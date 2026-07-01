@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4187928336,
+    "key": "PHSC102_Gelderland",
+    "nation": "Netherlands",
+    "class": "Cruiser",
+    "tier": 2
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11340.0,
+      "range_km": 11.34,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PHGM019_120_40_Krupp_3",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.2,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -140.0,
+            132.0
+          ],
+          "vert_sector_deg": [
+            1.5,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PHPA016_120MM_40_HE_KRUPP",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 21.0,
+              "muzzle_velocity_ms": 820.0,
+              "air_drag": 0.2014,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
