@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3543053520,
+    "key": "PZSC717_Lanzhou",
+    "nation": "Pan_Asia",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17560.0,
+      "range_km": 17.56,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PZGM2025_180mm_57_MK_3",
+          "caliber_mm": 180.0,
+          "barrels_per_turret": 3,
+          "reload_s": 10.6,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -154.0,
+            154.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            50.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA079_180_HE_LANZHOU",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 109.2,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2654,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            },
+            "AP": {
+              "key": "PZPA080_180_AP_LANZHOU",
+              "ammo_type": "AP",
+              "damage": 4300.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2381,
+              "krupp": 3000.0,
+              "fuse_time_s": 0.022,
+              "arming_threshold_mm": 30.0,
+              "ricochet_at_deg": 50.0,
+              "always_ricochet_at_deg": 65.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PZGS134_100mm_B_54",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.75,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -140.0,
+            140.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA077_100MM_HE_F_56",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.8,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.2858,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
