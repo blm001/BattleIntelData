@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3549870032,
+    "key": "PBSS710_Seal",
+    "nation": "United_Kingdom",
+    "class": "Submarine",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 6000.0,
+      "range_km": 6.0,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM2009_4in_40_MkXII",
+          "caliber_mm": 102.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -149.0,
+            149.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PBPA994_102MM_CS_SUB",
+              "ammo_type": "CS",
+              "damage": 2250.0,
+              "caliber_mm": 102.0,
+              "mass_kg": 14.1,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3438,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 29.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
