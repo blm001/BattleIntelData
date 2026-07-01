@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:22Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4179605296,
+    "key": "PGSA110_Manfred_Richthofen",
+    "nation": "Germany",
+    "class": "AirCarrier",
+    "tier": 10
+  },
+  "air_wing": [
+    {
+      "squadron_type": "DiveBomber",
+      "tier_slot": 1,
+      "plane_key": "PGAD901_M_Richthofen_stock",
+      "planes_in_squadron": 12,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1470,
+      "speed_max_raw": 1.259,
+      "speed_move_kph": 154.0,
+      "payload": {
+        "key": "PGPB007_M_RICHTHOFEN_STOCK",
+        "ammo_type": "AP",
+        "damage": 7800.0,
+        "pen_mm": 0,
+        "normalization_deg": 35.0,
+        "fuse_time_s": 0.03,
+        "arming_threshold_mm": 30.0
+      }
+    },
+    {
+      "squadron_type": "Fighter",
+      "tier_slot": 1,
+      "plane_key": "PGAF902_M_Richthofen_stock",
+      "planes_in_squadron": 9,
+      "attacks_per_strike": 4,
+      "bombs_per_attack": 1,
+      "plane_hp": 1380,
+      "speed_max_raw": 1.2397,
+      "speed_move_kph": 167.0,
+      "payload": {
+        "key": "PGPR004_M_RICHTHOFEN_STOCK",
+        "ammo_type": "AP",
+        "damage": 3100.0,
+        "pen_mm": 0,
+        "normalization_deg": 10.0,
+        "fuse_time_s": 0.022,
+        "arming_threshold_mm": 25.0
+      }
+    },
+    {
+      "squadron_type": "TorpedoBomber",
+      "tier_slot": 1,
+      "plane_key": "PGAB901_M_Richthofen_stock",
+      "planes_in_squadron": 9,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1640,
+      "speed_max_raw": 1.259,
+      "speed_move_kph": 154.0,
+      "payload": {
+        "key": "PGPT027_M_RICHTHOFEN_STOCK",
+        "ammo_type": "torpedo",
+        "damage": 11800.0,
+        "speed_knots": 55.0,
+        "range_km": 0.1,
+        "flood_chance_pct": 39.0,
+        "arming_time_s": 4
+      }
+    },
+    {
+      "squadron_type": "DiveBomber",
+      "tier_slot": 2,
+      "plane_key": "PGAD902_M_Richthofen_top",
+      "planes_in_squadron": 12,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1530,
+      "speed_max_raw": 1.2301,
+      "speed_move_kph": 174.0,
+      "payload": {
+        "key": "PGPB008_M_RICHTHOFEN_TOP",
+        "ammo_type": "AP",
+        "damage": 8800.0,
+        "pen_mm": 0,
+        "normalization_deg": 35.0,
+        "fuse_time_s": 0.03,
+        "arming_threshold_mm": 30.0
+      }
+    },
+    {
+      "squadron_type": "Fighter",
+      "tier_slot": 2,
+      "plane_key": "PGAF903_M_Richthofen_top",
+      "planes_in_squadron": 9,
+      "attacks_per_strike": 4,
+      "bombs_per_attack": 1,
+      "plane_hp": 1440,
+      "speed_max_raw": 1.2329,
+      "speed_move_kph": 172.0,
+      "payload": {
+        "key": "PGPR005_M_RICHTHOFEN_TOP",
+        "ammo_type": "AP",
+        "damage": 3100.0,
+        "pen_mm": 0,
+        "normalization_deg": 10.0,
+        "fuse_time_s": 0.022,
+        "arming_threshold_mm": 25.0
+      }
+    },
+    {
+      "squadron_type": "TorpedoBomber",
+      "tier_slot": 2,
+      "plane_key": "PGAB902_M_Richthofen_top",
+      "planes_in_squadron": 9,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1710,
+      "speed_max_raw": 1.2301,
+      "speed_move_kph": 174.0,
+      "payload": {
+        "key": "PGPT028_M_RICHTHOFEN_TOP",
+        "ammo_type": "torpedo",
+        "damage": 11800.0,
+        "speed_knots": 55.0,
+        "range_km": 0.1,
+        "flood_chance_pct": 39.0,
+        "arming_time_s": 4
+      }
+    }
+  ]
+}
