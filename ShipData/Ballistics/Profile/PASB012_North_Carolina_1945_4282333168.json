@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4282333168,
+    "key": "PASB012_North_Carolina_1945",
+    "nation": "USA",
+    "class": "Battleship",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 21143.0,
+      "range_km": 21.14,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PAGM012_16in45_Mk6",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 3,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA084_Shell_406mm_HE_HC_Mk_13E",
+              "ammo_type": "HE",
+              "damage": 5700.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 862.0,
+              "muzzle_velocity_ms": 820.0,
+              "air_drag": 0.346,
+              "krupp": 250.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 36.0
+            },
+            "AP": {
+              "key": "PAPA011_Shell_406mm_AP_AP_Mk_8",
+              "ammo_type": "AP",
+              "damage": 13100.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1225.0,
+              "muzzle_velocity_ms": 701.0,
+              "air_drag": 0.352,
+              "krupp": 2598.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
