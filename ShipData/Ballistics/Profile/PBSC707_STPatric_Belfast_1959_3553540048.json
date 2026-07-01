@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3553540048,
+    "key": "PBSC707_STPatric_Belfast_1959",
+    "nation": "United_Kingdom",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15420.0,
+      "range_km": 15.42,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM001_6in50_MK_XXIII",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 7.5,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -137.0,
+            137.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA020_152MM_HE_BEL",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 50.8,
+              "muzzle_velocity_ms": 841.0,
+              "air_drag": 0.3297,
+              "krupp": 1.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            },
+            "AP": {
+              "key": "PBPA021_152MM_AP_BEL",
+              "ammo_type": "AP",
+              "damage": 3100.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 50.8,
+              "muzzle_velocity_ms": 841.0,
+              "air_drag": 0.3297,
+              "krupp": 2609.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PBGS195_4IN45_XIX_M",
+          "caliber_mm": 102.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -60.0,
+            83.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA004_102mm_HE_HE_35lbs",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 102.0,
+              "mass_kg": 15.88,
+              "muzzle_velocity_ms": 811.0,
+              "air_drag": 0.33,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
