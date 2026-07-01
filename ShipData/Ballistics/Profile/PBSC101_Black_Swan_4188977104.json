@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:49Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4188977104,
+    "key": "PBSC101_Black_Swan",
+    "nation": "United_Kingdom",
+    "class": "Cruiser",
+    "tier": 1
+  },
+  "artillery": {
+    "main": {
+      "range_m": 8745.0,
+      "range_km": 8.74,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM053_4in45_QF_Mk_XIX",
+          "caliber_mm": 102.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -123.0,
+            123.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA007_102MM_HE_MG_BS",
+              "ammo_type": "HE",
+              "damage": 750.0,
+              "caliber_mm": 102.0,
+              "mass_kg": 15.88,
+              "muzzle_velocity_ms": 811.0,
+              "air_drag": 0.3142,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
