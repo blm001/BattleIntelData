@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3763287408,
+    "key": "PUSB507_Yukon",
+    "nation": "Commonwealth",
+    "class": "Battleship",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15650.0,
+      "range_km": 15.65,
+      "sigma": 1.9,
+      "guns": [
+        {
+          "gun_key": "PBGM081_15in_45_MkII",
+          "caliber_mm": 381.0,
+          "barrels_per_turret": 3,
+          "reload_s": 31.5,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -146.0,
+            146.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PUPA013_381MM_HE_YUKON",
+              "ammo_type": "HE",
+              "damage": 5300.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 879.0,
+              "muzzle_velocity_ms": 731.5,
+              "air_drag": 0.3379,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 34.0
+            },
+            "AP": {
+              "key": "PUPA014_381MM_AP_YUKON",
+              "ammo_type": "AP",
+              "damage": 11900.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 879.0,
+              "muzzle_velocity_ms": 836.0,
+              "air_drag": 0.3379,
+              "krupp": 2250.0,
+              "fuse_time_s": 0.015,
+              "arming_threshold_mm": 64.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PBGS055_5_25in_50_QF_MK_I",
+          "caliber_mm": 133.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.67,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -149.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA041_134MM_MI_HE",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 133.0,
+              "mass_kg": 36.3,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.3209,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
