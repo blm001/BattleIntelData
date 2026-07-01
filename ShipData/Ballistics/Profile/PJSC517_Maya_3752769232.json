@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3752769232,
+    "key": "PJSC517_Maya",
+    "nation": "Japan",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15280.0,
+      "range_km": 15.28,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PJGM024_203mm50_Type_E_RF",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 16.5,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA121_203MM_HE_MAYA2",
+              "ammo_type": "HE",
+              "damage": 3000.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.85,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.337,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PJPA122_203MM_AP_MAYA2",
+              "ammo_type": "AP",
+              "damage": 4700.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.85,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.337,
+              "krupp": 2468.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGM025_203mm50_Type_E",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 16.5,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -149.0,
+            149.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA121_203MM_HE_MAYA2",
+              "ammo_type": "HE",
+              "damage": 3000.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.85,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.337,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PJPA122_203MM_AP_MAYA2",
+              "ammo_type": "AP",
+              "damage": 4700.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.85,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.337,
+              "krupp": 2468.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PJGS158_127mm40_Type_89",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -70.0,
+            85.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA004_Shell_127mm_HE_C_Type_0",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 23.45,
+              "muzzle_velocity_ms": 725.0,
+              "air_drag": 0.3395,
+              "krupp": 500.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
