@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4287542544,
+    "key": "PXSC007_Aurora",
+    "nation": "Events",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 8000.0,
+      "range_km": 8.0,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PXGM013_space_MG",
+          "caliber_mm": 220.0,
+          "barrels_per_turret": 3,
+          "reload_s": 28.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            50.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA033_220_HE_OF_23",
+              "ammo_type": "HE",
+              "damage": 13000.0,
+              "caliber_mm": 220.0,
+              "mass_kg": 176.0,
+              "muzzle_velocity_ms": 450.0,
+              "air_drag": 0.2549,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PXPA036_220_AP_B_23",
+              "ammo_type": "AP",
+              "damage": 26300.0,
+              "caliber_mm": 220.0,
+              "mass_kg": 176.0,
+              "muzzle_velocity_ms": 450.0,
+              "air_drag": 0.2549,
+              "krupp": 2590.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 37.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 8000.0,
+      "range_km": 8.0,
+      "guns": [
+        {
+          "gun_key": "PXGS047_space_SG",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 2.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -55.0,
+            55.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            83.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA028_130MM_HE_OF_42",
+              "ammo_type": "HE",
+              "damage": 10000,
+              "caliber_mm": 130.0,
+              "mass_kg": 40.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 2e-05,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
