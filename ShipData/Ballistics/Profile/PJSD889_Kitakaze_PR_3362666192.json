@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3362666192,
+    "key": "PJSD889_Kitakaze_PR",
+    "nation": "Japan",
+    "class": "Destroyer",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12463.0,
+      "range_km": 12.46,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PJGM055_100mm65_Type98",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.0,
+          "rotation_speed_deg_s": 16.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA064_100MM_HE_C_TYPE_98_MG",
+              "ammo_type": "HE",
+              "damage": 1200.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.3137,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            },
+            "AP": {
+              "key": "PJPA063_100MM_AP_C_TYPE_98_MG",
+              "ammo_type": "AP",
+              "damage": 1700.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.3137,
+              "krupp": 2154.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 17.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
