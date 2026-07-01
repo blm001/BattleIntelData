@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540957008,
+    "key": "PFSC719_Le_Havre",
+    "nation": "France",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18100.0,
+      "range_km": 18.1,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM001_330_52_Mle_1931",
+          "caliber_mm": 330.0,
+          "barrels_per_turret": 4,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -142.0,
+            142.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            35.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA116_330MM_HE_M1935_LE_HAVRE",
+              "ammo_type": "HE",
+              "damage": 4800.0,
+              "caliber_mm": 330.0,
+              "mass_kg": 552.0,
+              "muzzle_velocity_ms": 885.0,
+              "air_drag": 0.2926,
+              "krupp": 385.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 35.0
+            },
+            "AP": {
+              "key": "PFPA117_330MM_AP_M1935_LE_HAVRE",
+              "ammo_type": "AP",
+              "damage": 10750.0,
+              "caliber_mm": 330.0,
+              "mass_kg": 560.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.2801,
+              "krupp": 2428.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 55.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7950.0,
+      "range_km": 7.95,
+      "guns": [
+        {
+          "gun_key": "PFGS136_138mm_50_twin",
+          "caliber_mm": 139.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.75,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -160.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            78.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA131_139MM_55_1928_HE_SG_LE_HAVRE",
+              "ammo_type": "HE",
+              "damage": 2000.0,
+              "caliber_mm": 139.0,
+              "mass_kg": 40.2,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.3514,
+              "krupp": 360.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
