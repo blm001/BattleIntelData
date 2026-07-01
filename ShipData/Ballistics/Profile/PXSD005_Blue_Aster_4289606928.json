@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4289606928,
+    "key": "PXSD005_Blue_Aster",
+    "nation": "Events",
+    "class": "Destroyer",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12050.0,
+      "range_km": 12.05,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PXGM008_space_MG",
+          "caliber_mm": 128.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 18.0,
+          "horiz_sector_deg": [
+            -154.0,
+            154.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            52.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA024_128MM_HE_C41",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 28.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.2752,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            },
+            "AP": {
+              "key": "PXPA025_128MM_AP_C41",
+              "ammo_type": "AP",
+              "damage": 3000.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 28.0,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.2752,
+              "krupp": 1647.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
