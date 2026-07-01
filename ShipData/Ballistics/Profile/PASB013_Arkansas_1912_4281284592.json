@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4281284592,
+    "key": "PASB013_Arkansas_1912",
+    "nation": "USA",
+    "class": "Battleship",
+    "tier": 4
+  },
+  "artillery": {
+    "main": {
+      "range_m": 14380.0,
+      "range_km": 14.38,
+      "sigma": 1.5,
+      "guns": [
+        {
+          "gun_key": "PAGM155_12in50_Mk7",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -143.0,
+            143.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA214_305mm_HE_Common_870lbs_ARKANSAS",
+              "ammo_type": "HE",
+              "damage": 4200.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 394.6,
+              "muzzle_velocity_ms": 884.0,
+              "air_drag": 0.337,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 22.0
+            },
+            "AP": {
+              "key": "PAPA215_305mm_AP_AP_870lbs_ARKANSAS",
+              "ammo_type": "AP",
+              "damage": 8300.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 394.6,
+              "muzzle_velocity_ms": 884.0,
+              "air_drag": 0.337,
+              "krupp": 2226.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4500.0,
+      "range_km": 4.5,
+      "guns": [
+        {
+          "gun_key": "PAGS029_5in51_Mk_7",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -135.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            8.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA008_Shell_127mm_HE_HC_Mk_39",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 22.7,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.36,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PAGS149_5in_51_Mk7",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            133.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            8.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA008_Shell_127mm_HE_HC_Mk_39",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 22.7,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.36,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
