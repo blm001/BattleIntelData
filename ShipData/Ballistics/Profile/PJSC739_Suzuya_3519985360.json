@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3519985360,
+    "key": "PJSC739_Suzuya",
+    "nation": "Japan",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16500.0,
+      "range_km": 16.5,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PJGM029_155mm50_Type_91",
+          "caliber_mm": 155.0,
+          "barrels_per_turret": 3,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            55.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA150_155mm_HE_SUZUYA",
+              "ammo_type": "HE",
+              "damage": 2600.0,
+              "caliber_mm": 155.0,
+              "mass_kg": 55.87,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.335,
+              "krupp": 300.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            },
+            "AP": {
+              "key": "PJPA155_155mm_AP_SUZUYA",
+              "ammo_type": "AP",
+              "damage": 3300.0,
+              "caliber_mm": 155.0,
+              "mass_kg": 55.87,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.335,
+              "krupp": 2429.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 26.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGM030_155mm50_Type_91_RF",
+          "caliber_mm": 155.0,
+          "barrels_per_turret": 3,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -0.0,
+            55.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA150_155mm_HE_SUZUYA",
+              "ammo_type": "HE",
+              "damage": 2600.0,
+              "caliber_mm": 155.0,
+              "mass_kg": 55.87,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.335,
+              "krupp": 300.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            },
+            "AP": {
+              "key": "PJPA155_155mm_AP_SUZUYA",
+              "ammo_type": "AP",
+              "damage": 3300.0,
+              "caliber_mm": 155.0,
+              "mass_kg": 55.87,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.335,
+              "krupp": 2429.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 26.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PJGS184_127mm40_Type_89",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -80.0,
+            80.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA004_Shell_127mm_HE_C_Type_0",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 23.45,
+              "muzzle_velocity_ms": 725.0,
+              "air_drag": 0.3395,
+              "krupp": 500.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
