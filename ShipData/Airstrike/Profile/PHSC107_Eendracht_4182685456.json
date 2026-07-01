@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:19Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4182685456,
+    "key": "PHSC107_Eendracht",
+    "nation": "Netherlands",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "airstrike": {
+    "charges": 1,
+    "reload_s": 80.0,
+    "min_range_m": 1500,
+    "max_range_m": 11000,
+    "max_range_km": 11.0,
+    "time_to_target_s": 4.0,
+    "plane": {
+      "plane_key": "PHAD009_Eendracht_AS",
+      "planes_in_squadron": 12,
+      "attacks_per_strike": 6,
+      "bombs_per_attack": 1,
+      "plane_hp": 1940,
+      "speed_max_raw": 1.2672,
+      "speed_move_kph": 158.0,
+      "payload": {
+        "key": "PHPB022_PuW_120kg_AS_HE",
+        "ammo_type": "HE",
+        "damage": 5800.0,
+        "splash_damage": 1000.0,
+        "splash_radius_m": 200.0,
+        "pen_mm": 34.3,
+        "fire_chance_pct": 33.0,
+        "flood_chance": false,
+        "fuse_time_s": 0.03,
+        "arming_threshold_mm": 25.0
+      }
+    }
+  }
+}
