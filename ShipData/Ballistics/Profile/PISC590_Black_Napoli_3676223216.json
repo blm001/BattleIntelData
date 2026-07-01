@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3676223216,
+    "key": "PISC590_Black_Napoli",
+    "nation": "Italy",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16280.0,
+      "range_km": 16.28,
+      "sigma": 2.15,
+      "guns": [
+        {
+          "gun_key": "PIGM081_254mm_3",
+          "caliber_mm": 254.0,
+          "barrels_per_turret": 3,
+          "reload_s": 17.0,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            4.0,
+            70.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA056_254MM_HE_NAPOLI",
+              "ammo_type": "HE",
+              "damage": 3450.0,
+              "caliber_mm": 254.0,
+              "mass_kg": 227.9,
+              "muzzle_velocity_ms": 954.0,
+              "air_drag": 0.277,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 16.0
+            },
+            "AP": {
+              "key": "PIPA055_254MM_AP_NAPOLI",
+              "ammo_type": "AP",
+              "damage": 6150.0,
+              "caliber_mm": 254.0,
+              "mass_kg": 227.9,
+              "muzzle_velocity_ms": 945.0,
+              "air_drag": 0.277,
+              "krupp": 2650.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 42.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7300.0,
+      "range_km": 7.3,
+      "guns": [
+        {
+          "gun_key": "PIGS014_152mm55_barrels_3_M1936_L",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 7.2,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -155.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA061_152MM_53_CS_1926_SG",
+              "ammo_type": "CS",
+              "damage": 3850.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 44.3,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3246,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 80.0,
+              "always_ricochet_at_deg": 85.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 42.3
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS034_90mm50_barrels_2_M1939",
+          "caliber_mm": 90.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.2,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -170.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA062_90MM_50_1939_CS_SG",
+              "ammo_type": "CS",
+              "damage": 2000.0,
+              "caliber_mm": 90.0,
+              "mass_kg": 10.1,
+              "muzzle_velocity_ms": 860.0,
+              "air_drag": 0.414,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 70.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 26.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
