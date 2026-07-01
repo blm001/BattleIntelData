@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4292818192,
+    "key": "PXSB002_Rasputin",
+    "nation": "Events",
+    "class": "Battleship",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 14000.0,
+      "range_km": 14.0,
+      "sigma": 0.5,
+      "guns": [
+        {
+          "gun_key": "PXGM018_12in52",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 3,
+          "reload_s": 15.5,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA005_305MM_HE_RASPUTIN",
+              "ammo_type": "HE",
+              "damage": 9900.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 470.9,
+              "muzzle_velocity_ms": 762.0,
+              "air_drag": 0.4595,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 33.0
+            },
+            "AP": {
+              "key": "PXPA006_305MM_AP_RASPUTIN",
+              "ammo_type": "AP",
+              "damage": 14190.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 470.9,
+              "muzzle_velocity_ms": 762.0,
+              "air_drag": 0.4595,
+              "krupp": 2627.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5000.0,
+      "range_km": 5.0,
+      "guns": [
+        {
+          "gun_key": "PXGS019_130mm_55",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 1,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -112.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA007_130MM_HE_RASPUTIN",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 36.86,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.4143,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
