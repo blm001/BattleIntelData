@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540924208,
+    "key": "PGSD719_ZH_1",
+    "nation": "Germany",
+    "class": "Destroyer",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11900.0,
+      "range_km": 11.9,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PGGM2007_120mm45_twin_Mark_8",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.2,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA009_120MM_HE_ZH_1",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 32.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.2952,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            },
+            "AP": {
+              "key": "PGPA010_120MM_AP_ZH_1",
+              "ammo_type": "AP",
+              "damage": 3150.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 32.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.2952,
+              "krupp": 1647.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 20.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        },
+        {
+          "gun_key": "PGGM2010_120mm45_Wilton_Fijenoord_Mk6",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.2,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA009_120MM_HE_ZH_1",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 32.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.2952,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            },
+            "AP": {
+              "key": "PGPA010_120MM_AP_ZH_1",
+              "ammo_type": "AP",
+              "damage": 3150.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 32.0,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.2952,
+              "krupp": 1647.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 20.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
