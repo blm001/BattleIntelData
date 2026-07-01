@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3552490832,
+    "key": "PVSC708_Comandante_Aguirre",
+    "nation": "Pan_America",
+    "class": "Cruiser",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15100.0,
+      "range_km": 15.1,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PVGM2016_203mm_SK_L56",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 18.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            37.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PVPA051_203MM_HE_COMANDANTE_AGUIRRE",
+              "ammo_type": "HE",
+              "damage": 2700.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.263,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            },
+            "AP": {
+              "key": "PVPA052_203MM_AP_COMANDANTE_AGUIRRE",
+              "ammo_type": "AP",
+              "damage": 4550.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.263,
+              "krupp": 2977.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 50.0,
+              "always_ricochet_at_deg": 65.0,
+              "normalization_deg": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PVGM2017_203_56_SK_C38",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 18.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            37.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PVPA051_203MM_HE_COMANDANTE_AGUIRRE",
+              "ammo_type": "HE",
+              "damage": 2700.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.263,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            },
+            "AP": {
+              "key": "PVPA052_203MM_AP_COMANDANTE_AGUIRRE",
+              "ammo_type": "AP",
+              "damage": 4550.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 925.0,
+              "air_drag": 0.263,
+              "krupp": 2977.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 50.0,
+              "always_ricochet_at_deg": 65.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7600.0,
+      "range_km": 7.6,
+      "guns": [
+        {
+          "gun_key": "PVGS2018_120_50_Bofors_M42",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -170.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PVPA053_120MM_50_HE_COMANDANTE_AGUIRRE",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 23.5,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3344,
+              "krupp": 590.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
