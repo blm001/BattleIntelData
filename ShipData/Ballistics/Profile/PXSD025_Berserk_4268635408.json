@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4268635408,
+    "key": "PXSD025_Berserk",
+    "nation": "Events",
+    "class": "Destroyer",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 9000.0,
+      "range_km": 9.0,
+      "sigma": 2.2,
+      "guns": [
+        {
+          "gun_key": "PXGM129_Berserk_Head",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 2.3,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -28.0,
+            28.0
+          ],
+          "vert_sector_deg": [
+            -5.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA113_HE_BERSERK",
+              "ammo_type": "HE",
+              "damage": 14500.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 23.0,
+              "muzzle_velocity_ms": 915.0,
+              "air_drag": 0.334,
+              "krupp": 450.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
