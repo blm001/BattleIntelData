@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:36:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4276041424,
+    "key": "PJSB018_Yamato_1944",
+    "nation": "Japan",
+    "class": "Battleship",
+    "tier": 10
+  },
+  "airstrike": {
+    "charges": 2,
+    "reload_s": 30.0,
+    "min_range_m": 500,
+    "max_range_m": 11000,
+    "max_range_km": 11.0,
+    "time_to_target_s": 2.0,
+    "plane": {
+      "plane_key": "PJAD903_ASW_T10",
+      "planes_in_squadron": 8,
+      "attacks_per_strike": 2,
+      "bombs_per_attack": 1,
+      "plane_hp": 2000,
+      "speed_knots": 2511.4,
+      "payload": {
+        "key": "PJPD105_depth_T10",
+        "ammo_type": "depthcharge",
+        "damage": 4900.0,
+        "splash_damage": 900.0,
+        "splash_radius_m": 0,
+        "pen_mm": 0.0,
+        "fire_chance_pct": 28.0,
+        "flood_chance": true,
+        "fuse_time_s": 0,
+        "arming_threshold_mm": 0
+      }
+    }
+  }
+}
