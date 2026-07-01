@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3447600976,
+    "key": "PFSD808_TST_TERRIBLE",
+    "nation": "France",
+    "class": "Destroyer",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12270.0,
+      "range_km": 12.27,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM064_139MM_50_MLE1929",
+          "caliber_mm": 139.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            0.5,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA054_HE_TST_TERRIBLE",
+              "ammo_type": "HE",
+              "damage": 2000.0,
+              "caliber_mm": 139.0,
+              "mass_kg": 40.2,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.234,
+              "krupp": 360.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            },
+            "AP": {
+              "key": "PFPA055_AP_TST_TERRIBLE",
+              "ammo_type": "AP",
+              "damage": 2700.0,
+              "caliber_mm": 139.0,
+              "mass_kg": 39.9,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.234,
+              "krupp": 2400.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 23.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        },
+        {
+          "gun_key": "PFGM061_138_6mm_50_Mle_1929",
+          "caliber_mm": 139.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA054_HE_TST_TERRIBLE",
+              "ammo_type": "HE",
+              "damage": 2000.0,
+              "caliber_mm": 139.0,
+              "mass_kg": 40.2,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.234,
+              "krupp": 360.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            },
+            "AP": {
+              "key": "PFPA055_AP_TST_TERRIBLE",
+              "ammo_type": "AP",
+              "damage": 2700.0,
+              "caliber_mm": 139.0,
+              "mass_kg": 39.9,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.234,
+              "krupp": 2400.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 23.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
