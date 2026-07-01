@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3768497488,
+    "key": "PVSC502_Almirante_Abreu",
+    "nation": "Pan_America",
+    "class": "Cruiser",
+    "tier": 2
+  },
+  "artillery": {
+    "main": {
+      "range_m": 9170.0,
+      "range_km": 9.17,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PVGM010_6in50_Mk5",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.4,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PVPA004_HE_ALBANY_ABREU",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.7,
+              "muzzle_velocity_ms": 853.0,
+              "air_drag": 0.2707,
+              "krupp": 1150.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 3500.0,
+      "range_km": 3.5,
+      "guns": [
+        {
+          "gun_key": "PVGS011_4_7in_Mk3",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -56.0,
+            56.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PVPA006_120_HE_45LBS_SG",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 20.4,
+              "muzzle_velocity_ms": 675.0,
+              "air_drag": 0.348,
+              "krupp": 590.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 4.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
