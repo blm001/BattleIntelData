@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4283381456,
+    "key": "PJSB011_Mikasa_1905",
+    "nation": "Japan",
+    "class": "Battleship",
+    "tier": 2
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11820.0,
+      "range_km": 11.82,
+      "sigma": 2.1,
+      "guns": [
+        {
+          "gun_key": "PJGM134_305mm40_type_armstrong",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -124.0,
+            124.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA061_SHELL_305MM_HE_850LBS",
+              "ammo_type": "HE",
+              "damage": 4350.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 386.0,
+              "muzzle_velocity_ms": 732.0,
+              "air_drag": 0.5962,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 29.0
+            },
+            "AP": {
+              "key": "PJPA060_SHELL_305MM_AP_850LBS",
+              "ammo_type": "AP",
+              "damage": 6550.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 386.0,
+              "muzzle_velocity_ms": 732.0,
+              "air_drag": 0.5962,
+              "krupp": 1373.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 3000.0,
+      "range_km": 3.0,
+      "guns": [
+        {
+          "gun_key": "PJGS138_76mm40_with_shield_Black",
+          "caliber_mm": 76.2,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -108.0,
+            2.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA026_Shell_76mm_HE_O_Mk_2",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 76.0,
+              "mass_kg": 5.67,
+              "muzzle_velocity_ms": 680.0,
+              "air_drag": 0.331,
+              "krupp": 1000.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS136_76mm40_with_shield_2",
+          "caliber_mm": 76.2,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -86.0,
+            64.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA026_Shell_76mm_HE_O_Mk_2",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 76.0,
+              "mass_kg": 5.67,
+              "muzzle_velocity_ms": 680.0,
+              "air_drag": 0.331,
+              "krupp": 1000.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS137_152mm40_Color_Black",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -112.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA062_SHELL_152MM_HE_TYPE_0",
+              "ammo_type": "HE",
+              "damage": 3000.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.4,
+              "muzzle_velocity_ms": 701.0,
+              "air_drag": 0.6898,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS133_76mm40_with_shield_White",
+          "caliber_mm": 76.2,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -58.0,
+            58.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA026_Shell_76mm_HE_O_Mk_2",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 76.0,
+              "mass_kg": 5.67,
+              "muzzle_velocity_ms": 680.0,
+              "air_drag": 0.331,
+              "krupp": 1000.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGS131_152mm40_Color_White",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            118.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA062_SHELL_152MM_HE_TYPE_0",
+              "ammo_type": "HE",
+              "damage": 3000.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.4,
+              "muzzle_velocity_ms": 701.0,
+              "air_drag": 0.6898,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
