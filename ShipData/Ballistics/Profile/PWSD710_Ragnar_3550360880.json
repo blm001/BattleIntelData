@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3550360880,
+    "key": "PWSD710_Ragnar",
+    "nation": "Europe",
+    "class": "Destroyer",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 13000.0,
+      "range_km": 13.0,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PWGM052_152mm53_Bofors_twin_SW",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.4,
+          "rotation_speed_deg_s": 25.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            78.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA024_152MM_HE_RAGNAR",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 46.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2841,
+              "krupp": 1150.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            },
+            "AP": {
+              "key": "PWPA025_152MM_AP_RAGNAR",
+              "ammo_type": "AP",
+              "damage": 3000.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 46.7,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2884,
+              "krupp": 2200.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
