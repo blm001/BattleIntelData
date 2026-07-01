@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3667802064,
+    "key": "PBSD598_Black_Cossack",
+    "nation": "United_Kingdom",
+    "class": "Destroyer",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11890.0,
+      "range_km": 11.89,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM079_120mm_45_QF_CP_MkXIX_Twin",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 20.0,
+          "horiz_sector_deg": [
+            -144.0,
+            144.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA060_120_HE_COSSACK",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.68,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3927,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PBPA061_120_AP_COSSACK",
+              "ammo_type": "AP",
+              "damage": 2100.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.68,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3927,
+              "krupp": 2438.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 20.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
