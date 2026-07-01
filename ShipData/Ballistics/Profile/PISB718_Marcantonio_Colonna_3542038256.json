@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3542038256,
+    "key": "PISB718_Marcantonio_Colonna",
+    "nation": "Italy",
+    "class": "Battleship",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18300.0,
+      "range_km": 18.3,
+      "sigma": 1.7,
+      "guns": [
+        {
+          "gun_key": "PIGM078_381mm_50_2barrels_M1934",
+          "caliber_mm": 381.0,
+          "barrels_per_turret": 2,
+          "reload_s": 31.0,
+          "rotation_speed_deg_s": 5.5,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            1.0,
+            36.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA110_381MM_50_HE_MARCANTONIO",
+              "ammo_type": "HE",
+              "damage": 5100.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 824.3,
+              "muzzle_velocity_ms": 880.0,
+              "air_drag": 0.275,
+              "krupp": 1.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 24.0
+            },
+            "AP": {
+              "key": "PIPA111_381MM_50_AP_MARCANTONIO",
+              "ammo_type": "AP",
+              "damage": 12000.0,
+              "caliber_mm": 381.0,
+              "mass_kg": 884.8,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.2954,
+              "krupp": 2434.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 64.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 7500.0,
+      "range_km": 7.5,
+      "guns": [
+        {
+          "gun_key": "PIGS014_152mm55_barrels_3_M1936_L",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 9.1,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -161.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA061_152MM_53_CS_1926_SG",
+              "ammo_type": "CS",
+              "damage": 3850.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 44.3,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3246,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 80.0,
+              "always_ricochet_at_deg": 85.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 42.3
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS017_90mm50_barrels_1_M1939",
+          "caliber_mm": 90.0,
+          "barrels_per_turret": 1,
+          "reload_s": 2.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -160.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA062_90MM_50_1939_CS_SG",
+              "ammo_type": "CS",
+              "damage": 2000.0,
+              "caliber_mm": 90.0,
+              "mass_kg": 10.1,
+              "muzzle_velocity_ms": 860.0,
+              "air_drag": 0.414,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 70.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 26.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS023_152mm55_barrels_3_M1936_R",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 3,
+          "reload_s": 9.1,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            161.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA061_152MM_53_CS_1926_SG",
+              "ammo_type": "CS",
+              "damage": 3850.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 44.3,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3246,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 80.0,
+              "always_ricochet_at_deg": 85.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 42.3
+            }
+          }
+        }
+      ]
+    }
+  }
+}
