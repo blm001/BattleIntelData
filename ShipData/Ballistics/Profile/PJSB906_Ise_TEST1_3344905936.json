@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:52Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3344905936,
+    "key": "PJSB906_Ise_TEST1",
+    "nation": "Japan",
+    "class": "Battleship",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 21400.0,
+      "range_km": 21.4,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PJGM191_360mm_45_type_41",
+          "caliber_mm": 356.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            43.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA617_356MM_HE_ISE",
+              "ammo_type": "HE",
+              "damage": 5700.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 625.0,
+              "muzzle_velocity_ms": 805.0,
+              "air_drag": 0.531,
+              "krupp": 385.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 25.0
+            },
+            "AP": {
+              "key": "PJPA616_356MM_AP_ISE",
+              "ammo_type": "AP",
+              "damage": 10200.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 673.5,
+              "muzzle_velocity_ms": 775.0,
+              "air_drag": 0.331,
+              "krupp": 2657.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 59.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PJGS158_127mm40_Type_89",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -40.0,
+            73.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA004_Shell_127mm_HE_C_Type_0",
+              "ammo_type": "HE",
+              "damage": 2100.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 23.45,
+              "muzzle_velocity_ms": 725.0,
+              "air_drag": 0.3395,
+              "krupp": 500.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
