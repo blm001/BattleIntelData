@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:50Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3550361424,
+    "key": "PFSD710_Chateaurenault",
+    "nation": "France",
+    "class": "Destroyer",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12370.0,
+      "range_km": 12.37,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM2026_105_mm_SKC_37",
+          "caliber_mm": 105.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.3,
+          "rotation_speed_deg_s": 18.0,
+          "horiz_sector_deg": [
+            -135.0,
+            135.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA142_105MM_HE_CHATEAURENAULT",
+              "ammo_type": "HE",
+              "damage": 1200.0,
+              "caliber_mm": 105.0,
+              "mass_kg": 15.1,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.29,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            },
+            "AP": {
+              "key": "PFPA143_105MM_AP_CHATEAURENAULT",
+              "ammo_type": "AP",
+              "damage": 2300.0,
+              "caliber_mm": 105.0,
+              "mass_kg": 15.1,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.29,
+              "krupp": 2149.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 18.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
