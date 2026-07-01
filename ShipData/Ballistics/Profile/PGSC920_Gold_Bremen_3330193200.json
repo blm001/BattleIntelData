@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3330193200,
+    "key": "PGSC920_Gold_Bremen",
+    "nation": "Germany",
+    "class": "Cruiser",
+    "tier": 10
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18130.0,
+      "range_km": 18.13,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PGGM2008_4x149_60",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 4,
+          "reload_s": 5.3,
+          "rotation_speed_deg_s": 7.6,
+          "horiz_sector_deg": [
+            -141.0,
+            141.0
+          ],
+          "vert_sector_deg": [
+            3.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA192_150MM_HE_BREMEN",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.5,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.29,
+              "krupp": 1150.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PGPA193_150MM_AP_BREMEN",
+              "ammo_type": "AP",
+              "damage": 3900.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.5,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.29,
+              "krupp": 2300.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 8300.0,
+      "range_km": 8.3,
+      "guns": [
+        {
+          "gun_key": "PGGS123_127mm_61_twin",
+          "caliber_mm": 128.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -166.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA194_128MM_HE_BREMEN",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 26.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.3128,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
