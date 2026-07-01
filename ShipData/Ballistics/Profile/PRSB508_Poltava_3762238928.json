@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3762238928,
+    "key": "PRSB508_Poltava",
+    "nation": "Russia",
+    "class": "Battleship",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 18300.0,
+      "range_km": 18.3,
+      "sigma": 1.7,
+      "guns": [
+        {
+          "gun_key": "PRGM148_356mm_54_1938",
+          "caliber_mm": 356.0,
+          "barrels_per_turret": 3,
+          "reload_s": 28.0,
+          "rotation_speed_deg_s": 4.0,
+          "horiz_sector_deg": [
+            -153.0,
+            153.0
+          ],
+          "vert_sector_deg": [
+            0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA103_356MM_HE_1938_POLTAVA",
+              "ammo_type": "HE",
+              "damage": 5300.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 750.0,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.3449,
+              "krupp": 385.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 41.0
+            },
+            "AP": {
+              "key": "PRPA104_356MM_AP_1938_POLTAVA",
+              "ammo_type": "AP",
+              "damage": 11250.0,
+              "caliber_mm": 356.0,
+              "mass_kg": 750.0,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.3449,
+              "krupp": 2400.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 59.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PRGS138_130mm_B2U",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -150.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA100_130MM_HE_OF_46_B2U_SG",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.4,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2549,
+              "krupp": 52.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
