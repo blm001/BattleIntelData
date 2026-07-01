@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:56Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540923600,
+    "key": "PZSD719_Nanning",
+    "nation": "Pan_Asia",
+    "class": "Destroyer",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11820.0,
+      "range_km": 11.82,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PZGM2018_130mm_60_BL_101_B",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.3,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PZPA088_130MM_HE_OF_42",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 33.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.2906,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PZPA089_130MM_AP_PB_42",
+              "ammo_type": "AP",
+              "damage": 2900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 42.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3641,
+              "krupp": 2300.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 22.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
