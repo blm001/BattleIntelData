@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:19Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4276008720,
+    "key": "PHSC018_Jaarsveld",
+    "nation": "Netherlands",
+    "class": "Cruiser",
+    "tier": 8
+  },
+  "airstrike": {
+    "charges": 2,
+    "reload_s": 73.0,
+    "min_range_m": 1000,
+    "max_range_m": 11000,
+    "max_range_km": 11.0,
+    "time_to_target_s": 4.0,
+    "plane": {
+      "plane_key": "PHAD018_AS_JAARSVELD",
+      "planes_in_squadron": 12,
+      "attacks_per_strike": 5,
+      "bombs_per_attack": 1,
+      "plane_hp": 1860,
+      "speed_max_raw": 1.2672,
+      "speed_move_kph": 158.0,
+      "payload": {
+        "key": "PHPB031_PuW_120kg_AS_HE_Jaarsveld",
+        "ammo_type": "HE",
+        "damage": 6900.0,
+        "splash_damage": 1200.0,
+        "splash_radius_m": 200.0,
+        "pen_mm": 36.9,
+        "fire_chance_pct": 39.0,
+        "flood_chance": false,
+        "fuse_time_s": 0.03,
+        "arming_threshold_mm": 25.0
+      }
+    }
+  }
+}
