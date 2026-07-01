@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3767416080,
+    "key": "PXSD503_Destroyer_Duck_Two_FA2023",
+    "nation": "Events",
+    "class": "Destroyer",
+    "tier": 11
+  },
+  "artillery": {
+    "main": {
+      "range_m": 5000.0,
+      "range_km": 5.0,
+      "sigma": 2.5,
+      "guns": [
+        {
+          "gun_key": "PXGM278_Duck_Gun_Light",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 2.0,
+          "rotation_speed_deg_s": 120.0,
+          "horiz_sector_deg": [
+            -120.0,
+            120.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA308_152MM_DUCK_HE_Light",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 1500.0,
+              "air_drag": 0.321,
+              "krupp": 6.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
