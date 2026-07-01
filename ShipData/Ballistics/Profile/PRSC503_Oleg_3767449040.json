@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3767449040,
+    "key": "PRSC503_Oleg",
+    "nation": "Russia",
+    "class": "Cruiser",
+    "tier": 3
+  },
+  "artillery": {
+    "main": {
+      "range_m": 10780.0,
+      "range_km": 10.78,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PRGM073_152mm_45_Twin",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.2,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -135.0,
+            135.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA053_HE_OLEG",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 166.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PRPA052_AP_OLEG",
+              "ammo_type": "AP",
+              "damage": 2150.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 1445.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PRGM097_152mm_45_casemate_L",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.2,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -122.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA053_HE_OLEG",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 166.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PRPA052_AP_OLEG",
+              "ammo_type": "AP",
+              "damage": 2150.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 1445.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PRGM100_152mm_45_casemate_R",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.2,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            0.0,
+            122.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA053_HE_OLEG",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 166.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PRPA052_AP_OLEG",
+              "ammo_type": "AP",
+              "damage": 2150.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 1445.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PRGM088_152mm_45_Canet",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.2,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -118.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA053_HE_OLEG",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 166.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PRPA052_AP_OLEG",
+              "ammo_type": "AP",
+              "damage": 2150.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 41.4,
+              "muzzle_velocity_ms": 792.5,
+              "air_drag": 0.2275,
+              "krupp": 1445.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 3200.0,
+      "range_km": 3.2,
+      "guns": [
+        {
+          "gun_key": "PRGS082_75mm_50_Canet_CS",
+          "caliber_mm": 75.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -131.0,
+            3.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA005_75MM_HE",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 75.0,
+              "mass_kg": 4.91,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.455,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 4.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
