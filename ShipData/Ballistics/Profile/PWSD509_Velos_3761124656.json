@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3761124656,
+    "key": "PWSD509_Velos",
+    "nation": "Europe",
+    "class": "Destroyer",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 12140.0,
+      "range_km": 12.14,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PWGM058_5in38_Mk30_Mod0",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 2.5,
+          "rotation_speed_deg_s": 34.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            3.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA028_127MM_HE_VELOS",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 24.5,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.347,
+              "krupp": 1350.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            },
+            "AP": {
+              "key": "PWPA029_127MM_AP_VELOS",
+              "ammo_type": "AP",
+              "damage": 2100.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 25.0,
+              "muzzle_velocity_ms": 792.0,
+              "air_drag": 0.347,
+              "krupp": 2598.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
