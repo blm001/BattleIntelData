@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:48Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3763255280,
+    "key": "PASC507_Indianapolis_1945",
+    "nation": "USA",
+    "class": "Cruiser",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 16910.0,
+      "range_km": 16.91,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PAGM020_8in55_Mk14_Mod1",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 13.0,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -152.0,
+            152.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            41.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA065_SHELL_203MM_HE_INDIANAPOLIS",
+              "ammo_type": "HE",
+              "damage": 2800.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 118.0,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.333,
+              "krupp": 630.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 14.0
+            },
+            "AP": {
+              "key": "PAPA064_SHELL_203MM_AP_INDIANAPOLIS",
+              "ammo_type": "AP",
+              "damage": 4600.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 118.0,
+              "muzzle_velocity_ms": 853.0,
+              "air_drag": 0.321,
+              "krupp": 2846.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PAGS007_5in25_Mk19_Mod6",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -150.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA003_Shell_127mm_HE_HC_Mk_36",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 24.43,
+              "muzzle_velocity_ms": 657.0,
+              "air_drag": 0.361,
+              "krupp": 445.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
