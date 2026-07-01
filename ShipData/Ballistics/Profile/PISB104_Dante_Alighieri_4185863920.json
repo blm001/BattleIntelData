@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:51Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4185863920,
+    "key": "PISB104_Dante_Alighieri",
+    "nation": "Italy",
+    "class": "Battleship",
+    "tier": 4
+  },
+  "artillery": {
+    "main": {
+      "range_m": 13260.0,
+      "range_km": 13.26,
+      "sigma": 1.6,
+      "guns": [
+        {
+          "gun_key": "PIGM079_305mm_46_A_barrels_3_1909",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 3,
+          "reload_s": 33.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -3.0,
+            20.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA048_305MM_46_1909_CS",
+              "ammo_type": "CS",
+              "damage": 7450.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 406.0,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.4117,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 70.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 79.2
+            },
+            "AP": {
+              "key": "PIPA049_305MM_46_1909_AP",
+              "ammo_type": "AP",
+              "damage": 7700.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 390.0,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.355,
+              "krupp": 2100.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4000.0,
+      "range_km": 4.0,
+      "guns": [
+        {
+          "gun_key": "PIGS071_120mm_50_Ansaldo_1909",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -159.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA050_120MM_50_1909_HE",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.75,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.35,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS065_120mm_50_A_1909_casemate",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -119.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA050_120MM_50_1909_HE",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.75,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.35,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
