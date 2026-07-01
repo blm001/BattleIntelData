@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3764303312,
+    "key": "PRSC506_Molotov_1943",
+    "nation": "Russia",
+    "class": "Cruiser",
+    "tier": 6
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15490.0,
+      "range_km": 15.49,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PRGM064_180mm_57_MK_3",
+          "caliber_mm": 180.0,
+          "barrels_per_turret": 3,
+          "reload_s": 12.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            50.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA046_180_HE_MOLOTOV",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2654,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PRPA047_180_AP_MOLOTOV",
+              "ammo_type": "AP",
+              "damage": 4400.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2778,
+              "krupp": 2370.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 30.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PRGS065_100mm_B_34",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -163.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA025_100MM_HE_F_56",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.8,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.2858,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
