@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:53Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4182717904,
+    "key": "PRSB107_Sinop",
+    "nation": "Russia",
+    "class": "Battleship",
+    "tier": 7
+  },
+  "artillery": {
+    "main": {
+      "range_m": 15790.0,
+      "range_km": 15.79,
+      "sigma": 1.5,
+      "guns": [
+        {
+          "gun_key": "PRGM125_406mm_45",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 3,
+          "reload_s": 33.0,
+          "rotation_speed_deg_s": 3.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA075_406MM_HE_MOD1914",
+              "ammo_type": "HE",
+              "damage": 5850.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1116.0,
+              "muzzle_velocity_ms": 766.5,
+              "air_drag": 0.3813,
+              "krupp": 250.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 41.0
+            },
+            "AP": {
+              "key": "PRPA076_406MM_AP_MOD1914",
+              "ammo_type": "AP",
+              "damage": 12500.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1040.0,
+              "muzzle_velocity_ms": 766.5,
+              "air_drag": 0.3573,
+              "krupp": 2530.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PRGS140_152mm_50",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 8.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -125.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA077_152MM_HE_1907",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.3,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.5236,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGS121_152mm_57_MK_17",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 8.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            170.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA095_152MM_OFU35_SG",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 55.0,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.321,
+              "krupp": 6.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGS079_100mm_B_54",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.75,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            160.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA025_100MM_HE_F_56",
+              "ammo_type": "HE",
+              "damage": 1400.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 15.8,
+              "muzzle_velocity_ms": 895.0,
+              "air_drag": 0.2858,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
