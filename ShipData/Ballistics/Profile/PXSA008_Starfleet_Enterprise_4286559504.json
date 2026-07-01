@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4286559504,
+    "key": "PXSA008_Starfleet_Enterprise",
+    "nation": "Events",
+    "class": "AirCarrier",
+    "tier": 11
+  },
+  "artillery": {
+    "main": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "sigma": 0,
+      "guns": []
+    },
+    "secondary": {
+      "range_m": 7300.0,
+      "range_km": 7.3,
+      "guns": [
+        {
+          "gun_key": "PXGS122_5IN38_STARFLEET_ENTERPRISE",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -165.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            85.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PXPA125_MAIN_127MM_HE_STARFLEET_ENTERPRISE",
+              "ammo_type": "AP",
+              "damage": 1000.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 45.3,
+              "muzzle_velocity_ms": 980.0,
+              "air_drag": 0.2,
+              "krupp": 500.0,
+              "fuse_time_s": 0.005,
+              "arming_threshold_mm": 30.0,
+              "ricochet_at_deg": 80.0,
+              "always_ricochet_at_deg": 85.0,
+              "normalization_deg": 80.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
