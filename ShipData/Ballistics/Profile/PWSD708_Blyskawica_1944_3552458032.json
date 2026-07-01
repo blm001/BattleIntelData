@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3552458032,
+    "key": "PWSD708_Blyskawica_1944",
+    "nation": "Europe",
+    "class": "Destroyer",
+    "tier": 8
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11500.0,
+      "range_km": 11.5,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PWGM2006_4in45_QF_Mk_XIX",
+          "caliber_mm": 102.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 18.0,
+          "horiz_sector_deg": [
+            -0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -3.0,
+            16.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PWPA068_102MM_AP_BLYSKAWICA_1944",
+              "ammo_type": "AP",
+              "damage": 1850.0,
+              "caliber_mm": 102.0,
+              "mass_kg": 19.0,
+              "muzzle_velocity_ms": 811.0,
+              "air_drag": 0.312,
+              "krupp": 1789.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 12.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 0,
+      "range_km": 0.0,
+      "guns": []
+    }
+  }
+}
