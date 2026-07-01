@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:54Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3540956592,
+    "key": "PSSC719_Almirante_Oquendo",
+    "nation": "Spain",
+    "class": "Cruiser",
+    "tier": 9
+  },
+  "artillery": {
+    "main": {
+      "range_m": 17600.0,
+      "range_km": 17.6,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PSGM2001_8in50_BL_MkIX",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 13.0,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            50.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PSPA033_203MM_HE_ALMIRANTE_OQUENDO",
+              "ammo_type": "HE",
+              "damage": 2850.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 116.1,
+              "muzzle_velocity_ms": 814.0,
+              "air_drag": 0.2637,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PSPA034_203MM_AP_ALMIRANTE_OQUENDO",
+              "ammo_type": "AP",
+              "damage": 4500.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 116.1,
+              "muzzle_velocity_ms": 814.0,
+              "air_drag": 0.2637,
+              "krupp": 2850.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 6950.0,
+      "range_km": 6.95,
+      "guns": [
+        {
+          "gun_key": "PSGS2000_90mm_50_twin",
+          "caliber_mm": 90.0,
+          "barrels_per_turret": 2,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -170.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA011_90MM_50_1939_HE",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 90.0,
+              "mass_kg": 10.1,
+              "muzzle_velocity_ms": 860.0,
+              "air_drag": 0.414,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
