@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T09:40:22Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 3256858416,
+    "key": "PGSA990_Otto_Lilienthal",
+    "nation": "Germany",
+    "class": "AirCarrier",
+    "tier": 10
+  },
+  "air_wing": [
+    {
+      "squadron_type": "DiveBomber",
+      "tier_slot": 1,
+      "plane_key": "PGAD990_O_LILIENTHAL",
+      "planes_in_squadron": 12,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1530,
+      "speed_max_raw": 1.2301,
+      "speed_move_kph": 174.0,
+      "payload": {
+        "key": "PGPB990_O_LILIENTHAL",
+        "ammo_type": "AP",
+        "damage": 8800.0,
+        "pen_mm": 0,
+        "normalization_deg": 35.0,
+        "fuse_time_s": 0.03,
+        "arming_threshold_mm": 30.0
+      }
+    },
+    {
+      "squadron_type": "Fighter",
+      "tier_slot": 1,
+      "plane_key": "PGAF990_O_LILIENTHAL",
+      "planes_in_squadron": 9,
+      "attacks_per_strike": 4,
+      "bombs_per_attack": 1,
+      "plane_hp": 1440,
+      "speed_max_raw": 1.2329,
+      "speed_move_kph": 172.0,
+      "payload": {
+        "key": "PGPR990_O_LILIENTHAL",
+        "ammo_type": "AP",
+        "damage": 3100.0,
+        "pen_mm": 0,
+        "normalization_deg": 10.0,
+        "fuse_time_s": 0.022,
+        "arming_threshold_mm": 25.0
+      }
+    },
+    {
+      "squadron_type": "TorpedoBomber",
+      "tier_slot": 1,
+      "plane_key": "PGAB990_O_LILIENTHAL",
+      "planes_in_squadron": 9,
+      "attacks_per_strike": 1,
+      "bombs_per_attack": 1,
+      "plane_hp": 1967,
+      "speed_max_raw": 1.2301,
+      "speed_move_kph": 174.0,
+      "payload": {
+        "key": "PGPT951_W_VOSS_TOP",
+        "ammo_type": "torpedo",
+        "damage": 11800.0,
+        "speed_knots": 55.0,
+        "range_km": 0.1,
+        "flood_chance_pct": 39.0,
+        "arming_time_s": 4.0
+      }
+    }
+  ]
+}
