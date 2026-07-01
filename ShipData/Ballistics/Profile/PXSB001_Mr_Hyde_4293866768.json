@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-01T08:58:55Z",
+  "game_version": "12267945",
+  "ship": {
+    "id": 4293866768,
+    "key": "PXSB001_Mr_Hyde",
+    "nation": "Events",
+    "class": "Battleship",
+    "tier": 3
+  },
+  "artillery": {
+    "main": {
+      "range_m": 11000.0,
+      "range_km": 11.0,
+      "sigma": 1.8,
+      "guns": [
+        {
+          "gun_key": "PXGM014_28cm_SK_L45_LC_1906",
+          "caliber_mm": 283.0,
+          "barrels_per_turret": 2,
+          "reload_s": 22.2,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -141.0,
+            141.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA003_283MM_HE_HYDE",
+              "ammo_type": "HE",
+              "damage": 3200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 855.0,
+              "air_drag": 0.5337,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            },
+            "AP": {
+              "key": "PXPA002_283MM_AP_HYDE",
+              "ammo_type": "AP",
+              "damage": 7200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 855.0,
+              "air_drag": 0.5337,
+              "krupp": 2789.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 47.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PXGM016_280mm_SK_L45_LC_1906",
+          "caliber_mm": 283.0,
+          "barrels_per_turret": 2,
+          "reload_s": 22.2,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -165.0,
+            6.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA003_283MM_HE_HYDE",
+              "ammo_type": "HE",
+              "damage": 3200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 855.0,
+              "air_drag": 0.5337,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            },
+            "AP": {
+              "key": "PXPA002_283MM_AP_HYDE",
+              "ammo_type": "AP",
+              "damage": 7200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 855.0,
+              "air_drag": 0.5337,
+              "krupp": 2789.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 47.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        },
+        {
+          "gun_key": "PXGM015_280mm_SK_L45_LC_1906",
+          "caliber_mm": 283.0,
+          "barrels_per_turret": 2,
+          "reload_s": 22.2,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -6.0,
+            165.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA003_283MM_HE_HYDE",
+              "ammo_type": "HE",
+              "damage": 3200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 855.0,
+              "air_drag": 0.5337,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            },
+            "AP": {
+              "key": "PXPA002_283MM_AP_HYDE",
+              "ammo_type": "AP",
+              "damage": 7200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 302.0,
+              "muzzle_velocity_ms": 855.0,
+              "air_drag": 0.5337,
+              "krupp": 2789.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 47.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
+    },
+    "secondary": {
+      "range_m": 4000.0,
+      "range_km": 4.0,
+      "guns": [
+        {
+          "gun_key": "PXGS013_88mm45_SK_L45",
+          "caliber_mm": 88.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0001,
+          "horiz_sector_deg": [
+            -121.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA001_88MM_HE_HYDE",
+              "ammo_type": "HE",
+              "damage": 1100.0,
+              "caliber_mm": 88.0,
+              "mass_kg": 9.0,
+              "muzzle_velocity_ms": 890.0,
+              "air_drag": 0.4456,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            }
+          }
+        },
+        {
+          "gun_key": "PXGS012_88mm45_casemate_SK_L45",
+          "caliber_mm": 88.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0001,
+          "horiz_sector_deg": [
+            0.0,
+            115.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            15.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA001_88MM_HE_HYDE",
+              "ammo_type": "HE",
+              "damage": 1100.0,
+              "caliber_mm": 88.0,
+              "mass_kg": 9.0,
+              "muzzle_velocity_ms": 890.0,
+              "air_drag": 0.4456,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 0.0
+            }
+          }
+        },
+        {
+          "gun_key": "PXGS011_150mm_SK_L45_C06",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 1,
+          "reload_s": 8.57,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            117.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PXPA004_150MM_AP_HYDE",
+              "ammo_type": "AP",
+              "damage": 3700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.3,
+              "muzzle_velocity_ms": 835.0,
+              "air_drag": 0.4145,
+              "krupp": 1925.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
+    }
+  }
+}
