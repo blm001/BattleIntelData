@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:54Z",
+  "generated_at": "2026-07-05T12:22:18Z",
   "game_version": "12267945",
   "ship": {
     "id": 4182685104,
@@ -11,15 +11,96 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 14300.0,
+      "range_km": 14.3,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PSGM029_203mm_53_1927",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 2,
+          "reload_s": 13.0,
+          "rotation_speed_deg_s": 7.0,
+          "horiz_sector_deg": [
+            -148.0,
+            148.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PSPA014_203MM_53_1927_HE",
+              "ammo_type": "HE",
+              "damage": 2850.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.3,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.29,
+              "krupp": 560.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 15.0
+            },
+            "AP": {
+              "key": "PSPA015_203MM_53_1927_AP",
+              "ammo_type": "AP",
+              "damage": 4800.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 125.3,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.29,
+              "krupp": 2450.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PSGS028_105_mm_SKC_33",
+          "caliber_mm": 105.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.35,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -175.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA085_105mm_HE_HE_33lbs",
+              "ammo_type": "HE",
+              "damage": 1200.0,
+              "caliber_mm": 105.0,
+              "mass_kg": 15.1,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.33,
+              "krupp": 590.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
     }
   }
 }
