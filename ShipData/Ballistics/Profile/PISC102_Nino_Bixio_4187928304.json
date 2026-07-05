@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:52Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4187928304,
@@ -11,15 +11,82 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 10340.0,
+      "range_km": 10.34,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PIGM048_120_50_Ansaldo_model_1909",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 12.0,
+          "horiz_sector_deg": [
+            -170.0,
+            54.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            20.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA103_120MM_50_1909_CS_BIXIO",
+              "ammo_type": "CS",
+              "damage": 1300.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.75,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.267,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 34.2
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 3200.0,
+      "range_km": 3.2,
+      "guns": [
+        {
+          "gun_key": "PIGS036_76mm_50_Vickers_1909",
+          "caliber_mm": 76.2,
+          "barrels_per_turret": 1,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -160.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA025_76MM_1909_HE",
+              "ammo_type": "HE",
+              "damage": 1100.0,
+              "caliber_mm": 76.0,
+              "mass_kg": 5.9,
+              "muzzle_velocity_ms": 815.0,
+              "air_drag": 0.381,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 4.0
+            }
+          }
+        }
+      ]
     }
   }
 }
