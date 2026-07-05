@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:54Z",
+  "generated_at": "2026-07-05T12:22:19Z",
   "game_version": "12267945",
   "ship": {
     "id": 4183733584,
@@ -11,15 +11,113 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 13150.0,
+      "range_km": 13.15,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PVGM030_152_53_OTO_M1929",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.4,
+          "rotation_speed_deg_s": 9.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PVPA022_152MM_53_AP_1926",
+              "ammo_type": "AP",
+              "damage": 3000.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.5,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3381,
+              "krupp": 2142.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PVGM031_152_53_OTO_M1929_RF",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.4,
+          "rotation_speed_deg_s": 9.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            45.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PVPA022_152MM_53_AP_1926",
+              "ammo_type": "AP",
+              "damage": 3000.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.5,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3381,
+              "krupp": 2142.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PVGS051_100mm_50_Mod_OTO",
+          "caliber_mm": 100.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -160.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            85.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PVPA024_100MM_47_HE",
+              "ammo_type": "HE",
+              "damage": 1500.0,
+              "caliber_mm": 100.0,
+              "mass_kg": 13.8,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3744,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 6.0
+            }
+          }
+        }
+      ]
     }
   }
 }
