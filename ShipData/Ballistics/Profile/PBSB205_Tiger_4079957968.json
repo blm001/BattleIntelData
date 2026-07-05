@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:49Z",
+  "generated_at": "2026-07-05T12:22:14Z",
   "game_version": "12267945",
   "ship": {
     "id": 4079957968,
@@ -11,15 +11,96 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 14820.0,
+      "range_km": 14.82,
+      "sigma": 1.7,
+      "guns": [
+        {
+          "gun_key": "PBGM264_13_5IN_45_Mark_V_TIG_DUKE",
+          "caliber_mm": 343.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            3.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA116_343MM_MV_HE_BC",
+              "ammo_type": "HE",
+              "damage": 4550.0,
+              "caliber_mm": 343.0,
+              "mass_kg": 567.0,
+              "muzzle_velocity_ms": 787.0,
+              "air_drag": 0.4232,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 39.0
+            },
+            "AP": {
+              "key": "PBPA117_343MM_MV_AP_BC",
+              "ammo_type": "AP",
+              "damage": 8500.0,
+              "caliber_mm": 343.0,
+              "mass_kg": 567.0,
+              "muzzle_velocity_ms": 787.0,
+              "air_drag": 0.4232,
+              "krupp": 2145.0,
+              "fuse_time_s": 0.015,
+              "arming_threshold_mm": 57.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 4300.0,
+      "range_km": 4.3,
+      "guns": [
+        {
+          "gun_key": "PBGS143_6in_45_MkVII",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -110.0,
+            5.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            12.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA003_152mm_HE_HE4crh",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.3,
+              "muzzle_velocity_ms": 914.0,
+              "air_drag": 0.315,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            }
+          }
+        }
+      ]
     }
   }
 }
