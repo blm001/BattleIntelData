@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:50Z",
+  "generated_at": "2026-07-05T12:22:15Z",
   "game_version": "12267945",
   "ship": {
     "id": 4075763504,
@@ -11,15 +11,128 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 17090.0,
+      "range_km": 17.09,
+      "sigma": 1.7,
+      "guns": [
+        {
+          "gun_key": "PGGM125_406mm52_SK_L_52_DRH_LC_1920",
+          "caliber_mm": 406.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -149.0,
+            149.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA039_406MM_HE_SPR_GR_L4_4_KZ",
+              "ammo_type": "HE",
+              "damage": 4800.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 1030.0,
+              "muzzle_velocity_ms": 810.0,
+              "air_drag": 0.2994,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 38.0
+            },
+            "AP": {
+              "key": "PGPA041_406MM_AP_PZ_GR_L4_4_AUSF_B",
+              "ammo_type": "AP",
+              "damage": 11500.0,
+              "caliber_mm": 406.0,
+              "mass_kg": 840.0,
+              "muzzle_velocity_ms": 810.0,
+              "air_drag": 0.245,
+              "krupp": 2800.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 68.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 7950.0,
+      "range_km": 7.95,
+      "guns": [
+        {
+          "gun_key": "PGGS013_15cm_SK_C28_MPL_C_36",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.5,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -120.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            35.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA003_150mm_HE_HE_N_F",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 45.3,
+              "muzzle_velocity_ms": 875.0,
+              "air_drag": 0.33,
+              "krupp": 320.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        },
+        {
+          "gun_key": "PGGS003_105_mm_SKC_33",
+          "caliber_mm": 105.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.35,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            170.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA085_105mm_HE_HE_33lbs",
+              "ammo_type": "HE",
+              "damage": 1200.0,
+              "caliber_mm": 105.0,
+              "mass_kg": 15.1,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.33,
+              "krupp": 590.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
     }
   }
 }
