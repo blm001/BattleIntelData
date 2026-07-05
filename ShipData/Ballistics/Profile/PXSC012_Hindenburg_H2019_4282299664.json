@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:55Z",
+  "generated_at": "2026-07-05T12:22:19Z",
   "game_version": "12267945",
   "ship": {
     "id": 4282299664,
@@ -11,15 +11,143 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 14000.0,
+      "range_km": 14.0,
+      "sigma": 2.2,
+      "guns": [
+        {
+          "gun_key": "PGGM016_203mm_SK_L56",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 45.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            37.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA083_HINDEN_H2019_HE",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.2974,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PXPA084_HINDEN_H2019_AP",
+              "ammo_type": "AP",
+              "damage": 5900.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.2974,
+              "krupp": 2409.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PGGM032_203_56_SK_C38",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 10.0,
+          "rotation_speed_deg_s": 45.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            37.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA083_HINDEN_H2019_HE",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.2974,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PXPA084_HINDEN_H2019_AP",
+              "ammo_type": "AP",
+              "damage": 5900.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 122.0,
+              "muzzle_velocity_ms": 1000.0,
+              "air_drag": 0.2974,
+              "krupp": 2409.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 6000.0,
+      "range_km": 6.0,
+      "guns": [
+        {
+          "gun_key": "PGGS003_105_mm_SKC_33",
+          "caliber_mm": 105.0,
+          "barrels_per_turret": 2,
+          "reload_s": 3.35,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -158.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PXPA082_HINDEN_H2019_ATBA",
+              "ammo_type": "HE",
+              "damage": 1200.0,
+              "caliber_mm": 105.0,
+              "mass_kg": 15.1,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.33,
+              "krupp": 590.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        }
+      ]
     }
   }
 }
