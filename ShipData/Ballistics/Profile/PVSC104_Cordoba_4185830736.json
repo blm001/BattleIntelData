@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:54Z",
+  "generated_at": "2026-07-05T12:22:19Z",
   "game_version": "12267945",
   "ship": {
     "id": 4185830736,
@@ -11,10 +11,43 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 11040.0,
+      "range_km": 11.04,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PVGM041_6in45_MK_XII",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.6,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            30.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PVPA026_152MM_AP_4CRH",
+              "ammo_type": "AP",
+              "damage": 2450.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.36,
+              "muzzle_velocity_ms": 853.0,
+              "air_drag": 0.325,
+              "krupp": 2045.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
