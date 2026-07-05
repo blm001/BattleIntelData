@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:53Z",
+  "generated_at": "2026-07-05T12:22:18Z",
   "game_version": "12267945",
   "ship": {
     "id": 4180587984,
@@ -11,10 +11,105 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 16162.0,
+      "range_km": 16.16,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PRGM069_180mm_CM_3",
+          "caliber_mm": 180.0,
+          "barrels_per_turret": 3,
+          "reload_s": 12.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            50.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA032_180_HE_OF_42_F",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2654,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PRPA038_180_AP_B_32_F",
+              "ammo_type": "AP",
+              "damage": 4400.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2778,
+              "krupp": 2370.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 30.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PRGM075_180mm_CM_3_Radar",
+          "caliber_mm": 180.0,
+          "barrels_per_turret": 3,
+          "reload_s": 12.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            50.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PRPA032_180_HE_OF_42_F",
+              "ammo_type": "HE",
+              "damage": 2500.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2654,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PRPA038_180_AP_B_32_F",
+              "ammo_type": "AP",
+              "damage": 4400.0,
+              "caliber_mm": 180.0,
+              "mass_kg": 97.5,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.2778,
+              "krupp": 2370.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 30.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 6950.0,
