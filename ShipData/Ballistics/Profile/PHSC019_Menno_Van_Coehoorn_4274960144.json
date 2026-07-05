@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:51Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4274960144,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 15000.0,
+      "range_km": 15.0,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PHGM2001_127mm_61_twin",
+          "caliber_mm": 128.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.3,
+          "rotation_speed_deg_s": 17.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            90.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PHPA032_127MM_HE_M_V_COEHOORN",
+              "ammo_type": "HE",
+              "damage": 1450.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 30.3,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.23,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            },
+            "AP": {
+              "key": "PHPA033_127MM_AP_M_V_COEHOORN",
+              "ammo_type": "AP",
+              "damage": 3100.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 30.3,
+              "muzzle_velocity_ms": 960.0,
+              "air_drag": 0.23,
+              "krupp": 1700.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
