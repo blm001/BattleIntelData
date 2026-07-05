@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:50Z",
+  "generated_at": "2026-07-05T12:22:14Z",
   "game_version": "12267945",
   "ship": {
     "id": 4186912592,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 11340.0,
+      "range_km": 11.34,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM055_305mm_45_Tourelle",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 2,
+          "reload_s": 30.0,
+          "rotation_speed_deg_s": 5.0,
+          "horiz_sector_deg": [
+            -143.0,
+            143.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            23.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA033_305MM_45_1910_HE",
+              "ammo_type": "HE",
+              "damage": 3800.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 308.0,
+              "muzzle_velocity_ms": 905.0,
+              "air_drag": 0.52,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 22.0
+            },
+            "AP": {
+              "key": "PFPA032_305MM_45_1910_AP",
+              "ammo_type": "AP",
+              "damage": 7450.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 428.35,
+              "muzzle_velocity_ms": 798.0,
+              "air_drag": 0.52,
+              "krupp": 2300.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 4000.0,
