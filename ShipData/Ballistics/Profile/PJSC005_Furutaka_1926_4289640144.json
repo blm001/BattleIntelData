@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:52Z",
+  "generated_at": "2026-07-05T12:22:17Z",
   "game_version": "12267945",
   "ship": {
     "id": 4289640144,
@@ -11,10 +11,105 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 12620.0,
+      "range_km": 12.62,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PJGM145_200mm50_Type_E",
+          "caliber_mm": 200.0,
+          "barrels_per_turret": 2,
+          "reload_s": 22.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA049_200mm_HE_Common_Type_4",
+              "ammo_type": "HE",
+              "damage": 3300.0,
+              "caliber_mm": 200.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.317,
+              "krupp": 85.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PJPA048_200mm_AP_APC_Type_5",
+              "ammo_type": "AP",
+              "damage": 4500.0,
+              "caliber_mm": 200.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.317,
+              "krupp": 2377.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 33.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        },
+        {
+          "gun_key": "PJGM144_200mm50_Type_E_RF",
+          "caliber_mm": 200.0,
+          "barrels_per_turret": 2,
+          "reload_s": 22.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA049_200mm_HE_Common_Type_4",
+              "ammo_type": "HE",
+              "damage": 3300.0,
+              "caliber_mm": 200.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.317,
+              "krupp": 85.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PJPA048_200mm_AP_APC_Type_5",
+              "ammo_type": "AP",
+              "damage": 4500.0,
+              "caliber_mm": 200.0,
+              "mass_kg": 110.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.317,
+              "krupp": 2377.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 33.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 4300.0,
