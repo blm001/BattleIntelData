@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:51Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4276008720,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 14440.0,
+      "range_km": 14.44,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PHGM2005_127mm_45_SK_C41",
+          "caliber_mm": 128.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.7,
+          "rotation_speed_deg_s": 15.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            52.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PHPA036_127MM_HE_JAARSVELD",
+              "ammo_type": "HE",
+              "damage": 1350.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 30.3,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.2022,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            },
+            "AP": {
+              "key": "PHPA037_127MM_AP_JAARSVELD",
+              "ammo_type": "AP",
+              "damage": 3100.0,
+              "caliber_mm": 128.0,
+              "mass_kg": 30.3,
+              "muzzle_velocity_ms": 830.0,
+              "air_drag": 0.2022,
+              "krupp": 1700.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
