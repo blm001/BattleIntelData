@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:53Z",
+  "generated_at": "2026-07-05T12:22:17Z",
   "game_version": "12267945",
   "ship": {
     "id": 4182652624,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 9426.0,
+      "range_km": 9.43,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PJGM148_127mm50_Type_B",
+          "caliber_mm": 127.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.5,
+          "rotation_speed_deg_s": 6.9,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.6,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA012_Shell_127mm_HE_Type_1",
+              "ammo_type": "HE",
+              "damage": 2150.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 23.0,
+              "muzzle_velocity_ms": 915.0,
+              "air_drag": 0.334,
+              "krupp": 450.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            },
+            "AP": {
+              "key": "PJPA011_Shell_127mm_AP_Type_0",
+              "ammo_type": "AP",
+              "damage": 2200.0,
+              "caliber_mm": 127.0,
+              "mass_kg": 23.0,
+              "muzzle_velocity_ms": 915.0,
+              "air_drag": 0.334,
+              "krupp": 2266.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 21.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
