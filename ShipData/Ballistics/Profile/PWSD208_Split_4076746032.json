@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:54Z",
+  "generated_at": "2026-07-05T12:22:19Z",
   "game_version": "12267945",
   "ship": {
     "id": 4076746032,
@@ -11,10 +11,43 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 10270.0,
+      "range_km": 10.27,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PWGM079_140mm56_Skoda",
+          "caliber_mm": 140.0,
+          "barrels_per_turret": 1,
+          "reload_s": 3.4,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            25.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA034_140MM_HE_SK56",
+              "ammo_type": "HE",
+              "damage": 2000.0,
+              "caliber_mm": 140.0,
+              "mass_kg": 39.9,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.234,
+              "krupp": 360.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 10.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
