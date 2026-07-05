@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-05T12:22:13Z",
+  "generated_at": "2026-07-05T16:28:23Z",
   "game_version": "12267945",
   "ship": {
     "id": 4277057520,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 14390.0,
+      "range_km": 14.39,
+      "sigma": 2.05,
+      "guns": [
+        {
+          "gun_key": "PAGM019_8in55_CA68",
+          "caliber_mm": 203.0,
+          "barrels_per_turret": 3,
+          "reload_s": 15.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            41.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA002_Shell_203mm_HE_HC_Mk_25",
+              "ammo_type": "HE",
+              "damage": 2800.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 118.0,
+              "muzzle_velocity_ms": 823.0,
+              "air_drag": 0.333,
+              "krupp": 630.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 14.0
+            },
+            "AP": {
+              "key": "PAPA001_Shell_203mm_AP_AP_Mk_19",
+              "ammo_type": "AP",
+              "damage": 4600.0,
+              "caliber_mm": 203.0,
+              "mass_kg": 118.0,
+              "muzzle_velocity_ms": 853.0,
+              "air_drag": 0.321,
+              "krupp": 2846.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 34.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 7.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 6950.0,
