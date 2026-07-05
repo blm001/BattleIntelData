@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:52Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4182652656,
@@ -11,10 +11,59 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 6820.0,
+      "range_km": 6.82,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PIGM082_120mm_50_2barrels_1926",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.5,
+          "rotation_speed_deg_s": 14.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA067_120MM_50_1926_HE",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 23.15,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3812,
+              "krupp": 480.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 7.0
+            },
+            "CS": {
+              "key": "PIPA068_120MM_55_1926_CS",
+              "ammo_type": "CS",
+              "damage": 2850.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 23.15,
+              "muzzle_velocity_ms": 950.0,
+              "air_drag": 0.3812,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 34.2
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
