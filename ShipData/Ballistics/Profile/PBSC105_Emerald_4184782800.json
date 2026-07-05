@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:49Z",
+  "generated_at": "2026-07-05T12:22:14Z",
   "game_version": "12267945",
   "ship": {
     "id": 4184782800,
@@ -11,10 +11,43 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 12381.0,
+      "range_km": 12.38,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM199_6IN45_DANAE_EM",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.5,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -129.0,
+            129.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            30.0
+          ],
+          "shells": {
+            "AP": {
+              "key": "PBPA013_152MM_AP_4CRH_SC",
+              "ammo_type": "AP",
+              "damage": 3000.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.36,
+              "muzzle_velocity_ms": 936.0,
+              "air_drag": 0.3786,
+              "krupp": 2045.0,
+              "fuse_time_s": 0.004,
+              "arming_threshold_mm": 12.0,
+              "ricochet_at_deg": 65.0,
+              "always_ricochet_at_deg": 80.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 4300.0,
