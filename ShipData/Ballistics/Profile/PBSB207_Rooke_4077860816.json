@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:49Z",
+  "generated_at": "2026-07-05T12:22:14Z",
   "game_version": "12267945",
   "ship": {
     "id": 4077860816,
@@ -65,9 +65,74 @@
       ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 5600.0,
+      "range_km": 5.6,
+      "guns": [
+        {
+          "gun_key": "PBGS068_6in_50_BL_MkXXII_MkXVIII",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 12.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -145.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            60.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA077_152MM_ATBA_HE",
+              "ammo_type": "HE",
+              "damage": 2150.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 50.8,
+              "muzzle_velocity_ms": 884.0,
+              "air_drag": 0.3623,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        },
+        {
+          "gun_key": "PBGS070_114mm_45_MKIII",
+          "caliber_mm": 113.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            160.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            80.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA036_114MM_MII_HE",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 113.0,
+              "mass_kg": 24.95,
+              "muzzle_velocity_ms": 746.0,
+              "air_drag": 0.329,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
     }
   }
 }
