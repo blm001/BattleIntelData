@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:51Z",
+  "generated_at": "2026-07-05T12:22:15Z",
   "game_version": "12267945",
   "ship": {
     "id": 4278105904,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 14360.0,
+      "range_km": 14.36,
+      "sigma": 2.15,
+      "guns": [
+        {
+          "gun_key": "PGGM094_280mm54_5_C34_Shee",
+          "caliber_mm": 283.0,
+          "barrels_per_turret": 3,
+          "reload_s": 19.5,
+          "rotation_speed_deg_s": 6.5,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            40.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA178_283MM_HE_DEUTSCHLAND",
+              "ammo_type": "HE",
+              "damage": 3200.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 247.0,
+              "muzzle_velocity_ms": 910.0,
+              "air_drag": 0.2289,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 20.0
+            },
+            "AP": {
+              "key": "PGPA177_283MM_AP_DEUTSCHLAND",
+              "ammo_type": "AP",
+              "damage": 7600.0,
+              "caliber_mm": 283.0,
+              "mass_kg": 247.0,
+              "muzzle_velocity_ms": 910.0,
+              "air_drag": 0.2289,
+              "krupp": 2806.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 47.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 5600.0,
