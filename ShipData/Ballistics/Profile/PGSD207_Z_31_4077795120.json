@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:51Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4077795120,
@@ -11,10 +11,105 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 10470.0,
+      "range_km": 10.47,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PGGM077_150mm_1DrhL_C_38",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 2,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            65.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA110_150MM_HE_SPR_GR_L4_6_AUSF_B",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 51.0,
+              "muzzle_velocity_ms": 835.0,
+              "air_drag": 0.25,
+              "krupp": 1150.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PGPA112_150MM_AP_PSGR_L4_5_AUSF_B",
+              "ammo_type": "AP",
+              "damage": 3700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 51.0,
+              "muzzle_velocity_ms": 835.0,
+              "air_drag": 0.25,
+              "krupp": 1933.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PGGM076_150mm_TL_C_36",
+          "caliber_mm": 150.0,
+          "barrels_per_turret": 1,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -150.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            0.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PGPA110_150MM_HE_SPR_GR_L4_6_AUSF_B",
+              "ammo_type": "HE",
+              "damage": 1800.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 51.0,
+              "muzzle_velocity_ms": 835.0,
+              "air_drag": 0.25,
+              "krupp": 1150.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PGPA112_150MM_AP_PSGR_L4_5_AUSF_B",
+              "ammo_type": "AP",
+              "damage": 3700.0,
+              "caliber_mm": 150.0,
+              "mass_kg": 51.0,
+              "muzzle_velocity_ms": 835.0,
+              "air_drag": 0.25,
+              "krupp": 1933.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 67.5,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
