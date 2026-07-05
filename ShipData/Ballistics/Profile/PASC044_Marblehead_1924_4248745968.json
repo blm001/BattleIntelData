@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:48Z",
+  "generated_at": "2026-07-05T12:22:13Z",
   "game_version": "12267945",
   "ship": {
     "id": 4248745968,
@@ -11,10 +11,152 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 13880.0,
+      "range_km": 13.88,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PAGM031_6in53_Mk16_Twin",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.67,
+          "rotation_speed_deg_s": 7.5,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA030_Shell_152mm_HE_HC_Mark_34_Mod_1",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.7,
+              "muzzle_velocity_ms": 914.0,
+              "air_drag": 0.315,
+              "krupp": 350.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PAPA061_SHELL_152MM_AP_SC_MK_27_MOD_5",
+              "ammo_type": "AP",
+              "damage": 3100.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.6,
+              "muzzle_velocity_ms": 914.0,
+              "air_drag": 0.3164,
+              "krupp": 1772.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PAGM148_6in53_Mk13_Single",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.67,
+          "rotation_speed_deg_s": 7.5,
+          "horiz_sector_deg": [
+            -150.0,
+            3.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA030_Shell_152mm_HE_HC_Mark_34_Mod_1",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.7,
+              "muzzle_velocity_ms": 914.0,
+              "air_drag": 0.315,
+              "krupp": 350.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PAPA061_SHELL_152MM_AP_SC_MK_27_MOD_5",
+              "ammo_type": "AP",
+              "damage": 3100.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.6,
+              "muzzle_velocity_ms": 914.0,
+              "air_drag": 0.3164,
+              "krupp": 1772.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PAGM091_6in53_Mk13_Single",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.67,
+          "rotation_speed_deg_s": 7.5,
+          "horiz_sector_deg": [
+            -142.0,
+            3.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PAPA030_Shell_152mm_HE_HC_Mark_34_Mod_1",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.7,
+              "muzzle_velocity_ms": 914.0,
+              "air_drag": 0.315,
+              "krupp": 350.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 12.0
+            },
+            "AP": {
+              "key": "PAPA061_SHELL_152MM_AP_SC_MK_27_MOD_5",
+              "ammo_type": "AP",
+              "damage": 3100.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 47.6,
+              "muzzle_velocity_ms": 914.0,
+              "air_drag": 0.3164,
+              "krupp": 1772.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
