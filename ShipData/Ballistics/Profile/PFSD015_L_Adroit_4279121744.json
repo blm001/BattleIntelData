@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:50Z",
+  "generated_at": "2026-07-05T12:22:15Z",
   "game_version": "12267945",
   "ship": {
     "id": 4279121744,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 10180.0,
+      "range_km": 10.18,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM2005_130mm_40_Mle_1924",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 13.0,
+          "horiz_sector_deg": [
+            -130.0,
+            130.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            36.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA129_130MM_40_1919_HE_ADROIT",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 34.85,
+              "muzzle_velocity_ms": 725.0,
+              "air_drag": 0.2434,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            },
+            "AP": {
+              "key": "PFPA128_130MM_40_1919_AP_ADROIT",
+              "ammo_type": "AP",
+              "damage": 2300.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 32.05,
+              "muzzle_velocity_ms": 725.0,
+              "air_drag": 0.2234,
+              "krupp": 1803.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 22.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
