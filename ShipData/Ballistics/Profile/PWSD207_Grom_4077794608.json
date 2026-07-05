@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:54Z",
+  "generated_at": "2026-07-05T12:22:19Z",
   "game_version": "12267945",
   "ship": {
     "id": 4077794608,
@@ -11,10 +11,75 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 9930.0,
+      "range_km": 9.93,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PWGM004_120mm_Bofors_wz34_36_single",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -3.0,
+            16.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA036_120MM_HE_WZ34",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 24.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.3177,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        },
+        {
+          "gun_key": "PWGM003_120mm_Bofors_wz34_36_twin",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 2,
+          "reload_s": 6.0,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -3.0,
+            16.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PWPA036_120MM_HE_WZ34",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 24.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.3177,
+              "krupp": 32.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
