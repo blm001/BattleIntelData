@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:50Z",
+  "generated_at": "2026-07-05T12:22:14Z",
   "game_version": "12267945",
   "ship": {
     "id": 4183701456,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 10550.0,
+      "range_km": 10.55,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PBGM075_120mm_45_QF_MkIX",
+          "caliber_mm": 120.0,
+          "barrels_per_turret": 1,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -145.0,
+            145.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            30.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PBPA049_120MM_QFMIX_HE_G",
+              "ammo_type": "HE",
+              "damage": 1700.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.68,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3927,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 8.0
+            },
+            "AP": {
+              "key": "PBPA048_120MM_QFMIX_AP_G",
+              "ammo_type": "AP",
+              "damage": 2100.0,
+              "caliber_mm": 120.0,
+              "mass_kg": 22.68,
+              "muzzle_velocity_ms": 808.0,
+              "air_drag": 0.3927,
+              "krupp": 2396.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 20.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
