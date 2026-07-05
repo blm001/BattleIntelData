@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:51Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4183766768,
@@ -114,9 +114,106 @@
       ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PIGS073_135mm_45_Mod_1938",
+          "caliber_mm": 135.0,
+          "barrels_per_turret": 3,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -130.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA046_135MM_HE_SG",
+              "ammo_type": "HE",
+              "damage": 1950.0,
+              "caliber_mm": 135.0,
+              "mass_kg": 32.7,
+              "muzzle_velocity_ms": 825.0,
+              "air_drag": 0.3416,
+              "krupp": 590.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS017_90mm50_barrels_1_M1939",
+          "caliber_mm": 90.0,
+          "barrels_per_turret": 1,
+          "reload_s": 4.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            0.0,
+            150.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA011_90MM_50_1939_HE",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 90.0,
+              "mass_kg": 10.1,
+              "muzzle_velocity_ms": 860.0,
+              "air_drag": 0.414,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 5.0
+            }
+          }
+        },
+        {
+          "gun_key": "PIGS072_135mm_45_Mod_1938",
+          "caliber_mm": 135.0,
+          "barrels_per_turret": 3,
+          "reload_s": 7.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -155.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            45.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PIPA046_135MM_HE_SG",
+              "ammo_type": "HE",
+              "damage": 1950.0,
+              "caliber_mm": 135.0,
+              "mass_kg": 32.7,
+              "muzzle_velocity_ms": 825.0,
+              "air_drag": 0.3416,
+              "krupp": 590.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
     }
   }
 }
