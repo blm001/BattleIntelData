@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:51Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4183734032,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 13240.0,
+      "range_km": 13.24,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PHGM006_Bofors_152mm53_Model_1942_barrel2",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 8.5,
+          "rotation_speed_deg_s": 8.0,
+          "horiz_sector_deg": [
+            -155.0,
+            155.0
+          ],
+          "vert_sector_deg": [
+            1.0,
+            60.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PHPA012_152MM_HE_BOFORS",
+              "ammo_type": "HE",
+              "damage": 2200.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 46.0,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2841,
+              "krupp": 1150.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 11.0
+            },
+            "AP": {
+              "key": "PHPA013_152MM_AP_BOFORS",
+              "ammo_type": "AP",
+              "damage": 3000.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 46.7,
+              "muzzle_velocity_ms": 900.0,
+              "air_drag": 0.2884,
+              "krupp": 2200.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
