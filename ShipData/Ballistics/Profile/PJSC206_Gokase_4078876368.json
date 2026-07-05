@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:52Z",
+  "generated_at": "2026-07-05T12:22:17Z",
   "game_version": "12267945",
   "ship": {
     "id": 4078876368,
@@ -11,15 +11,143 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 12600.0,
+      "range_km": 12.6,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PJGM167_152mm50_Type_41",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 9.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            55.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA134_152MM_HE_CL",
+              "ammo_type": "HE",
+              "damage": 2600.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.4,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3562,
+              "krupp": 320.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PJPA135_152MM_AP_CL",
+              "ammo_type": "AP",
+              "damage": 2900.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.4,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3562,
+              "krupp": 1900.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        },
+        {
+          "gun_key": "PJGM168_152mm50_Type_41_RF",
+          "caliber_mm": 152.0,
+          "barrels_per_turret": 2,
+          "reload_s": 9.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            0.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            55.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA134_152MM_HE_CL",
+              "ammo_type": "HE",
+              "damage": 2600.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.4,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3562,
+              "krupp": 320.0,
+              "fuse_time_s": 0.01,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 13.0
+            },
+            "AP": {
+              "key": "PJPA135_152MM_AP_CL",
+              "ammo_type": "AP",
+              "damage": 2900.0,
+              "caliber_mm": 152.0,
+              "mass_kg": 45.4,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.3562,
+              "krupp": 1900.0,
+              "fuse_time_s": 0.025,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 8.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 4960.0,
+      "range_km": 4.96,
+      "guns": [
+        {
+          "gun_key": "PJGS169_76_2mm_60_Type89",
+          "caliber_mm": 76.2,
+          "barrels_per_turret": 2,
+          "reload_s": 2.4,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -75.0,
+            85.0
+          ],
+          "vert_sector_deg": [
+            -5.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PJPA098_76MM_TYPE98_HE_SG",
+              "ammo_type": "HE",
+              "damage": 1300.0,
+              "caliber_mm": 76.0,
+              "mass_kg": 5.99,
+              "muzzle_velocity_ms": 920.0,
+              "air_drag": 0.3474,
+              "krupp": 3.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 4.0
+            }
+          }
+        }
+      ]
     }
   }
 }
