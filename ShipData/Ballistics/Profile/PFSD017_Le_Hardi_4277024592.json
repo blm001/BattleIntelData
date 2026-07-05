@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:50Z",
+  "generated_at": "2026-07-05T12:22:15Z",
   "game_version": "12267945",
   "ship": {
     "id": 4277024592,
@@ -11,10 +11,58 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 10910.0,
+      "range_km": 10.91,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PFGM2001_130_45_twin_mle_1935",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -135.0,
+            135.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA062_130MM_MLE1935_HE_MG",
+              "ammo_type": "HE",
+              "damage": 1950.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 29.5,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.391,
+              "krupp": 475.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            },
+            "AP": {
+              "key": "PFPA063_130MM_MLE1933_AP_MG",
+              "ammo_type": "AP",
+              "damage": 2400.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 32.1,
+              "muzzle_velocity_ms": 800.0,
+              "air_drag": 0.395,
+              "krupp": 2100.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 22.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 10.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
