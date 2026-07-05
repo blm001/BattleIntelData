@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:52Z",
+  "generated_at": "2026-07-05T12:22:16Z",
   "game_version": "12267945",
   "ship": {
     "id": 4187895536,
@@ -11,10 +11,44 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 5500.0,
+      "range_km": 5.5,
+      "sigma": 2.0,
+      "guns": [
+        {
+          "gun_key": "PIGM085_102mm_45_Schneider_Armstrong_1919_twin",
+          "caliber_mm": 102.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.5,
+          "rotation_speed_deg_s": 10.0,
+          "horiz_sector_deg": [
+            -142.0,
+            142.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            20.0
+          ],
+          "shells": {
+            "CS": {
+              "key": "PIPA064_102MM_31LBS_CS",
+              "ammo_type": "CS",
+              "damage": 2250.0,
+              "caliber_mm": 102.0,
+              "mass_kg": 13.74,
+              "muzzle_velocity_ms": 850.0,
+              "air_drag": 0.267,
+              "krupp": 3.0,
+              "fuse_time_s": 0.03,
+              "arming_threshold_mm": 25.0,
+              "ricochet_at_deg": 60.0,
+              "always_ricochet_at_deg": 75.0,
+              "normalization_deg": 45.0,
+              "pen_mm": 29.5
+            }
+          }
+        }
+      ]
     },
     "secondary": {
       "range_m": 0,
