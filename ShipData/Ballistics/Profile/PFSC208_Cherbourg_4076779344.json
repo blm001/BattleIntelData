@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T08:58:50Z",
+  "generated_at": "2026-07-05T12:22:15Z",
   "game_version": "12267945",
   "ship": {
     "id": 4076779344,
@@ -11,15 +11,96 @@
   },
   "artillery": {
     "main": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "sigma": 0,
-      "guns": []
+      "range_m": 16090.0,
+      "range_km": 16.09,
+      "sigma": 1.8,
+      "guns": [
+        {
+          "gun_key": "PFGM087_305mm50_quad",
+          "caliber_mm": 305.0,
+          "barrels_per_turret": 4,
+          "reload_s": 29.0,
+          "rotation_speed_deg_s": 6.0,
+          "horiz_sector_deg": [
+            -147.0,
+            147.0
+          ],
+          "vert_sector_deg": [
+            -2.0,
+            23.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA082_305MM_HE_1931",
+              "ammo_type": "HE",
+              "damage": 4050.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 308.0,
+              "muzzle_velocity_ms": 905.0,
+              "air_drag": 0.21,
+              "krupp": 1.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 17.0
+            },
+            "AP": {
+              "key": "PFPA083_305MM_AP_1931",
+              "ammo_type": "AP",
+              "damage": 8200.0,
+              "caliber_mm": 305.0,
+              "mass_kg": 442.0,
+              "muzzle_velocity_ms": 870.0,
+              "air_drag": 0.265,
+              "krupp": 2225.0,
+              "fuse_time_s": 0.033,
+              "arming_threshold_mm": 51.0,
+              "ricochet_at_deg": 45.0,
+              "always_ricochet_at_deg": 60.0,
+              "normalization_deg": 6.0
+            }
+          }
+        }
+      ]
     },
     "secondary": {
-      "range_m": 0,
-      "range_km": 0.0,
-      "guns": []
+      "range_m": 7600.0,
+      "range_km": 7.6,
+      "guns": [
+        {
+          "gun_key": "PFGS003_130_45_Mle_1932_twin",
+          "caliber_mm": 130.0,
+          "barrels_per_turret": 2,
+          "reload_s": 5.0,
+          "rotation_speed_deg_s": 60.0,
+          "horiz_sector_deg": [
+            -171.0,
+            0.0
+          ],
+          "vert_sector_deg": [
+            -1.0,
+            75.0
+          ],
+          "shells": {
+            "HE": {
+              "key": "PFPA003_130MM_HE_MLE1935",
+              "ammo_type": "HE",
+              "damage": 1900.0,
+              "caliber_mm": 130.0,
+              "mass_kg": 29.5,
+              "muzzle_velocity_ms": 840.0,
+              "air_drag": 0.3152,
+              "krupp": 445.0,
+              "fuse_time_s": 0.001,
+              "arming_threshold_mm": 2.0,
+              "ricochet_at_deg": 91.0,
+              "always_ricochet_at_deg": 60.0,
+              "fire_chance_pct": 9.0
+            }
+          }
+        }
+      ]
     }
   }
 }
