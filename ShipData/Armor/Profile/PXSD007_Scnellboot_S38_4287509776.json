@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-06-29T07:40:26Z",
+  "schema_version": "1.1",
+  "generated_at": "2026-07-07T09:59:41Z",
   "game_version": "12267945",
+  "orientation_data": "unavailable",
   "ship": {
     "id": 4287509776,
     "key": "PXSD007_Scnellboot_S38",
@@ -39,6 +40,7 @@
     {
       "name": "CM_SB_stern_1",
       "section": "St",
+      "face_role": "Stern",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -58,6 +60,7 @@
     {
       "name": "CM_SB_ruder1_1",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -77,6 +80,7 @@
     {
       "name": "CM_SB_cit_1",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -91,11 +95,15 @@
           -0.157,
           0.157
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_ss_3_1"
+      ]
     },
     {
       "name": "CM_SB_ss_3_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -115,6 +123,7 @@
     {
       "name": "CM_SB_engine1_2",
       "section": "?",
+      "face_role": "Engine",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -129,11 +138,17 @@
           -0.08,
           0.08
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_engine1_1",
+        "CM_SB_ss_3_1"
+      ]
     },
     {
       "name": "CM_SB_engine1_1",
       "section": "?",
+      "face_role": "Engine",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -148,11 +163,15 @@
           -0.148,
           0.148
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_ss_3_1"
+      ]
     },
     {
       "name": "CM_SB_ss_1_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -172,6 +191,7 @@
     {
       "name": "CM_SB_bow_1",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -191,6 +211,7 @@
     {
       "name": "CM_SB_bow_2",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 6.0,
       "bounds": {
         "z": [
