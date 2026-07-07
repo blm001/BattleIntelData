@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-06-23T09:34:28Z",
+  "schema_version": "1.1",
+  "generated_at": "2026-07-07T09:57:20Z",
   "game_version": "12267945",
+  "orientation_data": "unavailable",
   "ship": {
     "id": 3550394064,
     "key": "PJSC710_Yari",
@@ -39,6 +40,7 @@
     {
       "name": "CM_SB_stern_2",
       "section": "St",
+      "face_role": "Stern",
       "mm": 100.0,
       "bounds": {
         "z": [
@@ -58,6 +60,7 @@
     {
       "name": "CM_SB_ruder_1_1",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 100.0,
       "bounds": {
         "z": [
@@ -77,6 +80,7 @@
     {
       "name": "CM_SB_stern_4",
       "section": "St",
+      "face_role": "Stern",
       "mm": 75.0,
       "bounds": {
         "z": [
@@ -96,6 +100,7 @@
     {
       "name": "CM_SB_stern_5",
       "section": "St",
+      "face_role": "Stern",
       "mm": 75.0,
       "bounds": {
         "z": [
@@ -115,6 +120,7 @@
     {
       "name": "CM_SB_stern_1",
       "section": "St",
+      "face_role": "Stern",
       "mm": 160.0,
       "bounds": {
         "z": [
@@ -134,6 +140,7 @@
     {
       "name": "CM_SB_stern_3",
       "section": "St",
+      "face_role": "Stern",
       "mm": 65.0,
       "bounds": {
         "z": [
@@ -153,6 +160,7 @@
     {
       "name": "CM_SB_cit_3",
       "section": "Cit",
+      "face_role": "Citadel",
       "mm": 130.0,
       "bounds": {
         "z": [
@@ -167,11 +175,15 @@
           -0.456,
           0.456
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_3"
+      ]
     },
     {
       "name": "CM_SB_cit_ammo_2_3",
       "section": "Ammo_2",
+      "face_role": "AmmoRack",
       "mm": 130.0,
       "bounds": {
         "z": [
@@ -186,11 +198,17 @@
           -0.201,
           0.201
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_3",
+        "CM_SB_cit_3",
+        "CM_SB_cit_ammo_2_1"
+      ]
     },
     {
       "name": "CM_SB_cit_ammo_2_1",
       "section": "Ammo_2",
+      "face_role": "AmmoRack",
       "mm": 50.0,
       "bounds": {
         "z": [
@@ -205,11 +223,16 @@
           -0.299,
           0.299
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_3",
+        "CM_SB_cit_3"
+      ]
     },
     {
       "name": "CM_SB_cas_3",
       "section": "Cas",
+      "face_role": "Casemate",
       "mm": 105.0,
       "bounds": {
         "z": [
@@ -229,6 +252,7 @@
     {
       "name": "CM_SB_gk_3_1",
       "section": "_turret_",
+      "face_role": "TurretFace",
       "mm": 50.0,
       "bounds": {
         "z": [
@@ -248,6 +272,7 @@
     {
       "name": "CM_SB_cit_ammo_2_2",
       "section": "Ammo_2",
+      "face_role": "AmmoRack",
       "mm": 50.0,
       "bounds": {
         "z": [
@@ -262,11 +287,16 @@
           -0.378,
           0.378
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_3",
+        "CM_SB_cit_5"
+      ]
     },
     {
       "name": "CM_SB_cit_5",
       "section": "Cit",
+      "face_role": "Citadel",
       "mm": 105.0,
       "bounds": {
         "z": [
@@ -281,11 +311,16 @@
           -0.521,
           0.521
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_3",
+        "CM_SB_ss_3_2"
+      ]
     },
     {
       "name": "CM_SB_ss_3_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 65.0,
       "bounds": {
         "z": [
@@ -305,6 +340,7 @@
     {
       "name": "CM_SB_cas_2",
       "section": "Cas",
+      "face_role": "Casemate",
       "mm": 127.0,
       "bounds": {
         "z": [
@@ -324,6 +360,7 @@
     {
       "name": "CM_SB_cit_2",
       "section": "Cit",
+      "face_role": "Citadel",
       "mm": 127.0,
       "bounds": {
         "z": [
@@ -338,11 +375,15 @@
           -0.59,
           0.59
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_2"
+      ]
     },
     {
       "name": "CM_SB_engine_1_1",
       "section": "?",
+      "face_role": "Engine",
       "mm": 55.0,
       "bounds": {
         "z": [
@@ -357,11 +398,16 @@
           -0.389,
           0.389
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_2",
+        "CM_SB_cit_2"
+      ]
     },
     {
       "name": "CM_SB_ss_3_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -381,6 +427,7 @@
     {
       "name": "CM_SB_ss_2_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -400,6 +447,7 @@
     {
       "name": "CM_SB_ss_2_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -419,6 +467,7 @@
     {
       "name": "CM_SB_ss_2_3",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -438,6 +487,7 @@
     {
       "name": "CM_SB_ss_2_4",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -457,6 +507,7 @@
     {
       "name": "CM_SB_ss_1_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -476,6 +527,7 @@
     {
       "name": "CM_SB_ss_1_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -495,6 +547,7 @@
     {
       "name": "CM_SB_cit_4",
       "section": "Cit",
+      "face_role": "Citadel",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -509,11 +562,16 @@
           -0.439,
           0.439
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_5",
+        "CM_SB_cas_6"
+      ]
     },
     {
       "name": "CM_SB_cit_ammo_1_3",
       "section": "Ammo_1",
+      "face_role": "AmmoRack",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -528,11 +586,18 @@
           -0.343,
           0.343
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_5",
+        "CM_SB_cas_6",
+        "CM_SB_cit_4",
+        "CM_SB_ss_1_2"
+      ]
     },
     {
       "name": "CM_SB_cas_5",
       "section": "Cas",
+      "face_role": "Casemate",
       "mm": 127.0,
       "bounds": {
         "z": [
@@ -552,6 +617,7 @@
     {
       "name": "CM_SB_cas_6",
       "section": "Cas",
+      "face_role": "Casemate",
       "mm": 127.0,
       "bounds": {
         "z": [
@@ -571,6 +637,7 @@
     {
       "name": "CM_SB_gk_2_1",
       "section": "_turret_",
+      "face_role": "TurretFace",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -590,6 +657,7 @@
     {
       "name": "CM_SB_cit_ammo_1_1",
       "section": "Ammo_1",
+      "face_role": "AmmoRack",
       "mm": 50.0,
       "bounds": {
         "z": [
@@ -604,11 +672,17 @@
           -0.265,
           0.265
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_5",
+        "CM_SB_cas_6",
+        "CM_SB_cit_4"
+      ]
     },
     {
       "name": "CM_SB_cit_1",
       "section": "Cit",
+      "face_role": "Citadel",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -623,11 +697,16 @@
           -0.31,
           0.31
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_1",
+        "CM_SB_cas_4"
+      ]
     },
     {
       "name": "CM_SB_cas_1",
       "section": "Cas",
+      "face_role": "Casemate",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -647,6 +726,7 @@
     {
       "name": "CM_SB_cas_4",
       "section": "Cas",
+      "face_role": "Casemate",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -666,6 +746,7 @@
     {
       "name": "CM_SB_cit_ammo_1_2",
       "section": "Ammo_1",
+      "face_role": "AmmoRack",
       "mm": 152.0,
       "bounds": {
         "z": [
@@ -680,11 +761,17 @@
           -0.181,
           0.181
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cas_1",
+        "CM_SB_cas_4",
+        "CM_SB_cit_1"
+      ]
     },
     {
       "name": "CM_SB_gk_1_1",
       "section": "_turret_",
+      "face_role": "TurretFace",
       "mm": 50.0,
       "bounds": {
         "z": [
@@ -704,6 +791,7 @@
     {
       "name": "CM_SB_bow_2",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -723,6 +811,7 @@
     {
       "name": "CM_SB_bow_3",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 30.0,
       "bounds": {
         "z": [
@@ -742,6 +831,7 @@
     {
       "name": "CM_SB_bow_1",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -761,6 +851,7 @@
     {
       "name": "CM_SB_bow_5",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -780,6 +871,7 @@
     {
       "name": "CM_SB_bow_4",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 203.0,
       "bounds": {
         "z": [
@@ -799,6 +891,7 @@
     {
       "name": "CM_SB_bow_6",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 203.0,
       "bounds": {
         "z": [
