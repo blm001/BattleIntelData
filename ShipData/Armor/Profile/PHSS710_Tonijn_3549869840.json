@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-06-23T09:29:57Z",
+  "schema_version": "1.1",
+  "generated_at": "2026-07-07T09:56:02Z",
   "game_version": "12267945",
+  "orientation_data": "unavailable",
   "ship": {
     "id": 3549869840,
     "key": "PHSS710_Tonijn",
@@ -39,6 +40,7 @@
     {
       "name": "CM_SB_stern_3",
       "section": "St",
+      "face_role": "Stern",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -58,6 +60,7 @@
     {
       "name": "CM_SB_cit_1",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -72,11 +75,16 @@
           -0.091,
           0.091
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_3",
+        "CM_SB_ovcit_1"
+      ]
     },
     {
       "name": "CM_SB_ruder_1_2",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -96,6 +104,7 @@
     {
       "name": "CM_SB_stern_1",
       "section": "St",
+      "face_role": "Stern",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -115,6 +124,7 @@
     {
       "name": "CM_SB_stern_2",
       "section": "St",
+      "face_role": "Stern",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -134,6 +144,7 @@
     {
       "name": "CM_SB_ruder_1_1",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -153,6 +164,7 @@
     {
       "name": "CM_SB_ovcit_2",
       "section": "?",
+      "face_role": "Citadel",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -172,6 +184,7 @@
     {
       "name": "CM_SB_cit_4",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -186,11 +199,15 @@
           -0.127,
           0.127
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1"
+      ]
     },
     {
       "name": "CM_SB_cit_3",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -205,11 +222,15 @@
           -0.193,
           0.193
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1"
+      ]
     },
     {
       "name": "CM_SB_ovcit_1",
       "section": "?",
+      "face_role": "Citadel",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -229,6 +250,7 @@
     {
       "name": "CM_SB_engine_2_3",
       "section": "?",
+      "face_role": "Engine",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -243,11 +265,16 @@
           -0.151,
           -0.08
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_ovcit_1"
+      ]
     },
     {
       "name": "CM_SB_engine_1_3",
       "section": "?",
+      "face_role": "Engine",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -262,11 +289,16 @@
           0.08,
           0.151
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_ovcit_1"
+      ]
     },
     {
       "name": "CM_SB_engine_2_2",
       "section": "?",
+      "face_role": "Engine",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -281,11 +313,16 @@
           -0.163,
           -0.067
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_ovcit_1"
+      ]
     },
     {
       "name": "CM_SB_engine_1_2",
       "section": "?",
+      "face_role": "Engine",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -300,11 +337,16 @@
           0.067,
           0.163
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_ovcit_1"
+      ]
     },
     {
       "name": "CM_SB_engine_2_1",
       "section": "?",
+      "face_role": "Engine",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -319,11 +361,15 @@
           -0.172,
           -0.058
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1"
+      ]
     },
     {
       "name": "CM_SB_engine_1_1",
       "section": "?",
+      "face_role": "Engine",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -338,11 +384,15 @@
           0.058,
           0.172
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1"
+      ]
     },
     {
       "name": "CM_SB_ovcit_3",
       "section": "?",
+      "face_role": "Citadel",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -357,11 +407,15 @@
           -0.044,
           0.044
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_ovcit_1"
+      ]
     },
     {
       "name": "CM_SB_bow_4",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -381,6 +435,7 @@
     {
       "name": "CM_SB_cit_2",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -395,11 +450,15 @@
           -0.133,
           0.133
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1"
+      ]
     },
     {
       "name": "CM_SB_sonar_1_1",
       "section": "?",
+      "face_role": "Other",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -419,6 +478,7 @@
     {
       "name": "CM_SB_bow_3",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -438,6 +498,7 @@
     {
       "name": "CM_SB_bow_2",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -457,6 +518,7 @@
     {
       "name": "CM_SB_bow_1",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 25.0,
       "bounds": {
         "z": [
