@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-06-29T07:35:43Z",
+  "schema_version": "1.1",
+  "generated_at": "2026-07-07T09:58:19Z",
   "game_version": "12267945",
+  "orientation_data": "unavailable",
   "ship": {
     "id": 4182652368,
     "key": "PRSD107_Pr_35_Udaloy",
@@ -39,6 +40,7 @@
     {
       "name": "CM_SB_stern_2",
       "section": "St",
+      "face_role": "Stern",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -58,6 +60,7 @@
     {
       "name": "CM_SB_ruder1_2",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 16.0,
       "bounds": {
         "z": [
@@ -77,6 +80,7 @@
     {
       "name": "CM_SB_ruder1_1",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -96,6 +100,7 @@
     {
       "name": "CM_SB_stern_1",
       "section": "St",
+      "face_role": "Stern",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -115,6 +120,7 @@
     {
       "name": "CM_SB_stern_ammo1_2",
       "section": "Ammo_2",
+      "face_role": "Stern",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -134,6 +140,7 @@
     {
       "name": "CM_SB_ss_3_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -153,6 +160,7 @@
     {
       "name": "CM_SB_stern_ammo1_1",
       "section": "Ammo_2",
+      "face_role": "Stern",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -172,6 +180,7 @@
     {
       "name": "CM_SB_ss_3_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -191,6 +200,7 @@
     {
       "name": "CM_SB_cit_1",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -210,6 +220,7 @@
     {
       "name": "CM_SB_engine1_1",
       "section": "?",
+      "face_role": "Engine",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -224,11 +235,16 @@
           -0.187,
           0.187
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_engine1_2"
+      ]
     },
     {
       "name": "CM_SB_engine1_2",
       "section": "?",
+      "face_role": "Engine",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -243,11 +259,15 @@
           -0.26,
           0.26
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1"
+      ]
     },
     {
       "name": "CM_SB_bow_3",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -267,6 +287,7 @@
     {
       "name": "CM_SB_ss_1_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 16.0,
       "bounds": {
         "z": [
@@ -286,6 +307,7 @@
     {
       "name": "CM_SB_ss_1_4",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 16.0,
       "bounds": {
         "z": [
@@ -305,6 +327,7 @@
     {
       "name": "CM_SB_ss_1_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 16.0,
       "bounds": {
         "z": [
@@ -324,6 +347,7 @@
     {
       "name": "CM_SB_bow_2",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -343,6 +367,7 @@
     {
       "name": "CM_SB_ss_1_3",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 16.0,
       "bounds": {
         "z": [
@@ -362,6 +387,7 @@
     {
       "name": "CM_SB_bow_1",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 20.0,
       "bounds": {
         "z": [
