@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-06-23T09:22:31Z",
+  "schema_version": "1.1",
+  "generated_at": "2026-07-07T09:53:57Z",
   "game_version": "12267945",
+  "orientation_data": "unavailable",
   "ship": {
     "id": 4184750032,
     "key": "PBSD105_Acasta",
@@ -39,6 +40,7 @@
     {
       "name": "CM_SB_stern_2",
       "section": "St",
+      "face_role": "Stern",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -58,6 +60,7 @@
     {
       "name": "CM_SB_ruder_1_2",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -77,6 +80,7 @@
     {
       "name": "CM_SB_ruder_1_1",
       "section": "SG",
+      "face_role": "SteeringGear",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -96,6 +100,7 @@
     {
       "name": "CM_SB_stern_1",
       "section": "St",
+      "face_role": "Stern",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -115,6 +120,7 @@
     {
       "name": "CM_SB_stern_ammo_1_1",
       "section": "Ammo_2",
+      "face_role": "Stern",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -134,6 +140,7 @@
     {
       "name": "CM_SB_ss_3_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -153,6 +160,7 @@
     {
       "name": "CM_SB_stern_ammo_1_2",
       "section": "Ammo_2",
+      "face_role": "Stern",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -172,6 +180,7 @@
     {
       "name": "CM_SB_cit_1",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -186,11 +195,15 @@
           -0.307,
           0.307
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_ss_2_3"
+      ]
     },
     {
       "name": "CM_SB_engine_1_1",
       "section": "?",
+      "face_role": "Engine",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -205,11 +218,17 @@
           -0.146,
           0.146
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_engine_1_2",
+        "CM_SB_ss_2_3"
+      ]
     },
     {
       "name": "CM_SB_engine_1_2",
       "section": "?",
+      "face_role": "Engine",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -224,11 +243,15 @@
           -0.266,
           0.266
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_ss_2_3"
+      ]
     },
     {
       "name": "CM_SB_ss_2_3",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -248,6 +271,7 @@
     {
       "name": "CM_SB_ss_2_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -267,6 +291,7 @@
     {
       "name": "CM_SB_ss_2_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -286,6 +311,7 @@
     {
       "name": "CM_SB_ss_1_3",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -305,6 +331,7 @@
     {
       "name": "CM_SB_bow_3",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -324,6 +351,7 @@
     {
       "name": "CM_SB_ss_1_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -343,6 +371,7 @@
     {
       "name": "CM_SB_ss_1_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -362,6 +391,7 @@
     {
       "name": "CM_SB_bow_4",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -381,6 +411,7 @@
     {
       "name": "CM_SB_bow_2",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -400,6 +431,7 @@
     {
       "name": "CM_SB_bow_1",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 10.0,
       "bounds": {
         "z": [
