@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-06-29T07:36:14Z",
+  "schema_version": "1.1",
+  "generated_at": "2026-07-07T09:58:27Z",
   "game_version": "12267945",
+  "orientation_data": "unavailable",
   "ship": {
     "id": 3445503440,
     "key": "PRSD810_R_10",
@@ -39,6 +40,7 @@
     {
       "name": "CM_SB_ruder_1_5",
       "section": "?",
+      "face_role": "SteeringGear",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -58,6 +60,7 @@
     {
       "name": "CM_SB_stern_3",
       "section": "St",
+      "face_role": "Stern",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -77,6 +80,7 @@
     {
       "name": "CM_SB_ruder_1_6",
       "section": "?",
+      "face_role": "SteeringGear",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -96,6 +100,7 @@
     {
       "name": "CM_SB_ruder_1_3",
       "section": "?",
+      "face_role": "SteeringGear",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -115,6 +120,7 @@
     {
       "name": "CM_SB_ruder_1_4",
       "section": "?",
+      "face_role": "SteeringGear",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -134,6 +140,7 @@
     {
       "name": "CM_SB_ruder_1_2",
       "section": "?",
+      "face_role": "SteeringGear",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -153,6 +160,7 @@
     {
       "name": "CM_SB_ruder_1_1",
       "section": "?",
+      "face_role": "SteeringGear",
       "mm": 19.0,
       "bounds": {
         "z": [
@@ -172,6 +180,7 @@
     {
       "name": "CM_SB_stern_2",
       "section": "St",
+      "face_role": "Stern",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -191,6 +200,7 @@
     {
       "name": "CM_SB_stern_1",
       "section": "St",
+      "face_role": "Stern",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -210,6 +220,7 @@
     {
       "name": "CM_SB_stern_ammo_1_1",
       "section": "?",
+      "face_role": "Stern",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -229,6 +240,7 @@
     {
       "name": "CM_SB_ss_3_1",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -248,6 +260,7 @@
     {
       "name": "CM_SB_cit_1",
       "section": "Cas",
+      "face_role": "Citadel",
       "mm": 50.0,
       "bounds": {
         "z": [
@@ -262,11 +275,15 @@
           -0.381,
           0.381
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_ss_3_1"
+      ]
     },
     {
       "name": "CM_SB_engine_1_1",
       "section": "?",
+      "face_role": "Engine",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -281,11 +298,17 @@
           -0.195,
           0.195
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_engine_1_2",
+        "CM_SB_ss_3_1"
+      ]
     },
     {
       "name": "CM_SB_engine_1_2",
       "section": "?",
+      "face_role": "Engine",
       "mm": 50.0,
       "bounds": {
         "z": [
@@ -300,11 +323,16 @@
           -0.295,
           0.295
         ]
-      }
+      },
+      "covered_by": [
+        "CM_SB_cit_1",
+        "CM_SB_ss_3_1"
+      ]
     },
     {
       "name": "CM_SB_ss_1_2",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -324,6 +352,7 @@
     {
       "name": "CM_SB_bow_3",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -343,6 +372,7 @@
     {
       "name": "CM_SB_ss_1_4",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -362,6 +392,7 @@
     {
       "name": "CM_SB_ss_1_5",
       "section": "?",
+      "face_role": "Superstructure",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -381,6 +412,7 @@
     {
       "name": "CM_SB_bow_4",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -400,6 +432,7 @@
     {
       "name": "CM_SB_ss_1_3",
       "section": "SS",
+      "face_role": "Superstructure",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -419,6 +452,7 @@
     {
       "name": "CM_SB_bow_ammo_1_1",
       "section": "?",
+      "face_role": "Bow",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -438,6 +472,7 @@
     {
       "name": "CM_SB_bow_2",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -457,6 +492,7 @@
     {
       "name": "CM_SB_bow_1",
       "section": "Bow",
+      "face_role": "Bow",
       "mm": 20.0,
       "bounds": {
         "z": [
