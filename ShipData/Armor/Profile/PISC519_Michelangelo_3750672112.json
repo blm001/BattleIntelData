@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.1",
-  "generated_at": "2026-07-07T09:56:22Z",
+  "schema_version": "1.2",
+  "generated_at": "2026-07-08T05:02:53Z",
   "game_version": "12267945",
-  "orientation_data": "unavailable",
+  "orientation_data": "coarse_aabb",
   "ship": {
     "id": 3750672112,
     "key": "PISC519_Michelangelo",
@@ -41,6 +41,7 @@
       "name": "CM_SB_stern_6",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -61,6 +62,7 @@
       "name": "CM_SB_stern_5",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -81,6 +83,7 @@
       "name": "CM_SB_ruder_1_6",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -101,6 +104,7 @@
       "name": "CM_SB_ruder_1_5",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -121,6 +125,7 @@
       "name": "CM_SB_stern_4",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -141,6 +146,7 @@
       "name": "CM_SB_ruder_1_4",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -161,6 +167,7 @@
       "name": "CM_SB_ruder_1_3",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -181,6 +188,7 @@
       "name": "CM_SB_stern_3",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "horizontal",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -195,12 +203,14 @@
           -0.458,
           0.458
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_ruder_1_2",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "horizontal",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -215,12 +225,14 @@
           -0.103,
           0.103
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_ruder_1_1",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 150.0,
       "bounds": {
         "z": [
@@ -241,6 +253,7 @@
       "name": "CM_SB_stern_2",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -261,6 +274,7 @@
       "name": "CM_SB_stern_1",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "horizontal",
       "mm": 110.0,
       "bounds": {
         "z": [
@@ -275,12 +289,14 @@
           -0.683,
           0.683
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_cit_3",
       "section": "Cit",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -304,6 +320,7 @@
       "name": "CM_SB_cas_3",
       "section": "Cas",
       "face_role": "Casemate",
+      "orientation": "horizontal",
       "mm": 110.0,
       "bounds": {
         "z": [
@@ -318,12 +335,14 @@
           -0.863,
           0.863
         ]
-      }
+      },
+      "deck_kind": "main"
     },
     {
       "name": "CM_SB_ss_3_2",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 100.0,
       "bounds": {
         "z": [
@@ -344,6 +363,7 @@
       "name": "CM_SB_cas_5",
       "section": "Cas",
       "face_role": "Casemate",
+      "orientation": "vertical",
       "mm": 100.0,
       "bounds": {
         "z": [
@@ -364,6 +384,7 @@
       "name": "CM_SB_engine_3_1",
       "section": "?",
       "face_role": "Engine",
+      "orientation": "vertical",
       "mm": 250.0,
       "bounds": {
         "z": [
@@ -387,6 +408,7 @@
       "name": "CM_SB_cas_4",
       "section": "Cas",
       "face_role": "Casemate",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -407,6 +429,7 @@
       "name": "CM_SB_ss_3_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 255.0,
       "bounds": {
         "z": [
@@ -427,6 +450,7 @@
       "name": "CM_SB_cas_2",
       "section": "Cas",
       "face_role": "Casemate",
+      "orientation": "horizontal",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -441,12 +465,14 @@
           -0.907,
           0.907
         ]
-      }
+      },
+      "deck_kind": "main"
     },
     {
       "name": "CM_SB_cit_2",
       "section": "Cit",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -470,6 +496,7 @@
       "name": "CM_SB_gk_2_1",
       "section": "_turret_",
       "face_role": "TurretFace",
+      "orientation": "vertical",
       "mm": 250.0,
       "bounds": {
         "z": [
@@ -490,6 +517,7 @@
       "name": "CM_SB_engine_2_1",
       "section": "?",
       "face_role": "Engine",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -514,6 +542,7 @@
       "name": "CM_SB_ss_2_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "horizontal",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -528,12 +557,14 @@
           -0.305,
           0.305
         ]
-      }
+      },
+      "deck_kind": "main"
     },
     {
       "name": "CM_SB_ss_2_2",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 255.0,
       "bounds": {
         "z": [
@@ -554,6 +585,7 @@
       "name": "CM_SB_gk_1_1",
       "section": "_turret_",
       "face_role": "TurretFace",
+      "orientation": "vertical",
       "mm": 250.0,
       "bounds": {
         "z": [
@@ -574,6 +606,7 @@
       "name": "CM_SB_engine_1_1",
       "section": "?",
       "face_role": "Engine",
+      "orientation": "vertical",
       "mm": 60.0,
       "bounds": {
         "z": [
@@ -598,6 +631,7 @@
       "name": "CM_SB_ss_1_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "horizontal",
       "mm": 60.0,
       "bounds": {
         "z": [
@@ -612,12 +646,14 @@
           -0.353,
           0.353
         ]
-      }
+      },
+      "deck_kind": "main"
     },
     {
       "name": "CM_SB_ss_1_2",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 60.0,
       "bounds": {
         "z": [
@@ -638,6 +674,7 @@
       "name": "CM_SB_ss_1_3",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 255.0,
       "bounds": {
         "z": [
@@ -658,6 +695,7 @@
       "name": "CM_SB_ss_1_4",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 100.0,
       "bounds": {
         "z": [
@@ -678,6 +716,7 @@
       "name": "CM_SB_cit_1",
       "section": "Cit",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -702,6 +741,7 @@
       "name": "CM_SB_cas_1",
       "section": "Cas",
       "face_role": "Casemate",
+      "orientation": "horizontal",
       "mm": 100.0,
       "bounds": {
         "z": [
@@ -716,12 +756,14 @@
           -0.799,
           0.799
         ]
-      }
+      },
+      "deck_kind": "main"
     },
     {
       "name": "CM_SB_bow_6",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -742,6 +784,7 @@
       "name": "CM_SB_bow_5",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -762,6 +805,7 @@
       "name": "CM_SB_bow_4",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -782,6 +826,7 @@
       "name": "CM_SB_bow_3",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -802,6 +847,7 @@
       "name": "CM_SB_bow_2",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
@@ -822,6 +868,7 @@
       "name": "CM_SB_bow_1",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 200.0,
       "bounds": {
         "z": [
