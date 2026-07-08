@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.1",
-  "generated_at": "2026-07-07T09:52:57Z",
+  "schema_version": "1.2",
+  "generated_at": "2026-07-08T04:58:52Z",
   "game_version": "12267945",
-  "orientation_data": "unavailable",
+  "orientation_data": "coarse_aabb",
   "ship": {
     "id": 3768465392,
     "key": "PASD502_Smith",
@@ -41,6 +41,7 @@
       "name": "CM_SB_stern_3",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -61,6 +62,7 @@
       "name": "CM_SB_ruder1_3",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -81,6 +83,7 @@
       "name": "CM_SB_ruder1_1",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -101,6 +104,7 @@
       "name": "CM_SB_ruder1_2",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -121,6 +125,7 @@
       "name": "CM_SB_stern_2",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -141,6 +146,7 @@
       "name": "CM_SB_stern_1",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -161,6 +167,7 @@
       "name": "CM_SB_stern_ammo1_1",
       "section": "Ammo_2",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -181,6 +188,7 @@
       "name": "CM_SB_stern_ammo1_2",
       "section": "Ammo_2",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -201,6 +209,7 @@
       "name": "CM_SB_ss_3_2",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -221,6 +230,7 @@
       "name": "CM_SB_cit_1",
       "section": "Cas",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -241,6 +251,7 @@
       "name": "CM_SB_engine1_2",
       "section": "?",
       "face_role": "Engine",
+      "orientation": "vertical",
       "mm": 8.0,
       "bounds": {
         "z": [
@@ -265,6 +276,7 @@
       "name": "CM_SB_engine1_1",
       "section": "?",
       "face_role": "Engine",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -285,6 +297,7 @@
       "name": "CM_SB_ss_3_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "horizontal",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -299,12 +312,14 @@
           -0.083,
           0.083
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_ss_2_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -325,6 +340,7 @@
       "name": "CM_SB_bow_2",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -345,6 +361,7 @@
       "name": "CM_SB_bow_ammo_1",
       "section": "Ammo_1",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -365,6 +382,7 @@
       "name": "CM_SB_bow_3",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -385,6 +403,7 @@
       "name": "CM_SB_ss_1_2",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
@@ -405,6 +424,7 @@
       "name": "CM_SB_bow_1",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 6.0,
       "bounds": {
         "z": [
