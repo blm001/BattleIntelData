@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.1",
-  "generated_at": "2026-07-07T09:56:36Z",
+  "schema_version": "1.2",
+  "generated_at": "2026-07-08T05:03:08Z",
   "game_version": "12267945",
-  "orientation_data": "unavailable",
+  "orientation_data": "coarse_aabb",
   "ship": {
     "id": 4185896656,
     "key": "PJSA104_Hosho",
@@ -41,6 +41,7 @@
       "name": "CM_SB_stern_3",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -61,6 +62,7 @@
       "name": "CM_SB_ruder_1_1",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -81,6 +83,7 @@
       "name": "CM_SB_stern_2",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -101,6 +104,7 @@
       "name": "CM_SB_ssc_3",
       "section": "?",
       "face_role": "Superstructure",
+      "orientation": "horizontal",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -115,12 +119,14 @@
           -0.485,
           0.485
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_cas_hang_2_3",
       "section": "?",
       "face_role": "Casemate",
+      "orientation": "vertical",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -140,7 +146,8 @@
     {
       "name": "CM_SB_fdck_2",
       "section": "?",
-      "face_role": "Deck",
+      "face_role": "FlightDeck",
+      "orientation": "horizontal",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -155,12 +162,14 @@
           -0.586,
           0.586
         ]
-      }
+      },
+      "deck_kind": "flight"
     },
     {
       "name": "CM_SB_cas_hang_2_2",
       "section": "?",
       "face_role": "Casemate",
+      "orientation": "horizontal",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -175,12 +184,14 @@
           -0.491,
           0.491
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_stern_1",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -201,6 +212,7 @@
       "name": "CM_SB_cit_2",
       "section": "Cit",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -227,6 +239,7 @@
       "name": "CM_SB_cas_2",
       "section": "Cas",
       "face_role": "Casemate",
+      "orientation": "vertical",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -247,6 +260,7 @@
       "name": "CM_SB_engine_1_1",
       "section": "?",
       "face_role": "Engine",
+      "orientation": "vertical",
       "mm": 20.0,
       "bounds": {
         "z": [
@@ -274,6 +288,7 @@
       "name": "CM_SB_cas_hang_2_1",
       "section": "?",
       "face_role": "Casemate",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -294,6 +309,7 @@
       "name": "CM_SB_cas_hang_1_1",
       "section": "?",
       "face_role": "Casemate",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -314,6 +330,7 @@
       "name": "CM_SB_ssc_2",
       "section": "?",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -334,6 +351,7 @@
       "name": "CM_SB_ss_2_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -354,6 +372,7 @@
       "name": "CM_SB_cit_1",
       "section": "Cit",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 15.0,
       "bounds": {
         "z": [
@@ -380,6 +399,7 @@
       "name": "CM_SB_cas_1",
       "section": "Cas",
       "face_role": "Casemate",
+      "orientation": "vertical",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -400,6 +420,7 @@
       "name": "CM_SB_ssc_1",
       "section": "?",
       "face_role": "Superstructure",
+      "orientation": "horizontal",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -414,12 +435,14 @@
           -0.516,
           0.516
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_bow_2",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 15.0,
       "bounds": {
         "z": [
@@ -439,7 +462,8 @@
     {
       "name": "CM_SB_fdck_1",
       "section": "?",
-      "face_role": "Deck",
+      "face_role": "FlightDeck",
+      "orientation": "horizontal",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -454,12 +478,14 @@
           -0.322,
           0.322
         ]
-      }
+      },
+      "deck_kind": "flight"
     },
     {
       "name": "CM_SB_ssc_4",
       "section": "?",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 13.0,
       "bounds": {
         "z": [
@@ -480,6 +506,7 @@
       "name": "CM_SB_bow_1",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 15.0,
       "bounds": {
         "z": [
