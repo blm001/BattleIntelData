@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.1",
-  "generated_at": "2026-07-07T09:52:30Z",
+  "schema_version": "1.2",
+  "generated_at": "2026-07-08T04:58:19Z",
   "game_version": "12267945",
-  "orientation_data": "unavailable",
+  "orientation_data": "coarse_aabb",
   "ship": {
     "id": 4293834736,
     "key": "PASC001_Erie_1936",
@@ -41,6 +41,7 @@
       "name": "CM_SB_stern_3",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -61,6 +62,7 @@
       "name": "CM_SB_ruder_1",
       "section": "SG",
       "face_role": "SteeringGear",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
@@ -81,6 +83,7 @@
       "name": "CM_SB_stern_1",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "vertical",
       "mm": 25.0,
       "bounds": {
         "z": [
@@ -101,6 +104,7 @@
       "name": "CM_SB_stern_2",
       "section": "St",
       "face_role": "Stern",
+      "orientation": "horizontal",
       "mm": 88.0,
       "bounds": {
         "z": [
@@ -115,12 +119,14 @@
           -0.34,
           0.34
         ]
-      }
+      },
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_cit_3",
       "section": "Cas",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 76.0,
       "bounds": {
         "z": [
@@ -145,6 +151,7 @@
       "name": "CM_SB_cit_ammo2_1",
       "section": "Ammo_2",
       "face_role": "AmmoRack",
+      "orientation": "vertical",
       "mm": 76.0,
       "bounds": {
         "z": [
@@ -169,6 +176,7 @@
       "name": "CM_SB_ssc_1",
       "section": "?",
       "face_role": "Superstructure",
+      "orientation": "horizontal",
       "mm": 88.0,
       "bounds": {
         "z": [
@@ -183,12 +191,14 @@
           -0.395,
           0.395
         ]
-      }
+      },
+      "deck_kind": "main"
     },
     {
       "name": "CM_SB_ss_2_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 88.0,
       "bounds": {
         "z": [
@@ -209,6 +219,7 @@
       "name": "CM_SB_ssc_3",
       "section": "?",
       "face_role": "Superstructure",
+      "orientation": "horizontal",
       "mm": 32.0,
       "bounds": {
         "z": [
@@ -223,12 +234,14 @@
           -0.418,
           0.418
         ]
-      }
+      },
+      "deck_kind": "main"
     },
     {
       "name": "CM_SB_cit_2",
       "section": "Cas",
       "face_role": "Citadel",
+      "orientation": "vertical",
       "mm": 88.0,
       "bounds": {
         "z": [
@@ -252,6 +265,7 @@
       "name": "CM_SB_engine1_1",
       "section": "?",
       "face_role": "Engine",
+      "orientation": "vertical",
       "mm": 88.0,
       "bounds": {
         "z": [
@@ -275,6 +289,7 @@
       "name": "CM_SB_ss_1_2",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 102.0,
       "bounds": {
         "z": [
@@ -295,6 +310,7 @@
       "name": "CM_SB_ss_1_1",
       "section": "SS",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 102.0,
       "bounds": {
         "z": [
@@ -315,6 +331,7 @@
       "name": "CM_SB_cit_1",
       "section": "Cas",
       "face_role": "Citadel",
+      "orientation": "horizontal",
       "mm": 73.0,
       "bounds": {
         "z": [
@@ -333,12 +350,14 @@
       "covered_by": [
         "CM_SB_ss_1_2",
         "CM_SB_ssc_2"
-      ]
+      ],
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_cit_ammo1_2",
       "section": "Ammo_1",
       "face_role": "AmmoRack",
+      "orientation": "horizontal",
       "mm": 88.0,
       "bounds": {
         "z": [
@@ -358,12 +377,14 @@
         "CM_SB_ss_1_1",
         "CM_SB_ss_1_2",
         "CM_SB_ssc_2"
-      ]
+      ],
+      "deck_kind": "weather"
     },
     {
       "name": "CM_SB_ssc_2",
       "section": "?",
       "face_role": "Superstructure",
+      "orientation": "vertical",
       "mm": 88.0,
       "bounds": {
         "z": [
@@ -384,6 +405,7 @@
       "name": "CM_SB_cit_ammo1_1",
       "section": "Ammo_1",
       "face_role": "AmmoRack",
+      "orientation": "vertical",
       "mm": 73.0,
       "bounds": {
         "z": [
@@ -409,6 +431,7 @@
       "name": "CM_SB_bow_1",
       "section": "Bow",
       "face_role": "Bow",
+      "orientation": "vertical",
       "mm": 10.0,
       "bounds": {
         "z": [
