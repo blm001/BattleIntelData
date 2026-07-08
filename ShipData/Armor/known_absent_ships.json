@@ -1,7 +1,7 @@
 {
   "schema": "known-absent-ships/1.0",
   "game_version": "12267945",
-  "generated_at": "2026-07-07T10:36:17Z",
+  "generated_at": "2026-07-08T05:07:29Z",
   "note": "Ships present in GameParams but ABSENT from the armor dataset because their hull model assets are not shipped in res_packages on a standard client install (wowsunpack extraction matches nothing). These are non-player entities: event/operation ships, crossover/boss hulls, April-Fools 'Duck' ships, and internal rework/test variants ('_modern', 'H2018'/'H2019'/'H2020', '_PA'). Consumers should fail soft (show no armor recommendation) for these keys; they are not bugs. Regenerated on every full batch run to stay truthful as WG adds/removes ships.",
   "reason_code": "model_assets_not_in_packages",
   "count": 50,
