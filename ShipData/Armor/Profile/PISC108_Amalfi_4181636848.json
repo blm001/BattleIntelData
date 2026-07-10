@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.2",
-  "generated_at": "2026-07-08T05:02:48Z",
+  "schema_version": "1.3",
+  "generated_at": "2026-07-10T10:34:05Z",
   "game_version": "12267945",
   "orientation_data": "coarse_aabb",
   "ship": {
@@ -56,6 +56,54 @@
           -0.198,
           0.198
         ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9991,
+              -0.0022,
+              0.0433
+            ],
+            "inclination_deg": 89.9,
+            "area": 1.74993,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.8027,
+              -0.4998,
+              -0.3253
+            ],
+            "inclination_deg": 60.0,
+            "area": 0.91297,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.822,
+              0.5305,
+              0.2069
+            ],
+            "inclination_deg": 58.0,
+            "area": 0.78796,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.1176,
+              0.6645,
+              0.738
+            ],
+            "inclination_deg": 48.4,
+            "area": 0.28233,
+            "kind": "slope"
+          }
+        ]
       }
     },
     {
@@ -76,6 +124,24 @@
         "x": [
           -0.04,
           0.04
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          46.4,
+          88.6
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0,
+              0.6897,
+              0.7241
+            ],
+            "inclination_deg": 46.4,
+            "area": 0.02837,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -98,6 +164,34 @@
           -0.105,
           0.105
         ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          52.8,
+          88.2
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.8414,
+              -0.5403,
+              0.0098
+            ],
+            "inclination_deg": 57.3,
+            "area": 0.06805,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.3533,
+              -0.0372,
+              0.9348
+            ],
+            "inclination_deg": 87.9,
+            "area": 0.03074,
+            "kind": "transverse"
+          }
+        ]
       }
     },
     {
@@ -119,6 +213,64 @@
           -0.36,
           0.36
         ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9848,
+              -0.1732,
+              0.0124
+            ],
+            "inclination_deg": 80.0,
+            "area": 24.0082,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.1022,
+              0.9944,
+              0.0275
+            ],
+            "inclination_deg": 6.1,
+            "area": 20.09647,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.8188,
+              0.5217,
+              0.2398
+            ],
+            "inclination_deg": 58.6,
+            "area": 15.20633,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.1615,
+              -0.9749,
+              -0.1533
+            ],
+            "inclination_deg": 12.9,
+            "area": 15.12454,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.7095,
+              -0.7043,
+              -0.0264
+            ],
+            "inclination_deg": 45.2,
+            "area": 7.548,
+            "kind": "slope"
+          }
+        ]
       }
     },
     {
@@ -139,6 +291,44 @@
         "x": [
           -0.109,
           0.109
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          24.8,
+          89.9
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.999,
+              0.0129,
+              -0.0435
+            ],
+            "inclination_deg": 89.3,
+            "area": 2.52178,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.4413,
+              -0.826,
+              -0.3507
+            ],
+            "inclination_deg": 34.3,
+            "area": 0.37817,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.8853,
+              -0.4646,
+              0.0186
+            ],
+            "inclination_deg": 62.3,
+            "area": 0.15486,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -162,7 +352,35 @@
           0.196
         ]
       },
-      "deck_kind": "weather"
+      "deck_kind": "weather",
+      "geometry": {
+        "inclination_spread_deg": [
+          13.8,
+          87.9
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.6272,
+              -0.7601,
+              0.1698
+            ],
+            "inclination_deg": 40.5,
+            "area": 0.82329,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.9411,
+              0.1659,
+              -0.2948
+            ],
+            "inclination_deg": 80.4,
+            "area": 0.24683,
+            "kind": "belt"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ruder_1_2",
@@ -184,7 +402,45 @@
           0.22
         ]
       },
-      "deck_kind": "weather"
+      "deck_kind": "weather",
+      "geometry": {
+        "inclination_spread_deg": [
+          13.5,
+          89.2
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0278,
+              0.9715,
+              0.2354
+            ],
+            "inclination_deg": 13.7,
+            "area": 1.42795,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.9257,
+              0.3758,
+              -0.0437
+            ],
+            "inclination_deg": 67.9,
+            "area": 0.39353,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.3559,
+              0.901,
+              -0.2482
+            ],
+            "inclination_deg": 25.7,
+            "area": 0.1616,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ruder_1_1",
@@ -206,7 +462,45 @@
           0.316
         ]
       },
-      "deck_kind": "weather"
+      "deck_kind": "weather",
+      "geometry": {
+        "inclination_spread_deg": [
+          20.6,
+          89.7
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9964,
+              -0.0685,
+              -0.0506
+            ],
+            "inclination_deg": 86.1,
+            "area": 2.86529,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.5099,
+              0.8574,
+              0.0694
+            ],
+            "inclination_deg": 31.0,
+            "area": 0.18418,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.2138,
+              -0.9218,
+              -0.3233
+            ],
+            "inclination_deg": 22.8,
+            "area": 0.16833,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_stern_1",
@@ -226,6 +520,84 @@
         "x": [
           -0.548,
           0.548
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.8459,
+              0.5305,
+              0.0549
+            ],
+            "inclination_deg": 58.0,
+            "area": 9.80601,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.7519,
+              -0.655,
+              -0.0743
+            ],
+            "inclination_deg": 49.1,
+            "area": 6.61409,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.321,
+              0.9458,
+              0.0488
+            ],
+            "inclination_deg": 18.9,
+            "area": 3.88057,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0086,
+              -0.0281,
+              -0.9996
+            ],
+            "inclination_deg": 88.4,
+            "area": 3.76729,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.5256,
+              0.1162,
+              0.8427
+            ],
+            "inclination_deg": 83.3,
+            "area": 3.10732,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.014,
+              0.0531,
+              0.9985
+            ],
+            "inclination_deg": 87.0,
+            "area": 2.6206,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0286,
+              0.8532,
+              0.5208
+            ],
+            "inclination_deg": 31.4,
+            "area": 2.61296,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -251,7 +623,55 @@
       },
       "covered_by": [
         "CM_SB_cas_2"
-      ]
+      ],
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.3222,
+              0.9465,
+              -0.0175
+            ],
+            "inclination_deg": 18.8,
+            "area": 44.244,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.9932,
+              -0.1167,
+              0.0021
+            ],
+            "inclination_deg": 83.3,
+            "area": 32.54272,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.4108,
+              -0.9116,
+              -0.0156
+            ],
+            "inclination_deg": 24.3,
+            "area": 30.19412,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.8815,
+              0.4712,
+              0.0298
+            ],
+            "inclination_deg": 61.9,
+            "area": 19.14141,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_cas_2",
@@ -273,7 +693,55 @@
           0.709
         ]
       },
-      "deck_kind": "main"
+      "deck_kind": "main",
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9865,
+              0.1591,
+              -0.0378
+            ],
+            "inclination_deg": 80.8,
+            "area": 30.49951,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0582,
+              -0.996,
+              0.0683
+            ],
+            "inclination_deg": 5.1,
+            "area": 27.74904,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.069,
+              0.9974,
+              -0.0226
+            ],
+            "inclination_deg": 4.2,
+            "area": 23.32244,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0286,
+              0.0148,
+              0.9995
+            ],
+            "inclination_deg": 89.2,
+            "area": 4.02281,
+            "kind": "transverse"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_gk_3_1",
@@ -293,6 +761,64 @@
         "x": [
           -0.181,
           0.181
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9965,
+              0.0419,
+              -0.0727
+            ],
+            "inclination_deg": 87.6,
+            "area": 7.16355,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0979,
+              -0.105,
+              0.9896
+            ],
+            "inclination_deg": 84.0,
+            "area": 1.33404,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0393,
+              -0.9836,
+              0.1762
+            ],
+            "inclination_deg": 10.4,
+            "area": 1.18084,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0434,
+              0.9991,
+              -0.0015
+            ],
+            "inclination_deg": 2.5,
+            "area": 0.64562,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.1738,
+              0.0896,
+              -0.9807
+            ],
+            "inclination_deg": 84.9,
+            "area": 0.61514,
+            "kind": "transverse"
+          }
         ]
       }
     },
@@ -316,7 +842,45 @@
           0.313
         ]
       },
-      "deck_kind": "weather"
+      "deck_kind": "weather",
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0435,
+              -0.999,
+              0.0139
+            ],
+            "inclination_deg": 2.6,
+            "area": 59.00243,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0262,
+              0.9996,
+              0.012
+            ],
+            "inclination_deg": 1.7,
+            "area": 48.05411,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              1.0,
+              -0.0082,
+              0.0027
+            ],
+            "inclination_deg": 89.5,
+            "area": 16.65457,
+            "kind": "belt"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ss_3_2",
@@ -336,6 +900,74 @@
         "x": [
           -0.126,
           0.126
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0792,
+              0.9963,
+              0.0327
+            ],
+            "inclination_deg": 4.9,
+            "area": 9.51918,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.7165,
+              0.0333,
+              -0.6968
+            ],
+            "inclination_deg": 88.1,
+            "area": 6.73136,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.997,
+              -0.0739,
+              -0.0236
+            ],
+            "inclination_deg": 85.8,
+            "area": 6.54898,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0314,
+              -0.9994,
+              -0.0164
+            ],
+            "inclination_deg": 2.0,
+            "area": 2.29773,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.6273,
+              -0.7351,
+              0.257
+            ],
+            "inclination_deg": 42.7,
+            "area": 1.99309,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.0353,
+              -0.569,
+              0.8216
+            ],
+            "inclination_deg": 55.3,
+            "area": 1.77767,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -365,7 +997,35 @@
         "CM_SB_engine_1_1",
         "CM_SB_ss_2_1"
       ],
-      "deck_kind": "weather"
+      "deck_kind": "weather",
+      "geometry": {
+        "inclination_spread_deg": [
+          4.1,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.2959,
+              0.9528,
+              -0.0685
+            ],
+            "inclination_deg": 17.7,
+            "area": 8.50406,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.1486,
+              -0.9877,
+              -0.0487
+            ],
+            "inclination_deg": 9.0,
+            "area": 2.13034,
+            "kind": "deck"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_engine_1_1",
@@ -392,7 +1052,45 @@
         "CM_SB_cit_2",
         "CM_SB_ss_2_1"
       ],
-      "deck_kind": "main"
+      "deck_kind": "main",
+      "geometry": {
+        "inclination_spread_deg": [
+          3.0,
+          88.8
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9935,
+              -0.1116,
+              -0.0233
+            ],
+            "inclination_deg": 83.6,
+            "area": 16.60682,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.8569,
+              0.5058,
+              0.0995
+            ],
+            "inclination_deg": 59.6,
+            "area": 7.15701,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.3468,
+              0.9355,
+              -0.0681
+            ],
+            "inclination_deg": 20.7,
+            "area": 6.68675,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ss_2_1",
@@ -414,7 +1112,75 @@
           0.266
         ]
       },
-      "deck_kind": "main"
+      "deck_kind": "main",
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.1349,
+              -0.9907,
+              -0.0195
+            ],
+            "inclination_deg": 7.8,
+            "area": 36.58363,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0557,
+              0.9984,
+              -0.0104
+            ],
+            "inclination_deg": 3.2,
+            "area": 33.15328,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.9985,
+              0.0427,
+              -0.0357
+            ],
+            "inclination_deg": 87.6,
+            "area": 15.45008,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0641,
+              -0.0059,
+              -0.9979
+            ],
+            "inclination_deg": 89.7,
+            "area": 9.43541,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0101,
+              -0.886,
+              0.4635
+            ],
+            "inclination_deg": 27.6,
+            "area": 7.00572,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.0625,
+              -0.1299,
+              0.9896
+            ],
+            "inclination_deg": 82.5,
+            "area": 6.01971,
+            "kind": "transverse"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ss_2_2",
@@ -434,6 +1200,74 @@
         "x": [
           -0.143,
           0.143
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.1025,
+              0.033,
+              0.9942
+            ],
+            "inclination_deg": 88.1,
+            "area": 11.36321,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0469,
+              -0.6432,
+              0.7642
+            ],
+            "inclination_deg": 50.0,
+            "area": 5.64582,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.1329,
+              0.0499,
+              -0.9899
+            ],
+            "inclination_deg": 87.1,
+            "area": 5.57609,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0312,
+              0.9721,
+              -0.2323
+            ],
+            "inclination_deg": 13.6,
+            "area": 4.4248,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0651,
+              0.6362,
+              -0.7688
+            ],
+            "inclination_deg": 50.5,
+            "area": 1.76862,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.0208,
+              0.7414,
+              0.6707
+            ],
+            "inclination_deg": 42.1,
+            "area": 1.63382,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -457,7 +1291,95 @@
           0.621
         ]
       },
-      "deck_kind": "weather"
+      "deck_kind": "weather",
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.1764,
+              -0.9628,
+              0.2048
+            ],
+            "inclination_deg": 15.7,
+            "area": 10.88503,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.021,
+              0.9981,
+              -0.0576
+            ],
+            "inclination_deg": 3.5,
+            "area": 6.59168,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.9825,
+              0.019,
+              -0.185
+            ],
+            "inclination_deg": 88.9,
+            "area": 4.66554,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.1952,
+              -0.0525,
+              0.9794
+            ],
+            "inclination_deg": 87.0,
+            "area": 3.86002,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.013,
+              -0.94,
+              -0.341
+            ],
+            "inclination_deg": 20.0,
+            "area": 3.81282,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0492,
+              -0.051,
+              -0.9975
+            ],
+            "inclination_deg": 87.1,
+            "area": 3.59059,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.763,
+              -0.645,
+              -0.0433
+            ],
+            "inclination_deg": 49.8,
+            "area": 1.95775,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.6977,
+              0.7121,
+              -0.0788
+            ],
+            "inclination_deg": 44.6,
+            "area": 1.74562,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ss_2_3",
@@ -477,6 +1399,64 @@
         "x": [
           -0.143,
           0.143
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.1329,
+              -0.9728,
+              0.19
+            ],
+            "inclination_deg": 13.4,
+            "area": 29.95358,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.9996,
+              0.0262,
+              -0.0099
+            ],
+            "inclination_deg": 88.5,
+            "area": 18.56874,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0442,
+              0.9976,
+              0.0539
+            ],
+            "inclination_deg": 4.0,
+            "area": 14.19229,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.1194,
+              0.8593,
+              -0.4974
+            ],
+            "inclination_deg": 30.8,
+            "area": 8.21693,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.7769,
+              -0.6295,
+              -0.0111
+            ],
+            "inclination_deg": 51.0,
+            "area": 4.14744,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -500,7 +1480,55 @@
           0.682
         ]
       },
-      "deck_kind": "main"
+      "deck_kind": "main",
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0192,
+              0.9998,
+              0.0055
+            ],
+            "inclination_deg": 1.1,
+            "area": 38.99918,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0596,
+              -0.9961,
+              0.0651
+            ],
+            "inclination_deg": 5.1,
+            "area": 22.92983,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.991,
+              0.0729,
+              -0.1124
+            ],
+            "inclination_deg": 85.8,
+            "area": 12.7072,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.5524,
+              0.823,
+              0.1326
+            ],
+            "inclination_deg": 34.6,
+            "area": 4.27998,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ss_1_1",
@@ -522,7 +1550,65 @@
           0.266
         ]
       },
-      "deck_kind": "weather"
+      "deck_kind": "weather",
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0134,
+              0.9972,
+              0.0735
+            ],
+            "inclination_deg": 4.3,
+            "area": 30.38204,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0201,
+              -0.998,
+              -0.0603
+            ],
+            "inclination_deg": 3.6,
+            "area": 20.56329,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.9547,
+              0.0803,
+              -0.2865
+            ],
+            "inclination_deg": 85.4,
+            "area": 5.44274,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.9644,
+              0.124,
+              0.2335
+            ],
+            "inclination_deg": 82.9,
+            "area": 3.66881,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.681,
+              0.7231,
+              -0.1155
+            ],
+            "inclination_deg": 43.7,
+            "area": 3.55466,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_ss_1_3",
@@ -542,6 +1628,54 @@
         "x": [
           -0.102,
           0.102
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0277,
+              0.9904,
+              0.1356
+            ],
+            "inclination_deg": 8.0,
+            "area": 9.85225,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0334,
+              -0.9947,
+              -0.0972
+            ],
+            "inclination_deg": 5.9,
+            "area": 5.93525,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.6844,
+              0.6763,
+              -0.2723
+            ],
+            "inclination_deg": 47.4,
+            "area": 3.10397,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.9504,
+              -0.0672,
+              -0.3037
+            ],
+            "inclination_deg": 86.1,
+            "area": 2.27757,
+            "kind": "belt"
+          }
         ]
       }
     },
@@ -564,6 +1698,64 @@
           -0.176,
           0.176
         ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0512,
+              -0.996,
+              -0.0731
+            ],
+            "inclination_deg": 5.1,
+            "area": 19.19938,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.1121,
+              -0.1608,
+              -0.9806
+            ],
+            "inclination_deg": 80.7,
+            "area": 14.99286,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.9945,
+              -0.0934,
+              0.0476
+            ],
+            "inclination_deg": 84.6,
+            "area": 14.56689,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0286,
+              0.9967,
+              0.0756
+            ],
+            "inclination_deg": 4.6,
+            "area": 14.5053,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0381,
+              0.1032,
+              0.9939
+            ],
+            "inclination_deg": 84.1,
+            "area": 12.57071,
+            "kind": "transverse"
+          }
+        ]
       }
     },
     {
@@ -584,6 +1776,64 @@
         "x": [
           -0.181,
           0.181
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0779,
+              -0.0499,
+              0.9957
+            ],
+            "inclination_deg": 87.1,
+            "area": 3.02118,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0712,
+              -0.0886,
+              -0.9935
+            ],
+            "inclination_deg": 84.9,
+            "area": 2.56708,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0143,
+              -0.9863,
+              0.1642
+            ],
+            "inclination_deg": 9.5,
+            "area": 2.15827,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0251,
+              0.998,
+              0.058
+            ],
+            "inclination_deg": 3.6,
+            "area": 1.39632,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0761,
+              0.5362,
+              0.8406
+            ],
+            "inclination_deg": 57.6,
+            "area": 0.60068,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -610,7 +1860,45 @@
       "covered_by": [
         "CM_SB_cas_1",
         "CM_SB_ssc_1"
-      ]
+      ],
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9928,
+              0.1135,
+              -0.0374
+            ],
+            "inclination_deg": 83.5,
+            "area": 4.2553,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.6055,
+              -0.7956,
+              0.0202
+            ],
+            "inclination_deg": 37.3,
+            "area": 3.72509,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.5733,
+              0.8193,
+              -0.0118
+            ],
+            "inclination_deg": 35.0,
+            "area": 3.31549,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_cas_1",
@@ -632,7 +1920,35 @@
           0.549
         ]
       },
-      "deck_kind": "main"
+      "deck_kind": "main",
+      "geometry": {
+        "inclination_spread_deg": [
+          35.3,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9377,
+              -0.3397,
+              0.0731
+            ],
+            "inclination_deg": 70.1,
+            "area": 0.22233,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.9007,
+              0.4344,
+              0.0084
+            ],
+            "inclination_deg": 64.3,
+            "area": 0.18271,
+            "kind": "slope"
+          }
+        ]
+      }
     },
     {
       "name": "CM_SB_gk_1_1",
@@ -652,6 +1968,54 @@
         "x": [
           -0.181,
           0.181
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.0167,
+              0.9998,
+              -0.0125
+            ],
+            "inclination_deg": 1.2,
+            "area": 3.4096,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0174,
+              -0.9998,
+              0.0082
+            ],
+            "inclination_deg": 1.1,
+            "area": 2.00401,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.1529,
+              -0.3029,
+              0.9407
+            ],
+            "inclination_deg": 72.4,
+            "area": 0.86677,
+            "kind": "transverse"
+          },
+          {
+            "normal": [
+              0.0006,
+              -0.8369,
+              -0.5474
+            ],
+            "inclination_deg": 33.2,
+            "area": 0.33733,
+            "kind": "slope"
+          }
         ]
       }
     },
@@ -674,6 +2038,64 @@
           -0.383,
           0.383
         ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9992,
+              0.0207,
+              -0.0339
+            ],
+            "inclination_deg": 88.8,
+            "area": 7.79747,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0058,
+              -0.9907,
+              -0.136
+            ],
+            "inclination_deg": 7.8,
+            "area": 3.67397,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.8307,
+              -0.5249,
+              0.1854
+            ],
+            "inclination_deg": 58.3,
+            "area": 3.14771,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.8265,
+              0.5627,
+              -0.0188
+            ],
+            "inclination_deg": 55.8,
+            "area": 2.8514,
+            "kind": "slope"
+          },
+          {
+            "normal": [
+              0.0876,
+              0.9959,
+              -0.0237
+            ],
+            "inclination_deg": 5.2,
+            "area": 2.30817,
+            "kind": "deck"
+          }
+        ]
       }
     },
     {
@@ -695,6 +2117,54 @@
           -0.269,
           0.269
         ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9988,
+              -0.0271,
+              -0.0419
+            ],
+            "inclination_deg": 88.4,
+            "area": 16.22314,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.1705,
+              -0.9851,
+              -0.0242
+            ],
+            "inclination_deg": 9.9,
+            "area": 1.62372,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.0194,
+              0.9998,
+              -0.0015
+            ],
+            "inclination_deg": 1.1,
+            "area": 1.42611,
+            "kind": "deck"
+          },
+          {
+            "normal": [
+              0.796,
+              -0.6052,
+              0.013
+            ],
+            "inclination_deg": 52.8,
+            "area": 0.90772,
+            "kind": "slope"
+          }
+        ]
       }
     },
     {
@@ -715,6 +2185,34 @@
         "x": [
           -0.125,
           0.125
+        ]
+      },
+      "geometry": {
+        "inclination_spread_deg": [
+          0.0,
+          90.0
+        ],
+        "facets": [
+          {
+            "normal": [
+              0.9998,
+              -0.0192,
+              0.0041
+            ],
+            "inclination_deg": 88.9,
+            "area": 2.40673,
+            "kind": "belt"
+          },
+          {
+            "normal": [
+              0.0268,
+              -0.9993,
+              0.0256
+            ],
+            "inclination_deg": 2.1,
+            "area": 0.18807,
+            "kind": "deck"
+          }
         ]
       }
     }
