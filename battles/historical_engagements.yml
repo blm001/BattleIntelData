@@ -1,0 +1,54 @@
+---
+battles:
+  - battle_id: BTL001
+    name: "Operation Thunder Strike"
+    date: "2024-01-10"
+    location:
+      lat: 40.7128
+      lng: -74.0060
+      region: "Sector A"
+    participants:
+      friendly:
+        - unit: "Alpha Squad"
+          strength: 12
+          casualties: 1
+        - unit: "Tank Company 1"
+          strength: 4
+          casualties: 0
+      enemy:
+        - unit: "Unknown Infantry"
+          estimated_strength: 20
+          casualties: 8
+    outcome: "victory"
+    duration_hours: 6
+    objectives:
+      - "Secure communication tower"
+      - "Eliminate enemy presence"
+    lessons_learned:
+      - "Urban combat requires additional CQB training"
+      - "Air support was crucial for success"
+
+  - battle_id: BTL002
+    name: "Defensive Action at Checkpoint Bravo"
+    date: "2024-01-12"
+    location:
+      lat: 40.7589
+      lng: -73.9851
+      region: "Sector B"
+    participants:
+      friendly:
+        - unit: "Bravo Squad"
+          strength: 8
+          casualties: 2
+      enemy:
+        - unit: "Enemy Assault Team"
+          estimated_strength: 15
+          casualties: 12
+    outcome: "victory"
+    duration_hours: 3
+    objectives:
+      - "Hold checkpoint position"
+      - "Prevent enemy advance"
+    lessons_learned:
+      - "Fortified positions provide significant advantage"
+      - "Communication with base remained critical"
