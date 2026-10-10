@@ -1,9 +1,15 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.2'
+MOD_VERSION = '5.3'
 
-# BattleStart Mod v5.2 for WoWsBattleIntel
+# BattleStart Mod v5.3 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
+# v5.3 changes:
+#   - Fix tempArenaInfo.json preservation: some installs place replays under a
+#     per-game-version subfolder (e.g. replays/15.9.0.0/tempArenaInfo.json)
+#     instead of directly in replays/. Now tries the flat path first, then
+#     discovers and tries version subfolders under replays/ via os.listdir
+#     (best-effort; falls back silently if 'os' is unavailable in-sandbox).
 # v5.2 changes:
 #   - Preserve a timestamped copy of the game's tempArenaInfo.json alongside
 #     BattleStart output, so the app can backfill battles played while it was closed.
@@ -26,6 +32,11 @@ try:
     import battle
 except:
     pass
+
+try:
+    import os
+except:
+    os = None
 
 try:
     MOD_PATH = utils.getModDir()
@@ -820,30 +831,52 @@ def _write_json_file(path, data):
         _log('[ERROR] BattleStart write failed to %s: %s' % (path, str(sys.exc_info()[1])))
 
 
-def _resolve_temp_arena_info_path():
+def _resolve_temp_arena_info_candidates():
     """
-    Resolve the game's tempArenaInfo.json path from MOD_PATH, with no 'os' module available.
+    Resolve candidate paths for the game's tempArenaInfo.json from MOD_PATH.
     MOD_PATH is typically: <gameInstall>/bin/<version>/res_mods/PnFMods/BattleStart
-    tempArenaInfo.json lives at: <gameInstall>/replays/tempArenaInfo.json
-    We walk up from MOD_PATH to the 'bin' segment's parent (the game install root),
-    then append 'replays/tempArenaInfo.json'. Pure string ops only (no os.path).
+    tempArenaInfo.json normally lives at: <gameInstall>/replays/tempArenaInfo.json
+    but some installs (e.g. with a replay-organizing mod) place it under a
+    per-game-version subfolder instead: <gameInstall>/replays/<gameVersion>/tempArenaInfo.json
+    Returns a list of candidate full paths to try, in priority order.
     """
+    candidates = []
     try:
         if not MOD_PATH:
-            return None
+            return candidates
         normalized = MOD_PATH.replace('\\', '/')
         parts = [p for p in normalized.split('/') if p]
         try:
             bin_idx = parts.index('bin')
         except ValueError:
-            return None
+            return candidates
         game_root_parts = parts[:bin_idx]
         if not game_root_parts:
-            return None
+            return candidates
         game_root = '/'.join(game_root_parts)
-        return game_root + '/replays/tempArenaInfo.json'
+        replays_dir = game_root + '/replays'
+
+        # Candidate 1: flat path (no version subfolder)
+        candidates.append(replays_dir + '/tempArenaInfo.json')
+
+        # Candidate 2+: any subfolders under replays/ (e.g. a game-version folder)
+        # Best-effort directory listing; silently skip if 'os' is unavailable
+        # or listing fails (sandboxed Python environment).
+        try:
+            if os is not None:
+                entries = os.listdir(replays_dir)
+                for entry in entries:
+                    try:
+                        sub_path = replays_dir + '/' + entry
+                        if os.path.isdir(sub_path):
+                            candidates.append(sub_path + '/tempArenaInfo.json')
+                    except:
+                        pass
+        except Exception as ex:
+            _log('[DIAGNOSTIC] Could not list replays dir %s: %s' % (replays_dir, str(ex)))
     except:
-        return None
+        pass
+    return candidates
 
 
 def _preserve_temp_arena_info(ts_str):
@@ -851,23 +884,33 @@ def _preserve_temp_arena_info(ts_str):
     Copy the game's current tempArenaInfo.json into this mod's output folder as
     tempArenaInfo_<ts_str>.json, so the app can detect and backfill this battle
     at next startup if it was not running when the battle was played.
+    Tries multiple candidate source paths (flat replays/ folder, and any
+    per-version subfolders) since install layout can vary.
     Best-effort: logs and returns silently on any failure.
     """
     try:
-        src_path = _resolve_temp_arena_info_path()
-        if not src_path:
-            _log('[WARNING] Could not resolve tempArenaInfo.json source path from MOD_PATH=%s' % str(MOD_PATH))
-            return
-        try:
-            f = open(src_path, 'rb')
-            content = f.read()
-            f.close()
-        except Exception as ex:
-            _log('[WARNING] Could not read tempArenaInfo.json at %s: %s' % (src_path, str(ex)))
+        candidates = _resolve_temp_arena_info_candidates()
+        if not candidates:
+            _log('[WARNING] Could not resolve any tempArenaInfo.json candidate paths from MOD_PATH=%s' % str(MOD_PATH))
             return
 
-        if not content:
-            _log('[WARNING] tempArenaInfo.json at %s was empty' % src_path)
+        content = None
+        used_path = None
+        for src_path in candidates:
+            try:
+                f = open(src_path, 'rb')
+                content = f.read()
+                f.close()
+                if content:
+                    used_path = src_path
+                    break
+                else:
+                    content = None
+            except Exception as ex:
+                _log('[DIAGNOSTIC] tempArenaInfo.json not readable at %s: %s' % (src_path, str(ex)))
+
+        if content is None:
+            _log('[WARNING] Could not read tempArenaInfo.json from any candidate path: %s' % str(candidates))
             return
 
         dest_path = MOD_PATH + '/tempArenaInfo_' + ts_str + '.json'
@@ -875,7 +918,7 @@ def _preserve_temp_arena_info(ts_str):
             out = open(dest_path, 'wb')
             out.write(content)
             out.close()
-            _log('[DIAGNOSTIC] Preserved tempArenaInfo.json -> %s' % dest_path)
+            _log('[DIAGNOSTIC] Preserved tempArenaInfo.json from %s -> %s' % (used_path, dest_path))
         except Exception as ex:
             _log('[ERROR] Failed writing preserved tempArenaInfo copy to %s: %s' % (dest_path, str(ex)))
     except Exception as ex:
