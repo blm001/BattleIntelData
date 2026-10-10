@@ -1,6 +1,6 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.9'
+MOD_VERSION = '5.10'
 
 # Retry settings for tempArenaInfo.json preservation: the game can still be
 # writing this file when onPlayersListUpdated first fires, so a single
@@ -52,10 +52,12 @@ try:
 except:
     os = None
 
+_callbacks_import_error = None
 try:
     import callbacks
 except Exception as _callbacks_ex:
     callbacks = None
+    _callbacks_import_error = str(_callbacks_ex)
 
 try:
     MOD_PATH = utils.getModDir()
@@ -81,7 +83,7 @@ def _log(msg):
 
 
 if callbacks is None:
-    _log('[DIAGNOSTIC] callbacks module unavailable: %s' % str(globals().get('_callbacks_ex')))
+    _log('[DIAGNOSTIC] callbacks module unavailable: %s' % str(_callbacks_import_error))
 else:
     _log('[DIAGNOSTIC] callbacks module available')
 
