@@ -1,9 +1,12 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.1'
+MOD_VERSION = '5.2'
 
-# BattleStart Mod v5.1 for WoWsBattleIntel
+# BattleStart Mod v5.2 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
+# v5.2 changes:
+#   - Preserve a timestamped copy of the game's tempArenaInfo.json alongside
+#     BattleStart output, so the app can backfill battles played while it was closed.
 # v5.1 changes:
 #   - Full parameter parser for ALL consumable attributes (not just first)
 #   - Retry mechanism for Random battles (event fires before data ready)
@@ -11,7 +14,8 @@ MOD_VERSION = '5.1'
 #   - Complete consumable data for both teams (not just allies)
 # Data sources: dataHub 'shipBattleInfo' for all ship data (TTX, consumables, identity)
 #               battle.getPlayersInfo() for supplemental player info
-# Output: BattleStart.json in mod folder (stable) + timestamped backup.
+# Output: BattleStart.json in mod folder (stable) + timestamped backup
+#         + tempArenaInfo_<timestamp>.json (preserved copy of the game's own file).
 
 try:
     import time
@@ -816,6 +820,68 @@ def _write_json_file(path, data):
         _log('[ERROR] BattleStart write failed to %s: %s' % (path, str(sys.exc_info()[1])))
 
 
+def _resolve_temp_arena_info_path():
+    """
+    Resolve the game's tempArenaInfo.json path from MOD_PATH, with no 'os' module available.
+    MOD_PATH is typically: <gameInstall>/bin/<version>/res_mods/PnFMods/BattleStart
+    tempArenaInfo.json lives at: <gameInstall>/replays/tempArenaInfo.json
+    We walk up from MOD_PATH to the 'bin' segment's parent (the game install root),
+    then append 'replays/tempArenaInfo.json'. Pure string ops only (no os.path).
+    """
+    try:
+        if not MOD_PATH:
+            return None
+        normalized = MOD_PATH.replace('\\', '/')
+        parts = [p for p in normalized.split('/') if p]
+        try:
+            bin_idx = parts.index('bin')
+        except ValueError:
+            return None
+        game_root_parts = parts[:bin_idx]
+        if not game_root_parts:
+            return None
+        game_root = '/'.join(game_root_parts)
+        return game_root + '/replays/tempArenaInfo.json'
+    except:
+        return None
+
+
+def _preserve_temp_arena_info(ts_str):
+    """
+    Copy the game's current tempArenaInfo.json into this mod's output folder as
+    tempArenaInfo_<ts_str>.json, so the app can detect and backfill this battle
+    at next startup if it was not running when the battle was played.
+    Best-effort: logs and returns silently on any failure.
+    """
+    try:
+        src_path = _resolve_temp_arena_info_path()
+        if not src_path:
+            _log('[WARNING] Could not resolve tempArenaInfo.json source path from MOD_PATH=%s' % str(MOD_PATH))
+            return
+        try:
+            f = open(src_path, 'rb')
+            content = f.read()
+            f.close()
+        except Exception as ex:
+            _log('[WARNING] Could not read tempArenaInfo.json at %s: %s' % (src_path, str(ex)))
+            return
+
+        if not content:
+            _log('[WARNING] tempArenaInfo.json at %s was empty' % src_path)
+            return
+
+        dest_path = MOD_PATH + '/tempArenaInfo_' + ts_str + '.json'
+        try:
+            out = open(dest_path, 'wb')
+            out.write(content)
+            out.close()
+            _log('[DIAGNOSTIC] Preserved tempArenaInfo.json -> %s' % dest_path)
+        except Exception as ex:
+            _log('[ERROR] Failed writing preserved tempArenaInfo copy to %s: %s' % (dest_path, str(ex)))
+    except Exception as ex:
+        _log('[ERROR] _preserve_temp_arena_info failed: %s' % str(ex))
+
+
 def _do_write_ship_params(trigger_name):
     """
     Collect and write ship params. Called from onPlayersListUpdated.
@@ -861,6 +927,10 @@ def _do_write_ship_params(trigger_name):
         ts_str = str(ts)
     backup_path = MOD_PATH + '/BattleStart_' + ts_str + '.json'
     _write_json_file(backup_path, data)
+
+    # Preserve the game's own tempArenaInfo.json so the app can backfill this
+    # battle at next startup if it was not running when the battle was played.
+    _preserve_temp_arena_info(ts_str)
 
     _log('BattleStart JSON written: %d players' % player_count)
     return True
