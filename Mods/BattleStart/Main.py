@@ -1,9 +1,14 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.3'
+MOD_VERSION = '5.4'
 
-# BattleStart Mod v5.3 for WoWsBattleIntel
+# BattleStart Mod v5.4 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
+# v5.4 changes:
+#   - Added verbose diagnostic logging around tempArenaInfo.json candidate
+#     resolution (os module availability, directory listing results, per-entry
+#     isdir checks) to root-cause why the v5.3 subfolder discovery found no
+#     candidates beyond the flat replays/ path.
 # v5.3 changes:
 #   - Fix tempArenaInfo.json preservation: some installs place replays under a
 #     per-game-version subfolder (e.g. replays/15.9.0.0/tempArenaInfo.json)
@@ -862,20 +867,26 @@ def _resolve_temp_arena_info_candidates():
         # Candidate 2+: any subfolders under replays/ (e.g. a game-version folder)
         # Best-effort directory listing; silently skip if 'os' is unavailable
         # or listing fails (sandboxed Python environment).
-        try:
-            if os is not None:
+        if os is None:
+            _log('[DIAGNOSTIC] os module unavailable; cannot enumerate replays subfolders')
+        else:
+            try:
                 entries = os.listdir(replays_dir)
+                _log('[DIAGNOSTIC] Listed replays dir %s: %s' % (replays_dir, str(entries)))
                 for entry in entries:
                     try:
                         sub_path = replays_dir + '/' + entry
-                        if os.path.isdir(sub_path):
+                        is_dir = os.path.isdir(sub_path)
+                        _log('[DIAGNOSTIC] Entry %s isdir=%s' % (sub_path, str(is_dir)))
+                        if is_dir:
                             candidates.append(sub_path + '/tempArenaInfo.json')
-                    except:
-                        pass
-        except Exception as ex:
-            _log('[DIAGNOSTIC] Could not list replays dir %s: %s' % (replays_dir, str(ex)))
-    except:
-        pass
+                    except Exception as ex2:
+                        _log('[DIAGNOSTIC] Error checking entry %s: %s' % (entry, str(ex2)))
+            except Exception as ex:
+                _log('[DIAGNOSTIC] Could not list replays dir %s: %s' % (replays_dir, str(ex)))
+    except Exception as ex_outer:
+        _log('[DIAGNOSTIC] _resolve_temp_arena_info_candidates outer failure: %s' % str(ex_outer))
+    _log('[DIAGNOSTIC] Final tempArenaInfo candidates: %s' % str(candidates))
     return candidates
 
 
