@@ -1,18 +1,28 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.10'
+MOD_VERSION = '5.11'
 
 # Retry settings for tempArenaInfo.json preservation: the game can still be
 # writing this file when onPlayersListUpdated first fires, so a single
-# immediate read attempt can race the game's own write. These control how
-# many times and how far apart _preserve_temp_arena_info retries via
-# callbacks.callback() before giving up.
-PRESERVE_MAX_ATTEMPTS = 3
-PRESERVE_RETRY_DELAY_SECONDS = 2
+# immediate read attempt can race the game's own write. Neither 'os' nor
+# 'callbacks' are available in this sandbox (confirmed via python.log's
+# "Allowed modules" list), so there is no delayed/scheduled-call API.
+# Instead, retries ride on the game's own repeated onPlayersListUpdated
+# firings (see _on_players_list_updated) up to PRESERVE_MAX_ATTEMPTS times.
+PRESERVE_MAX_ATTEMPTS = 6
 
 
-# BattleStart Mod v5.4 for WoWsBattleIntel
+# BattleStart Mod v5.11 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
+# v5.11 changes:
+#   - Confirmed via python.log that neither 'os' nor 'callbacks' modules are
+#     available in this sandbox ("Module 'callbacks' was not found in
+#     standard library"), so the v5.8-5.10 callback-based retry for
+#     tempArenaInfo.json preservation never actually retried (callbacks was
+#     always None). Removed the dead os/callbacks import attempts and
+#     diagnostic. Preservation retries now ride on the game's own repeated
+#     onPlayersListUpdated event firings (observed many times per battle in
+#     python.log) instead, up to PRESERVE_MAX_ATTEMPTS attempts.
 # v5.4 changes:
 #   - Added verbose diagnostic logging around tempArenaInfo.json candidate
 #     resolution (os module availability, directory listing results, per-entry
@@ -48,18 +58,6 @@ except:
     pass
 
 try:
-    import os
-except:
-    os = None
-
-_callbacks_import_error = None
-try:
-    import callbacks
-except Exception as _callbacks_ex:
-    callbacks = None
-    _callbacks_import_error = str(_callbacks_ex)
-
-try:
     MOD_PATH = utils.getModDir()
 except:
     MOD_PATH = ''
@@ -74,18 +72,17 @@ except:
 _captured_once = False  # Flag to prevent multiple captures per battle
 _capture_timestamps = {}  # Track timing of operations
 
+# Global state for tempArenaInfo.json preservation retry mechanism
+_arena_preserved = False  # Set True once preservation succeeds for this battle
+_arena_preserve_attempts = 0  # Count of preservation attempts made so far
+_arena_ts_str = None  # Timestamp string (from ship params capture) used for the preserved filename
+
 
 def _log(msg):
     try:
         utils.logInfo('[BattleStart] ' + str(msg))
     except:
         pass
-
-
-if callbacks is None:
-    _log('[DIAGNOSTIC] callbacks module unavailable: %s' % str(_callbacks_import_error))
-else:
-    _log('[DIAGNOSTIC] callbacks module available')
 
 
 def _json_encode(obj):
@@ -931,17 +928,20 @@ def _preserve_temp_arena_info(ts_str, attempt=1):
 
     The game can still be writing tempArenaInfo.json for this battle when
     onPlayersListUpdated first fires (observed race: read attempted before the
-    file existed on disk, by ~1-2 seconds). If no candidate is readable yet,
-    this reschedules itself up to PRESERVE_MAX_ATTEMPTS times via
-    callbacks.callback() with a PRESERVE_RETRY_DELAY_SECONDS delay, instead of
-    giving up immediately.
-    Best-effort: logs and returns silently on final failure.
+    file existed on disk, by ~1-2 seconds). Neither 'callbacks' nor 'os' are
+    available in this sandbox (confirmed via python.log: "Module 'callbacks'
+    was not found in standard library"), so there is no delayed/scheduled-call
+    API to retry with. Instead, this returns a bool indicating success; the
+    caller (_on_players_list_updated, which the game already fires repeatedly
+    during the loading screen) retries preservation on each subsequent firing
+    until it succeeds or PRESERVE_MAX_ATTEMPTS is reached.
+    Best-effort: logs and returns False on failure instead of raising.
     """
     try:
         candidates = _resolve_temp_arena_info_candidates()
         if not candidates:
             _log('[WARNING] Could not resolve any tempArenaInfo.json candidate paths from MOD_PATH=%s' % str(MOD_PATH))
-            return
+            return False
 
         content = None
         used_path = None
@@ -959,12 +959,8 @@ def _preserve_temp_arena_info(ts_str, attempt=1):
                 _log('[DIAGNOSTIC] tempArenaInfo.json not readable at %s: %s' % (src_path, str(ex)))
 
         if content is None:
-            if callbacks is not None and attempt < PRESERVE_MAX_ATTEMPTS:
-                _log('[DIAGNOSTIC] Could not read tempArenaInfo.json on attempt %d/%d; retrying in %s s' % (attempt, PRESERVE_MAX_ATTEMPTS, str(PRESERVE_RETRY_DELAY_SECONDS)))
-                callbacks.callback(PRESERVE_RETRY_DELAY_SECONDS, _preserve_temp_arena_info, ts_str, attempt + 1)
-            else:
-                _log('[WARNING] Could not read tempArenaInfo.json from any candidate path after %d attempt(s): %s' % (attempt, str(candidates)))
-            return
+            _log('[DIAGNOSTIC] Could not read tempArenaInfo.json on attempt %d/%d: %s' % (attempt, PRESERVE_MAX_ATTEMPTS, str(candidates)))
+            return False
 
         dest_path = MOD_PATH + '/tempArenaInfo_' + ts_str + '.json'
         try:
@@ -972,17 +968,21 @@ def _preserve_temp_arena_info(ts_str, attempt=1):
             out.write(content)
             out.close()
             _log('[DIAGNOSTIC] Preserved tempArenaInfo.json from %s -> %s (attempt %d)' % (used_path, dest_path, attempt))
+            return True
         except Exception as ex:
             _log('[ERROR] Failed writing preserved tempArenaInfo copy to %s: %s' % (dest_path, str(ex)))
+            return False
     except Exception as ex:
         _log('[ERROR] _preserve_temp_arena_info failed: %s' % str(ex))
+        return False
 
 
 def _do_write_ship_params(trigger_name):
     """
     Collect and write ship params. Called from onPlayersListUpdated.
-    Returns True if data was written successfully, False otherwise.
-    Uses v5.1 retry mechanism - only succeeds if we get player data.
+    Returns the ts_str used for this capture's filenames if data was written
+    successfully, or None otherwise (falsy, so callers can still use it as a
+    success check). Uses v5.1 retry mechanism - only succeeds if we get player data.
     """
     try:
         ts = int(time.time())
@@ -996,7 +996,7 @@ def _do_write_ship_params(trigger_name):
 
     if player_count == 0:
         _log('[WARNING] No players found - data not ready yet (trigger: %s)' % trigger_name)
-        return False
+        return None
 
     players_with_consumables = sum(1 for p in players if len(p.get('mainConsumables', [])) > 0)
     _log('[DIAGNOSTIC] Collected %d players, %d with consumable data' % (player_count, players_with_consumables))
@@ -1024,39 +1024,53 @@ def _do_write_ship_params(trigger_name):
     backup_path = MOD_PATH + '/BattleStart_' + ts_str + '.json'
     _write_json_file(backup_path, data)
 
-    # Preserve the game's own tempArenaInfo.json so the app can backfill this
-    # battle at next startup if it was not running when the battle was played.
-    _preserve_temp_arena_info(ts_str)
-
     _log('BattleStart JSON written: %d players' % player_count)
-    return True
+    return ts_str
 
 
 def _on_players_list_updated(*args, **kwargs):
     """Triggered when players list changes during loading screen.
-    This event can fire multiple times. Use retry mechanism if data not ready yet."""
-    global _captured_once
+    This event can fire multiple times. Use retry mechanism if data not ready yet.
 
-    if _captured_once:
-        _log('[DIAGNOSTIC] _on_players_list_updated: already captured, skipping')
-        return
+    Also used to retry tempArenaInfo.json preservation: the game can still be
+    writing its own tempArenaInfo.json when this first fires, so a single
+    immediate read can race the game's write (observed ~1-2s gap in
+    python.log). Neither 'os' nor 'callbacks' are available in this sandbox
+    (confirmed via python.log's "Allowed modules" list), so there is no
+    directory-listing or delayed-call API to fall back on. Instead, since the
+    game already fires this event repeatedly on its own, preservation is
+    retried here on each subsequent firing (independent of _captured_once)
+    until it succeeds or _arena_preserve_attempts reaches PRESERVE_MAX_ATTEMPTS.
+    """
+    global _captured_once, _arena_preserved, _arena_preserve_attempts, _arena_ts_str
 
-    _log('[DIAGNOSTIC] _on_players_list_updated event fired')
+    if not _captured_once:
+        _log('[DIAGNOSTIC] _on_players_list_updated event fired')
 
-    # Attempt to write ship parameters
-    success = _do_write_ship_params('onPlayersListUpdated')
+        # Attempt to write ship parameters
+        ts_str = _do_write_ship_params('onPlayersListUpdated')
 
-    # Check if we got data (count players in written file)
-    # Only set flag if we successfully captured data
-    if success:
-        _captured_once = True
+        # Check if we got data (count players in written file)
+        # Only set flag if we successfully captured data
+        if ts_str:
+            _captured_once = True
+            _arena_ts_str = ts_str
+    else:
+        _log('[DIAGNOSTIC] _on_players_list_updated: already captured, skipping ship params')
+
+    if not _arena_preserved and _arena_ts_str and _arena_preserve_attempts < PRESERVE_MAX_ATTEMPTS:
+        _arena_preserve_attempts += 1
+        _arena_preserved = _preserve_temp_arena_info(_arena_ts_str, _arena_preserve_attempts)
 
 
 def _on_battle_end(*args, **kwargs):
     """Battle ended - reset captured flag for next battle."""
-    global _captured_once, _capture_timestamps
+    global _captured_once, _capture_timestamps, _arena_preserved, _arena_preserve_attempts, _arena_ts_str
     _captured_once = False
     _capture_timestamps = {}
+    _arena_preserved = False
+    _arena_preserve_attempts = 0
+    _arena_ts_str = None
 
 
 def _on_battle_quit(*args, **kwargs):
