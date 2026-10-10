@@ -1,6 +1,6 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.5'
+MOD_VERSION = '5.7'
 
 # BattleStart Mod v5.4 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
@@ -843,50 +843,56 @@ def _resolve_temp_arena_info_candidates():
     tempArenaInfo.json normally lives at: <gameInstall>/replays/tempArenaInfo.json
     but some installs (e.g. with a replay-organizing mod) place it under a
     per-game-version subfolder instead: <gameInstall>/replays/<gameVersion>/tempArenaInfo.json
+
+    The Python mod sandbox has no 'os' module, and utils.walk() is restricted to the
+    mod's own folder (cannot list <gameInstall>/replays/), so subfolder discovery
+    cannot be done from Python. Instead, the app (WowsModInstaller.WriteReplaysDirHint)
+    writes a plain-text hint file 'replays_dir.txt' alongside Main.py containing a list
+    of candidate replays directories (one per line, in priority order): the flat path,
+    any existing version subfolders (most recently active first), and a handful of
+    guessed future version subfolders in case the game updates while the app is closed
+    and the hint file goes stale before the app runs again. Each candidate directory is
+    tried in order; the flat path is also kept as a final fallback in case the hint file
+    is missing entirely.
     Returns a list of candidate full paths to try, in priority order.
     """
     candidates = []
     try:
         if not MOD_PATH:
             return candidates
+
+        # Candidates from the app-provided hint file, if present (one directory per line).
+        hint_path = MOD_PATH + '/replays_dir.txt'
+        try:
+            f = open(hint_path, 'r')
+            hint_text = f.read()
+            f.close()
+            hint_dirs = [line.strip().replace('\\', '/') for line in hint_text.splitlines()]
+            hint_dirs = [d for d in hint_dirs if d]
+            for hint_dir in hint_dirs:
+                candidates.append(hint_dir + '/tempArenaInfo.json')
+            _log('[DIAGNOSTIC] Using replays_dir.txt hint with %d candidate dirs' % len(hint_dirs))
+        except Exception as ex:
+            _log('[DIAGNOSTIC] No replays_dir.txt hint available at %s: %s' % (hint_path, str(ex)))
+
         normalized = MOD_PATH.replace('\\', '/')
         parts = [p for p in normalized.split('/') if p]
         try:
             bin_idx = parts.index('bin')
         except ValueError:
+            _log('[DIAGNOSTIC] Final tempArenaInfo candidates: %s' % str(candidates))
             return candidates
         game_root_parts = parts[:bin_idx]
         if not game_root_parts:
+            _log('[DIAGNOSTIC] Final tempArenaInfo candidates: %s' % str(candidates))
             return candidates
         game_root = '/'.join(game_root_parts)
         replays_dir = game_root + '/replays'
 
-        # Candidate 1: flat path (no version subfolder)
-        candidates.append(replays_dir + '/tempArenaInfo.json')
-
-        # Candidate 2+: any subfolders under replays/ (e.g. a game-version folder)
-        # 'os' is not available in the WoWS mod Python sandbox, so use the
-        # Mods API's utils module (utils.walk / utils.isDir / utils.isPathExists)
-        # which provides os.walk/os.path equivalents.
-        try:
-            if hasattr(utils, 'isPathExists') and not utils.isPathExists(replays_dir):
-                _log('[DIAGNOSTIC] replays dir does not exist per utils.isPathExists: %s' % replays_dir)
-            if hasattr(utils, 'walk'):
-                walked = False
-                for dirpath, dirnames, filenames in utils.walk(replays_dir):
-                    walked = True
-                    _log('[DIAGNOSTIC] utils.walk dirpath=%s dirnames=%s filenames=%s' % (str(dirpath), str(dirnames), str(filenames)))
-                    normalized_dirpath = str(dirpath).replace('\\', '/')
-                    if normalized_dirpath.rstrip('/') == replays_dir.rstrip('/'):
-                        for sub_name in dirnames:
-                            sub_path = replays_dir + '/' + sub_name
-                            candidates.append(sub_path + '/tempArenaInfo.json')
-                if not walked:
-                    _log('[DIAGNOSTIC] utils.walk produced no entries for %s' % replays_dir)
-            else:
-                _log('[DIAGNOSTIC] utils.walk unavailable; cannot enumerate replays subfolders')
-        except Exception as ex:
-            _log('[DIAGNOSTIC] Could not walk replays dir %s via utils.walk: %s' % (replays_dir, str(ex)))
+        # Final fallback: flat path (no version subfolder), in case the hint file is missing.
+        flat_candidate = replays_dir + '/tempArenaInfo.json'
+        if flat_candidate not in candidates:
+            candidates.append(flat_candidate)
     except Exception as ex_outer:
         _log('[DIAGNOSTIC] _resolve_temp_arena_info_candidates outer failure: %s' % str(ex_outer))
     _log('[DIAGNOSTIC] Final tempArenaInfo candidates: %s' % str(candidates))
