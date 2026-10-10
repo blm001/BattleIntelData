@@ -1,6 +1,6 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.4'
+MOD_VERSION = '5.5'
 
 # BattleStart Mod v5.4 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
@@ -865,25 +865,28 @@ def _resolve_temp_arena_info_candidates():
         candidates.append(replays_dir + '/tempArenaInfo.json')
 
         # Candidate 2+: any subfolders under replays/ (e.g. a game-version folder)
-        # Best-effort directory listing; silently skip if 'os' is unavailable
-        # or listing fails (sandboxed Python environment).
-        if os is None:
-            _log('[DIAGNOSTIC] os module unavailable; cannot enumerate replays subfolders')
-        else:
-            try:
-                entries = os.listdir(replays_dir)
-                _log('[DIAGNOSTIC] Listed replays dir %s: %s' % (replays_dir, str(entries)))
-                for entry in entries:
-                    try:
-                        sub_path = replays_dir + '/' + entry
-                        is_dir = os.path.isdir(sub_path)
-                        _log('[DIAGNOSTIC] Entry %s isdir=%s' % (sub_path, str(is_dir)))
-                        if is_dir:
+        # 'os' is not available in the WoWS mod Python sandbox, so use the
+        # Mods API's utils module (utils.walk / utils.isDir / utils.isPathExists)
+        # which provides os.walk/os.path equivalents.
+        try:
+            if hasattr(utils, 'isPathExists') and not utils.isPathExists(replays_dir):
+                _log('[DIAGNOSTIC] replays dir does not exist per utils.isPathExists: %s' % replays_dir)
+            if hasattr(utils, 'walk'):
+                walked = False
+                for dirpath, dirnames, filenames in utils.walk(replays_dir):
+                    walked = True
+                    _log('[DIAGNOSTIC] utils.walk dirpath=%s dirnames=%s filenames=%s' % (str(dirpath), str(dirnames), str(filenames)))
+                    normalized_dirpath = str(dirpath).replace('\\', '/')
+                    if normalized_dirpath.rstrip('/') == replays_dir.rstrip('/'):
+                        for sub_name in dirnames:
+                            sub_path = replays_dir + '/' + sub_name
                             candidates.append(sub_path + '/tempArenaInfo.json')
-                    except Exception as ex2:
-                        _log('[DIAGNOSTIC] Error checking entry %s: %s' % (entry, str(ex2)))
-            except Exception as ex:
-                _log('[DIAGNOSTIC] Could not list replays dir %s: %s' % (replays_dir, str(ex)))
+                if not walked:
+                    _log('[DIAGNOSTIC] utils.walk produced no entries for %s' % replays_dir)
+            else:
+                _log('[DIAGNOSTIC] utils.walk unavailable; cannot enumerate replays subfolders')
+        except Exception as ex:
+            _log('[DIAGNOSTIC] Could not walk replays dir %s via utils.walk: %s' % (replays_dir, str(ex)))
     except Exception as ex_outer:
         _log('[DIAGNOSTIC] _resolve_temp_arena_info_candidates outer failure: %s' % str(ex_outer))
     _log('[DIAGNOSTIC] Final tempArenaInfo candidates: %s' % str(candidates))
