@@ -1,6 +1,15 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.7'
+MOD_VERSION = '5.8'
+
+# Retry settings for tempArenaInfo.json preservation: the game can still be
+# writing this file when onPlayersListUpdated first fires, so a single
+# immediate read attempt can race the game's own write. These control how
+# many times and how far apart _preserve_temp_arena_info retries via
+# callbacks.callback() before giving up.
+PRESERVE_MAX_ATTEMPTS = 3
+PRESERVE_RETRY_DELAY_SECONDS = 2
+
 
 # BattleStart Mod v5.4 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
@@ -42,6 +51,11 @@ try:
     import os
 except:
     os = None
+
+try:
+    import callbacks
+except:
+    callbacks = None
 
 try:
     MOD_PATH = utils.getModDir()
@@ -899,14 +913,21 @@ def _resolve_temp_arena_info_candidates():
     return candidates
 
 
-def _preserve_temp_arena_info(ts_str):
+def _preserve_temp_arena_info(ts_str, attempt=1):
     """
     Copy the game's current tempArenaInfo.json into this mod's output folder as
     tempArenaInfo_<ts_str>.json, so the app can detect and backfill this battle
     at next startup if it was not running when the battle was played.
     Tries multiple candidate source paths (flat replays/ folder, and any
     per-version subfolders) since install layout can vary.
-    Best-effort: logs and returns silently on any failure.
+
+    The game can still be writing tempArenaInfo.json for this battle when
+    onPlayersListUpdated first fires (observed race: read attempted before the
+    file existed on disk, by ~1-2 seconds). If no candidate is readable yet,
+    this reschedules itself up to PRESERVE_MAX_ATTEMPTS times via
+    callbacks.callback() with a PRESERVE_RETRY_DELAY_SECONDS delay, instead of
+    giving up immediately.
+    Best-effort: logs and returns silently on final failure.
     """
     try:
         candidates = _resolve_temp_arena_info_candidates()
@@ -930,7 +951,11 @@ def _preserve_temp_arena_info(ts_str):
                 _log('[DIAGNOSTIC] tempArenaInfo.json not readable at %s: %s' % (src_path, str(ex)))
 
         if content is None:
-            _log('[WARNING] Could not read tempArenaInfo.json from any candidate path: %s' % str(candidates))
+            if callbacks is not None and attempt < PRESERVE_MAX_ATTEMPTS:
+                _log('[DIAGNOSTIC] Could not read tempArenaInfo.json on attempt %d/%d; retrying in %s s' % (attempt, PRESERVE_MAX_ATTEMPTS, str(PRESERVE_RETRY_DELAY_SECONDS)))
+                callbacks.callback(PRESERVE_RETRY_DELAY_SECONDS, _preserve_temp_arena_info, ts_str, attempt + 1)
+            else:
+                _log('[WARNING] Could not read tempArenaInfo.json from any candidate path after %d attempt(s): %s' % (attempt, str(candidates)))
             return
 
         dest_path = MOD_PATH + '/tempArenaInfo_' + ts_str + '.json'
@@ -938,7 +963,7 @@ def _preserve_temp_arena_info(ts_str):
             out = open(dest_path, 'wb')
             out.write(content)
             out.close()
-            _log('[DIAGNOSTIC] Preserved tempArenaInfo.json from %s -> %s' % (used_path, dest_path))
+            _log('[DIAGNOSTIC] Preserved tempArenaInfo.json from %s -> %s (attempt %d)' % (used_path, dest_path, attempt))
         except Exception as ex:
             _log('[ERROR] Failed writing preserved tempArenaInfo copy to %s: %s' % (dest_path, str(ex)))
     except Exception as ex:
