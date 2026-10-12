@@ -1,6 +1,6 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleCapture'
-MOD_VERSION = '1.6.1'
+MOD_VERSION = '1.6.2'
 
 # BattleCapture mod
 # Purpose: capture who died and when during a battle.
@@ -15,6 +15,8 @@ MOD_VERSION = '1.6.1'
 # v1.5: aggressive roster reconciliation - backfill death records from roster on every write
 # v1.5.1: log ship object attributes on first battle for discovery of shipId attr name
 # v1.6.0: removed shipId collection (not reliably available via mod API)
+# v1.6.2: ignore onPlayersListUpdated within END_COOLDOWN_SECONDS of onBattleEnd/onBattleQuit
+#         (game fires it right after battle end; v1.6.1 started a spurious second capture file)
 
 try:
 	import time
@@ -34,6 +36,8 @@ _battle_output_file = None
 
 _started = False
 _battle_start_ts = 0
+_ended_ts = 0  # unix seconds of last onBattleEnd/onBattleQuit (not cleared by _reset_state)
+END_COOLDOWN_SECONDS = 10
 
 _players = {}      # vid -> { vehicleId, playerName, teamId, shipName, subtype }
 _dead_seen = {}    # vid -> True
@@ -431,6 +435,14 @@ def _reset_state():
 	_lifecycle['endTs'] = None
 
 
+def _mark_ended():
+	global _ended_ts
+	try:
+		_ended_ts = int(time.time())
+	except:
+		_ended_ts = 0
+
+
 def _start_or_update(trigger_name):
 	_append_event(trigger_name)
 	_ensure_started(trigger_name)
@@ -445,10 +457,18 @@ def _on_battle_shown(*args, **kwargs):
 
 
 def _on_players_list_updated(*args, **kwargs):
+	if not _started:
+		try:
+			if _ended_ts and (int(time.time()) - _ended_ts) < END_COOLDOWN_SECONDS:
+				_log('onPlayersListUpdated within end cooldown, skipping')
+				return
+		except:
+			pass
 	_start_or_update('onPlayersListUpdated')
 
 
 def _on_battle_end(*args, **kwargs):
+	_mark_ended()
 	_lifecycle['endTs'] = int(time.time())
 	_append_event('onBattleEnd')
 	if _started:
@@ -461,6 +481,7 @@ def _on_battle_end(*args, **kwargs):
 
 
 def _on_battle_quit(*args, **kwargs):
+	_mark_ended()
 	_lifecycle['quitTs'] = int(time.time())
 	_append_event('onBattleQuit')
 	if _started:

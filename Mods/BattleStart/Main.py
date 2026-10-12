@@ -1,9 +1,12 @@
 API_VERSION = 'API_v1.0'
 MOD_NAME = 'BattleStart'
-MOD_VERSION = '5.1'
+MOD_VERSION = '5.3'
 
-# BattleStart Mod v5.1 for WoWsBattleIntel
+# BattleStart Mod v5.3 for WoWsBattleIntel
 # Captures per-player computed ship parameters at battle start.
+# v5.3 changes:
+#   - Ignore onPlayersListUpdated fired within END_COOLDOWN_SECONDS of onBattleEnd/onBattleQuit.
+#     The game fires it right after the battle ends; v5.1 wrote a spurious second BattleStart file.
 # v5.1 changes:
 #   - Full parameter parser for ALL consumable attributes (not just first)
 #   - Retry mechanism for Random battles (event fires before data ready)
@@ -37,6 +40,8 @@ except:
 # Global state for capture retry mechanism
 _captured_once = False  # Flag to prevent multiple captures per battle
 _capture_timestamps = {}  # Track timing of operations
+_ended_ts = 0  # unix seconds of last onBattleEnd/onBattleQuit
+END_COOLDOWN_SECONDS = 10
 
 
 def _log(msg):
@@ -875,6 +880,13 @@ def _on_players_list_updated(*args, **kwargs):
         _log('[DIAGNOSTIC] _on_players_list_updated: already captured, skipping')
         return
 
+    try:
+        if _ended_ts and (int(time.time()) - _ended_ts) < END_COOLDOWN_SECONDS:
+            _log('[DIAGNOSTIC] _on_players_list_updated: within end cooldown, skipping')
+            return
+    except:
+        pass
+
     _log('[DIAGNOSTIC] _on_players_list_updated event fired')
 
     # Attempt to write ship parameters
@@ -888,9 +900,13 @@ def _on_players_list_updated(*args, **kwargs):
 
 def _on_battle_end(*args, **kwargs):
     """Battle ended - reset captured flag for next battle."""
-    global _captured_once, _capture_timestamps
+    global _captured_once, _capture_timestamps, _ended_ts
     _captured_once = False
     _capture_timestamps = {}
+    try:
+        _ended_ts = int(time.time())
+    except:
+        _ended_ts = 0
 
 
 def _on_battle_quit(*args, **kwargs):
