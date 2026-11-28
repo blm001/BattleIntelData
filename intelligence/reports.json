@@ -1,0 +1,46 @@
+[
+  {
+    "report_id": "INTEL001",
+    "timestamp": "2024-01-15T14:30:00Z",
+    "classification": "confidential",
+    "source": "reconnaissance_team_alpha",
+    "subject": "Enemy Movement Pattern Analysis",
+    "priority": "high",
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851,
+      "region": "Sector B"
+    },
+    "summary": "Observed increased enemy patrol activity in forest region. Pattern suggests preparation for defensive positions.",
+    "details": {
+      "enemy_units_spotted": 3,
+      "vehicle_count": 2,
+      "estimated_strength": 25,
+      "equipment_observed": ["armored_vehicles", "communications_equipment", "defensive_barriers"]
+    },
+    "recommendations": ["increase_surveillance", "prepare_countermeasures", "alert_adjacent_units"],
+    "verified": true
+  },
+  {
+    "report_id": "INTEL002",
+    "timestamp": "2024-01-15T16:45:00Z",
+    "classification": "secret",
+    "source": "satellite_imagery",
+    "subject": "Supply Line Disruption Opportunity",
+    "priority": "medium",
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060,
+      "region": "Sector A"
+    },
+    "summary": "Enemy supply convoy scheduled to pass through urban area at 0800 hours tomorrow.",
+    "details": {
+      "convoy_size": 8,
+      "vehicle_types": ["trucks", "escort_vehicles"],
+      "estimated_cargo": "ammunition_and_fuel",
+      "route": "main_highway_through_sector_a"
+    },
+    "recommendations": ["prepare_ambush_positions", "coordinate_with_air_support", "establish_extraction_route"],
+    "verified": false
+  }
+]

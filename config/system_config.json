@@ -1,0 +1,44 @@
+{
+  "application": {
+    "name": "Battle Intelligence System",
+    "version": "1.0.0",
+    "data_refresh_interval": 300,
+    "max_cache_size": "100MB"
+  },
+  "security": {
+    "classification_levels": ["unclassified", "confidential", "secret", "top_secret"],
+    "default_classification": "confidential",
+    "encryption_enabled": true
+  },
+  "data_sources": {
+    "units": {
+      "format": ["json", "csv"],
+      "update_frequency": "real_time",
+      "retention_days": 30
+    },
+    "maps": {
+      "format": ["xml", "csv", "geojson"],
+      "update_frequency": "daily",
+      "retention_days": 365
+    },
+    "intelligence": {
+      "format": ["json", "csv"],
+      "update_frequency": "real_time",
+      "retention_days": 90
+    },
+    "battles": {
+      "format": ["yml", "csv", "json"],
+      "update_frequency": "after_action",
+      "retention_days": -1
+    }
+  },
+  "alerts": {
+    "threat_level_thresholds": {
+      "low": 1,
+      "medium": 3,
+      "high": 7,
+      "critical": 9
+    },
+    "notification_channels": ["email", "sms", "dashboard"]
+  }
+}
